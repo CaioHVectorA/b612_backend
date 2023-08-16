@@ -1,0 +1,54 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  name  String
+  id String @unique @id @default(uuid())
+  class Int
+  tags String
+}
+
+model Avisos {
+  author String
+  title String
+  body String
+  id Int @id @unique @default(autoincrement())
+  img String
+  created_at DateTime @default(now())
+  tags String
+}
+
+model Tempo {
+  materia String
+  prof String
+  sala String
+  inicial String
+  final String
+  id String @unique @id @default(uuid())
+  img String
+  ativity String?
+  turma_ref Int
+  turma Turma @relation("tempos-turma", fields: [turma_ref], references: [ref], onDelete: Cascade, onUpdate: Cascade)
+}
+
+model Turma {
+  ref Int @unique
+  Tempos Tempo[] @relation("tempos-turma")
+  day_ref String
+  day Dia @relation("turma-dia", fields: [day_ref], references: [day], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model Dia {
+  day String @unique
+  id String @id @unique @default(uuid())
+  turmas Turma[] @relation("turma-dia")
+}
