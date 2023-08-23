@@ -1,8 +1,9 @@
-type Tempo = {
+export type Tempo = {
     horario: string,
     materia: string,
     professor: string,
-    sala: string
+    sala: string,
+    type: 'common' | 'break'
 } | null
 
 // export default function formatHorarios(formatHorarios: string) {
@@ -36,7 +37,8 @@ export function getTempo(item: string, horario: string): Tempo | unknown {
         const materia: string = parts[0];
         const professor: string = parts.slice(1, -2).join(' ');
         const sala: string = parts[parts.length - 2] + ' ' + parts[parts.length - 1];
-        return { horario, materia, professor, sala };
+        const type: string = 'common'
+        return { horario, materia, professor, sala, type };
     } catch (error) {
         return `item: ${item}`
     }
