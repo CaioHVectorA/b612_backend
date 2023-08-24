@@ -1,5 +1,5 @@
 //@ts-nocheck
-import { Tempo, getIndex, getTempo } from "./formatHorarios";
+import { Tempo, getIndex, getName, getTempo } from "./formatHorarios";
 const tempos = [
     "7:00",
     "7:50",
@@ -31,13 +31,13 @@ export default function formatFromSheet(data: any, turma: string): Tempo[] {
         .map((item, index) => getTempo(item, `${tempos[index]} - ${tempos[index + 1]}`))
         .map((turma, index) => {
             if (index === 2) {
-                return { materia: "Lanche da Manhã", horario: '8:40 - 8:55', type: 'break' };
+                return { materia: "Lanche da Manhã", horario: '8:40 - 8:55', isBreak: true };
             } else if (index === 7) {
-                return { materia: "Almoço", horario: '12:15 - 13:25', type: 'break' };
-            } else if (index === 10) {
-                return { materia: "Lanche da Tarde", horario: '15:05 - 15:20', type: 'break' };
+                return { materia: "Almoço", horario: '12:15 - 13:25', isBreak: true };
+            } else if (index === 10 && getName(data) !== 'SEXTA-FEIRA') {
+                return { materia: "Lanche da Tarde", horario: '15:05 - 15:20', isBreak: true };
             }
             return turma;
-        }).slice(0, 13);
+        }).slice(0, 13).filter(item => !!item && item !== 'item: undefined');
     return formatedArr
 }

@@ -3,7 +3,7 @@ export type Tempo = {
     materia: string,
     professor: string,
     sala: string,
-    type: 'common' | 'break'
+    isBreak: boolean,
 } | null
 
 // export default function formatHorarios(formatHorarios: string) {
@@ -37,10 +37,10 @@ export function getTempo(item: string, horario: string): Tempo | unknown {
         const materia: string = parts[0];
         const professor: string = parts.slice(1, -2).join(' ');
         const sala: string = parts[parts.length - 2] + ' ' + parts[parts.length - 1];
-        const type: string = 'common'
-        return { horario, materia, professor, sala, type };
+        const isBreak: boolean = false
+        return { horario, materia, professor, sala, isBreak };
     } catch (error) {
-        return `item: ${item}`
+        return null
     }
 }
 
@@ -57,11 +57,12 @@ export function getIndex(data: any): number {
 
 export function getName(data: any): string {
     if (data.data[0].length > 0) {
-        let name = data.data[0][0];
+        let name: string = data.data[0][0];
         for (let index = 0; name.includes(" "); index++) {
             name = name.replace(" ", "").replace("  ", "").replace("  ", "").replace(" ", "")
         }
-        return name
+        return name.toUpperCase()
     }
-    return data.data[1][0].replace(" ", "")
+    console.log(data.data[1][0].replace(" ", "").toUpperCase())
+    return data.data[1][0].replace(" ", "").toUpperCase()
 } 
