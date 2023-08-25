@@ -3,7 +3,15 @@ import { Application, json, NextFunction, Request, Response } from "express";
 import cors from "cors";
 import { AppError } from "./error";
 export default function Middleware(app: Application): void {
-  app.use(cors());
+  app.use(
+    cors({
+      origin: "*",
+    })
+  );
+  app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    next();
+  });
   app.use(json());
   app.use(
     (err: Error, request: Request, response: Response, next: NextFunction) => {
