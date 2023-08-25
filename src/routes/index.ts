@@ -11,12 +11,12 @@ indexRoutes.get("/all/:turma", (req: Request, res: Response) => {
   const { turma } = req.params;
   const path = `${process.cwd()}/src/myFile.xlsx`;
   const teste = XLSX.parse(readFileSync(path));
-  let arr = []
-  for (let i = 0; i < 4; i++) {
+  let arr = [];
+  for (let i = 0; i < 5; i++) {
     const data = teste[i];
-    const response = formatFromSheet(data, turma)
-    console.log(response)
-    arr.push(response)
+    const response = formatFromSheet(data, turma);
+    console.log(response);
+    arr.push(response);
   }
   res.json(arr);
 });
@@ -24,10 +24,10 @@ indexRoutes.get("/:turma", (req: Request, res: Response) => {
   const { turma } = req.params;
   const path = `${process.cwd()}/src/myFile.xlsx`;
   const teste = XLSX.parse(readFileSync(path));
-  const i = (new Date()).getDay()
-  console.log(i)
+  const i = new Date().getDay();
+  console.log(i);
   const data = teste[i - 1];
-  const response = formatFromSheet(data, turma)
+  const response = formatFromSheet(data, turma);
   res.json(response);
 });
 // indexRoutes.get("/:index/:turma", (req: Request, res: Response) => {
