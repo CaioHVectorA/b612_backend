@@ -5,7 +5,6 @@ import { prisma } from "../../utils/prisma.client";
 
 export default class CreateAvisoUseCase {
     async execute(data: T_Aviso): Promise<Avisos> {
-        console.log(data)
         const newAviso = await prisma.avisos.create({
             data
         })

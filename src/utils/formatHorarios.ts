@@ -5,38 +5,27 @@ export type Tempo = {
     sala: string,
     isBreak: boolean,
 } | null
-
-// export default function formatHorarios(formatHorarios: string) {
-//     const data = JSON.parse(formatHorarios)
-// }
-
-
-
-
-
-// OBS: NAO ESTA PERFEITO EX:
-// {
-//     "materia": "Lab.",
-//     "professor": "Ciên. Natureza Andrea",
-//     "sala": "Sala 42"
-// }
-// {
-//     "materia": "Língua",
-//     "professor": "Portuguesa Rosa",
-//     "sala": "Sala 34"
-// }
-
 export function getTempo(item: string, horario: string): Tempo | unknown {
     if (item === null) {
         return null; // Keep null entries unchanged
     }
     try {
         const cleanedItem = item.replace(/\s{2,}/g, ' '); // Replace 2 or more spaces with a single space
-        const parts = cleanedItem.split(' ');
-
-        const materia: string = parts[0];
-        const professor: string = parts.slice(1, -2).join(' ');
-        const sala: string = parts[parts.length - 2] + ' ' + parts[parts.length - 1];
+        const count = cleanedItem.split(' ').length
+        const isLibrary = cleanedItem.toUpperCase().includes('BIBLIO') ? 1 : 0
+        const splitted: string[] = cleanedItem.split(' ')
+        let materiaArr = []
+        for (let i = 0; i < count - 3 + isLibrary; i++) {
+            materiaArr.push(splitted[i])
+        }
+        const materia = materiaArr.join(' ')
+        const professor: string = splitted[count - 3 + isLibrary];
+        let sala: string;
+        if (isLibrary) {
+            sala = splitted[count - 1]
+        } else {
+            sala = splitted[splitted.length - 2] + ' ' + splitted[splitted.length - 1];
+        }
         const isBreak: boolean = false
         return { horario, materia, professor, sala, isBreak };
     } catch (error) {
@@ -63,6 +52,5 @@ export function getName(data: any): string {
         }
         return name.toUpperCase()
     }
-    console.log(data.data[1][0].replace(" ", "").toUpperCase())
     return data.data[1][0].replace(" ", "").toUpperCase()
 } 
