@@ -1,5 +1,6 @@
 ## Como funciona os tempos:
-### Nome: Irrelevante
+### Ele é um obj que tem as seguintes propriedades:
+#### Nome: É o nome do dia na planilha em si(Mas, no fundo, é irrelevante)
 #### Data
 
 - **[0]**: Uma array que sempre contém o nome do dia no índice 0, com exceção de segunda feira!! que está no indice 1.
