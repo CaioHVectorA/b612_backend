@@ -2,6 +2,7 @@ import "express-async-errors";
 import { Application, json, NextFunction, Request, Response } from "express";
 import cors from "cors";
 import { AppError } from "./error";
+import bodyParser from "body-parser";
 export default function Middleware(app: Application): void {
   app.use(
     cors({
@@ -12,7 +13,9 @@ export default function Middleware(app: Application): void {
     res.header("Access-Control-Allow-Origin", "*");
     next();
   });
-  app.use(json());
+  // app.use(json());
+  app.use(bodyParser.json({ limit: '10mb' }));
+  app.use(bodyParser.urlencoded({ limit: '10mb', extended: true }));
   app.use(
     (err: Error, request: Request, response: Response, next: NextFunction) => {
       if (err instanceof AppError) {

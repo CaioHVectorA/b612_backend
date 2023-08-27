@@ -5,6 +5,7 @@ import { prisma } from "../../utils/prisma.client";
 export default class EditHorariosUseCase {
     async execute({ data }: { data: string }): Promise<Tempos> {
         let arr = []
+        console.log(data)
         const response = getAllFromSheet(JSON.parse(data));
         const found = await prisma.tempos.findFirst()
         if (found) {
