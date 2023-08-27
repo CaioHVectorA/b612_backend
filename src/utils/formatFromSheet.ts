@@ -52,3 +52,21 @@ export default function formatFromSheet(data: any, turma: string): Tempo[] {
     .slice(0, 13);
   return formatedArr;
 }
+
+export function getAllFromSheet(data: any) {
+  const arr: any[] = []
+  data.forEach(item => {
+    // arr.push(item.data)
+    arr.push(item.data.slice(2 + getIndex(item), 15))
+  })
+  // DIA[] -> TEMPOS[](DE TURMAS, COM INDICE 0 COM OS TEMPOS)
+  const formated = arr.map(item => {
+    return item.map(tempos => {
+      return tempos.slice(1).map((tempo, index) => {
+        // if (index === 0) return
+        return getTempo(tempo, tempos[0])
+      })
+    })
+  })
+  return formated
+}
