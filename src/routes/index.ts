@@ -23,14 +23,5 @@ indexRoutes.get("/all/:turma", (req: Request, res: Response) => {
   }
   res.json(arr);
 });
-indexRoutes.get("/:turma", (req: Request, res: Response) => {
-  const { turma } = req.params;
-  const path = `${process.cwd()}/src/myFile.xlsx`;
-  const teste = XLSX.parse(readFileSync(path));
-  const i = new Date().getDay();
-  const data = teste[i - 1];
-  const response = formatFromSheet(data, turma);
-  res.json(response);
-});
 indexRoutes.use("/aviso", AvisoRoute);
 export { indexRoutes };

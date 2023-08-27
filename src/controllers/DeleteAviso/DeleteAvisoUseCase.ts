@@ -7,4 +7,8 @@ export default class DeleteAvisoUseCase {
     if (!foundAviso) throw new AppError("Aviso não encontrado", 404);
     return !!foundAviso;
   }
+  async deleteAll(): Promise<boolean> {
+    const allDeleted = await prisma.avisos.deleteMany()
+    return !!allDeleted
+  }
 }
