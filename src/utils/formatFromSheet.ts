@@ -70,3 +70,33 @@ export function getAllFromSheet(data: any) {
   })
   return formated
 }
+
+const TURMAS = {
+  1001: "__EMPTY_1",
+  1002: "__EMPTY_2",
+  1003: "__EMPTY_3",
+  1004: "__EMPTY_4",
+  2001: "__EMPTY_5",
+  2002: "__EMPTY_6",
+  2003: "__EMPTY_7",
+  2004: "__EMPTY_8",
+  3001: "__EMPTY_9",
+  3002: "__EMPTY_10",
+  3003: "__EMPTY_11",
+  3004: "__EMPTY_12",
+}
+export function formatFromJSON(Result: any) {
+  const arr = []
+  Object.values(Result).forEach((days) => {
+    const index = Object.values(days.slice(1, 13)[0]).includes(3002) ? 1 : 0;
+    days.slice(1 + index, 13 + index).forEach((day) => {
+      arr.push({
+        ref: Object.keys(day),
+        values: Object.values(day)
+      })
+    });
+    return arr
+  });
+}
+
+// 

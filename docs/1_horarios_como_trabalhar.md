@@ -1,4 +1,4 @@
-## Como funciona a integração entre esse servidor e o client:
+<!-- ## Como funciona a integração entre esse servidor e o client:
 #### Para integrar o google sheets com a aplicação e o servidor, deve se utilizar conversores.
 
 ##### Infelizmente só há um conversor no client-side em HTML puro -- tal que, numa planilha exemplificada, dá o seguinte output:
@@ -206,4 +206,6 @@
 
 #### Então, para encontrar as turmas deve-se utilizar desses índices. Note-se também que a key `"__EMPTY_"` sem um número em seguida representa o horário.
 
-#### Então, portanto, para getar os tempos de uma turma, deve-se utilizar dos índices para encontrar o tempo em questão.
+#### Então, portanto, para getar os tempos de uma turma, deve-se utilizar dos índices para encontrar o tempo em questão. -->
+
+DEPRECEATED!
