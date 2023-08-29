@@ -1,4 +1,5 @@
 //@ts-nocheck
+import { type } from "os";
 import { Tempo, getIndex, getName, getTempo } from "./formatHorarios";
 const tempos = [
   "7:00",
@@ -54,21 +55,21 @@ export default function formatFromSheet(data: any, turma: string): Tempo[] {
 }
 
 export function getAllFromSheet(data: any) {
-  const arr: any[] = []
-  data.forEach(item => {
+  const arr: any[] = [];
+  data.forEach((item) => {
     // arr.push(item.data)
-    arr.push(item.data.slice(2 + getIndex(item), 15))
-  })
+    arr.push(item.data.slice(2 + getIndex(item), 15));
+  });
   // DIA[] -> TEMPOS[](DE TURMAS, COM INDICE 0 COM OS TEMPOS)
-  const formated = arr.map(item => {
-    return item.map(tempos => {
+  const formated = arr.map((item) => {
+    return item.map((tempos) => {
       return tempos.slice(1).map((tempo, index) => {
         // if (index === 0) return
-        return getTempo(tempo, tempos[0])
-      })
-    })
-  })
-  return formated
+        return getTempo(tempo, tempos[0]);
+      });
+    });
+  });
+  return formated;
 }
 
 const TURMAS = {
@@ -84,19 +85,52 @@ const TURMAS = {
   3002: "__EMPTY_10",
   3003: "__EMPTY_11",
   3004: "__EMPTY_12",
-}
-export function formatFromJSON(Result: any) {
-  const arr = []
-  Object.values(Result).forEach((days) => {
-    const index = Object.values(days.slice(1, 13)[0]).includes(3002) ? 1 : 0;
-    days.slice(1 + index, 13 + index).forEach((day) => {
-      arr.push({
-        ref: Object.keys(day),
-        values: Object.values(day)
-      })
+};
+export function formatFromJSON(Result: any, TURMA: string) {
+  const finalArr = [];
+  const arr = [];
+  Object.values(Result).forEach((days, index) => {
+    const _index = index === 0 ? 1 : 0;
+    const temparr = [];
+    days.slice(_index, 13 + index).forEach((day, index) => {
+      temparr.push(
+        //index
+        Object.values(day)
+        //day
+      );
     });
-    return arr
+    arr.push(temparr);
   });
+  type value_data = { value: string; columnIndex: bigint | number };
+  arr.forEach((dia, index) => {
+    let turmas: value_data[]; // armazenar os códigos
+    let tempos: value_data[] = []; // armazenar os tempos pós-processados de cada turma
+    console.log(dia);
+    const _temparr = [];
+    dia.forEach((tempos: value_data[], index) => {
+      if (tempos.length === 0) return;
+      if (index === 0) {
+        turmas = tempos;
+        //console.log(turmas);
+      } else {
+        const formated = tempos.forEach((tempo, index) => {
+          if (index !== 0) {
+            const formated = getTempo(tempo.value, tempos[0].value);
+            const final = {
+              tempo: formated,
+              turma: turmas.find(
+                (turma) => tempo.columnIndex === turma.columnIndex
+              )?.value,
+            };
+            _temparr.push(final);
+            // return final;
+          }
+        });
+      }
+    });
+    finalArr.push(_temparr);
+  });
+  return finalArr;
 }
 
-// 
+//
