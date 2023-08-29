@@ -1,10 +1,14 @@
+//@ts-nocheck
 export type Tempo = {
-    horario: string,
-    materia: string,
-    professor: string,
-    sala: string,
-    isBreak: boolean,
-} | null
+    tempo: {
+        horario: string;
+        materia: string;
+        professor: string;
+        sala: string;
+        isBreak: boolean;
+    };
+    turma: string;
+};
 export function getTempo(item: string, horario: string): Tempo | unknown {
     if (item === null) {
         return null; // Keep null entries unchanged

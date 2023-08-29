@@ -130,7 +130,9 @@ export function formatFromJSON(Result: any, TURMA: string) {
     });
     finalArr.push(_temparr);
   });
-  return finalArr;
+  const filtered = finalArr.map(item => item.filter(t => t.turma === TURMA))
+  console.log(filtered)
+  return filtered
 }
 
 //
