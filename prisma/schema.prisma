@@ -17,6 +17,12 @@ model User {
   tags String
 }
 
+model Admin {
+  name String
+  id String @unique @id @default(uuid())
+  password String
+}
+
 model Avisos {
   author String
   title String
