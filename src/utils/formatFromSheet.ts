@@ -92,7 +92,6 @@ export function formatFromJSON(Result: any, TURMA: string) {
   Object.values(JSON.parse(Result)).forEach((days, index) => {
     const _index = index === 0 ? 1 : 0;
     const temparr = [];
-    console.log("dsasaddasadsadsadsad", Result);
     days.slice(_index, 13 + index).forEach((day, index) => {
       temparr.push(
         //index
@@ -106,13 +105,11 @@ export function formatFromJSON(Result: any, TURMA: string) {
   arr.forEach((dia, index) => {
     let turmas: value_data[]; // armazenar os códigos
     let tempos: value_data[] = []; // armazenar os tempos pós-processados de cada turma
-    console.log(dia);
     const _temparr = [];
     dia.forEach((tempos: value_data[], index) => {
       if (tempos.length === 0) return;
       if (index === 0) {
         turmas = tempos;
-        //console.log(turmas);
       } else {
         const formated = tempos.forEach((tempo, index) => {
           if (index !== 0) {
@@ -125,6 +122,18 @@ export function formatFromJSON(Result: any, TURMA: string) {
             };
             _temparr.push(final);
             // return final;
+          } else if (isNaN(tempo.value[0])) {
+            const splitted = tempo.value.split(' ')
+            const _data: Tempo = {
+              tempo: {
+                horario: splitted.slice(1).join(" ").replace("-", "").trim(),
+                materia: splitted[0],
+                isBreak: true
+              },
+              turma: TURMA
+            }
+            console.log(_data)
+            _temparr.push(_data)
           }
         });
       }
@@ -134,7 +143,6 @@ export function formatFromJSON(Result: any, TURMA: string) {
   const filtered = finalArr.map((item) =>
     item.filter((t) => t.turma === TURMA)
   );
-  console.log(filtered);
   return filtered;
 }
 

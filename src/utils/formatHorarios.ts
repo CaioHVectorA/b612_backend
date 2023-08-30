@@ -31,7 +31,6 @@ export function getTempo(item: string, horario: string): Tempo | unknown {
             sala = splitted[splitted.length - 2] + ' ' + splitted[splitted.length - 1];
         }
         const isBreak: boolean = false
-        // console.log(horario, materia, professor, sala, isBreak)
         return { horario, materia, professor, sala, isBreak };
     } catch (error) {
         return null
