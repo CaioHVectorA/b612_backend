@@ -1,5 +1,4 @@
 {
-  "include": ["src/**/**/*.json"],
   "compilerOptions": {
     "sourceMap": true,
     "outDir": "dist",
