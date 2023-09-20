@@ -10,10 +10,12 @@ import formatFromSheet, {
 } from "../utils/formatFromSheet";
 import { horarioRoute } from "./TemposRoute";
 import { AppError } from "../config/error";
+import { adminRoutes } from "./AdminRoute";
 const indexRoutes = Router();
 indexRoutes.get("/unformatted", (req: Request, res: Response) => {
   res.json(exampleData);
 });
+indexRoutes.use("/admin", adminRoutes)
 indexRoutes.use("/aviso", AvisoRoute);
 indexRoutes.use("/horario", horarioRoute);
 export { indexRoutes };
