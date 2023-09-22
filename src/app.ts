@@ -1,8 +1,7 @@
 import express from "express";
 import Middleware from "./config/defaultConfig";
 import { indexRoutes } from "./routes";
-import xlsx from 'node-xlsx'
-import { existsSync, readFileSync } from "fs";
+import { debug,error,fatal,info } from 'veclog'
 const port = 9128
 export const app = express();
 Middleware(app);
