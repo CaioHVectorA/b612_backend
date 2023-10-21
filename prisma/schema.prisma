@@ -12,25 +12,26 @@ datasource db {
 
 model User {
   name  String
-  id String @unique @id @default(uuid())
+  id    String @id @unique @default(uuid())
   class Int
-  tags String
+  tags  String
 }
 
 model Admin {
-  name String
-  id String @unique @id @default(uuid())
-  password String
+  name        String
+  id          String  @id @unique @default(uuid())
+  password    String
+  can_use_zap Boolean
 }
 
 model Avisos {
-  author String
-  title String
-  body String
-  id Int @id @unique @default(autoincrement())
-  img String
+  author     String
+  title      String
+  body       String
+  id         Int      @id @unique @default(autoincrement())
+  img        String
   created_at DateTime @default(now())
-  tags String
+  tags       String
 }
 
 // model Tempo {
@@ -62,7 +63,6 @@ model Avisos {
 model Tempos {
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
-  id String @id @unique @default(uuid())
-  value String @unique
+  id         String   @id @unique @default(uuid())
+  value      String   @unique
 }
-
