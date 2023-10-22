@@ -31,7 +31,7 @@ model Avisos {
   id         Int      @id @unique @default(autoincrement())
   img        String
   created_at DateTime @default(now())
-  tags       String
+  category   String
 }
 
 // model Tempo {
