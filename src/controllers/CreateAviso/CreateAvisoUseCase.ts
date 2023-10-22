@@ -8,7 +8,7 @@ export default class CreateAvisoUseCase {
     async execute(data: T_Aviso): Promise<Avisos> {
         info('Requisição no banco de dados: Aviso Create',true)
         const newAviso = await prisma.avisos.create({
-            data
+            data,
         })
         if (!newAviso) throw new AppError("Usuário não criado.")
         return newAviso

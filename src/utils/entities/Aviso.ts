@@ -3,5 +3,5 @@ export type T_Aviso = {
     title: string;
     body: string;
     img: string;
-    tags: string;
+    category: string;
 };
