@@ -7,15 +7,13 @@ export default function Middleware(app: Application): void {
   app.use(
     cors({
       origin: "*",
-    })
+    }),
   );
   app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
     next();
   });
-  // app.use(json());
-  app.use(bodyParser.json({ limit: '10mb' }));
-  app.use(bodyParser.urlencoded({ limit: '10mb', extended: true }));
+  app.use(json());
   app.use(
     (err: Error, request: Request, response: Response, next: NextFunction) => {
       if (err instanceof AppError) {
@@ -29,6 +27,8 @@ export default function Middleware(app: Application): void {
         status: "error",
         message: `Internal server error - ${err.message}`,
       });
-    }
+    },
   );
+  // app.use(bodyParser.json({ limit: "10mb" }));
+  // app.use(bodyParser.urlencoded({ limit: "10mb", extended: true }));
 }
