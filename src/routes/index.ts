@@ -11,6 +11,7 @@ import formatFromSheet, {
 import { horarioRoute } from "./TemposRoute";
 import { AppError } from "../config/error";
 import { adminRoutes } from "./AdminRoute";
+import { verify } from "jsonwebtoken";
 const indexRoutes = Router();
 indexRoutes.get("/unformatted", (req: Request, res: Response) => {
   res.json(exampleData);

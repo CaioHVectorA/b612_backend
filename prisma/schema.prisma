@@ -18,10 +18,11 @@ model User {
 }
 
 model Admin {
-  name        String
-  id          String  @id @unique @default(uuid())
-  password    String
-  can_use_zap Boolean
+  name     String
+  id       String @id @unique @default(uuid())
+  password String
+  role     String
+  email    String @unique
 }
 
 model Avisos {

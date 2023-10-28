@@ -1,24 +1,38 @@
 import { info } from "veclog";
 import { AppError } from "../../config/error";
 import { prisma } from "../../utils/prisma.client";
-
-export default class CreateAdminUseCase {
+import { genSalt, hash } from 'bcrypt'
+import { sign, decode } from 'jsonwebtoken'
+import { config } from "dotenv";
+import { Admin } from "@prisma/client";
+import { AdminResponse } from "../../utils/entities/AdminResponse";
+const key = (() => {
+  return config({ path: process.cwd()+'/.env.auth' }).parsed?.SECRET || "NONE_KEY"
+  })()
+  const ACESS_CODE = (() => {
+    return config({ path: process.cwd()+'/.env.auth' }).parsed?.ACESS_CODE
+    })()
+    type CreateProps = Omit<Admin, 'id'> & {acess_code: string}
+  export default class CreateAdminUseCase {
   async execute({
     name,
+    email,
     password,
-    can_use_zap = false,
-  }: {
-    name: string;
-    password: string;
-    can_use_zap: boolean;
-  }): Promise<true | string> {
+    role,
+    acess_code
+  }: CreateProps): Promise<AdminResponse> {
     info("Requisição no banco de dados: Admin Create", true);
     const findUser = await prisma.admin.findFirst({ where: { name } });
-    if (findUser) return "Já existe usuário com esse nome!";
-    // if (!name || !password) throw new AppError("Faltou credenciais!");
+    if (findUser) throw new AppError("Já existe usuário com esse nome!");
+    if (!password) throw new AppError("Faltou credenciais!");
+    const salt = await genSalt(10)
+    const encrypted_pass = await hash(password,salt)
+    const acessed = ACESS_CODE ? (ACESS_CODE === acess_code) : true
+    if (!acessed) throw new AppError('Acesso negado! Código de acesso errado', 401)
     const newUser = await prisma.admin.create({
-      data: { name, password, can_use_zap },
+      data: { name, email, password: encrypted_pass, role },
     });
-    return !!newUser;
+    const jwt = sign({ id: newUser.id }, key)
+    return { token: jwt, name, email, role };
   }
 }

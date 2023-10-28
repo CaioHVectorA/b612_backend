@@ -2,19 +2,28 @@ import { info } from "veclog";
 import { AppError } from "../../config/error";
 import { prisma } from "../../utils/prisma.client";
 import { Admin } from "@prisma/client";
-
+import { compare } from "bcrypt";
+import { sign } from "jsonwebtoken";
+import { config } from "dotenv";
+import { AdminResponse } from "../../utils/entities/AdminResponse";
+const key = (() => {
+  return config({ path: process.cwd()+'/.env.auth' }).parsed?.SECRET || "NONE_KEY"
+  })()
 export default class AdminLoginUseCase {
   async execute({
-    name,
+    email,
     password,
   }: {
-    name: string;
+    email: string;
     password: string;
-  }): Promise<Admin | string> {
+  }): Promise<AdminResponse> {
     info("Requisição no banco de dados: Admin Login", true);
-    const admFound = await prisma.admin.findFirst({ where: { name } });
-    if (!admFound) return "Usuário não encontrado!";
-    if (admFound.password !== password) return "Senha incorreta!";
-    return admFound;
+    const admFound = await prisma.admin.findFirst({ where: { email } });
+    if (!admFound) throw new AppError("Usuário não encontrado!");
+    const correctedPass = await compare(password, admFound.password)
+    if (!correctedPass) throw new AppError("Senha incorreta!");
+    // retornar JWT e admin junto?
+    const jwt = sign({ id: admFound.id }, key)
+    return { token: jwt, name: admFound.name, email, role: admFound.role };
   }
 }

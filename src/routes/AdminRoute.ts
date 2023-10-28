@@ -5,5 +5,6 @@ import CreateAdminController from '../controllers/createAdmin/createAdminControl
 export const adminRoutes = Router()
 const loginUseCase = new AdminLoginController()
 const createUseCase = new CreateAdminController()
+// BASE: /admin
 adminRoutes.post('/', createUseCase.handle)
 adminRoutes.post('/login',loginUseCase.handle)
