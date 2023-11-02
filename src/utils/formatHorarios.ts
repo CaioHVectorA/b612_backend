@@ -16,7 +16,10 @@ export function getTempo(item: string, horario: string): Tempo | unknown {
     try {
         const cleanedItem = item.replace(/\s{2,}/g, ' '); // Replace 2 or more spaces with a single space
         const count = cleanedItem.split(' ').length
-        const isLibrary = cleanedItem.toUpperCase().includes('BIBLIO') ? 1 : 0
+        const isLibrary = cleanedItem.toUpperCase().includes("BIBLIO") ||
+        cleanedItem.toUpperCase().includes("AUDIT") ||
+        cleanedItem.toUpperCase().includes("CONVIV") ||
+        cleanedItem.toUpperCase().includes("GERMIN") ? 1 : 0
         const splitted: string[] = cleanedItem.split(' ')
         let materiaArr = []
         for (let i = 0; i < count - 3 + isLibrary; i++) {

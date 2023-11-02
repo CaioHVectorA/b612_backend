@@ -89,10 +89,11 @@ const TURMAS = {
 export function formatFromJSON(Result: any, TURMA: string) {
   const finalArr = [];
   const arr = [];
-  Object.values(JSON.parse(Result)).forEach((days, index) => {
+  Object.values(Result).forEach((days, index) => {
     const _index = index === 0 ? 1 : 0;
+    console.log(index * 2)
     const temparr = [];
-    days.slice(_index, 13 + index).forEach((day, index) => {
+    days.slice(_index, 13 + index + (_index * 2)).forEach((day, index) => {
       temparr.push(
         //index
         Object.values(day)
@@ -132,7 +133,6 @@ export function formatFromJSON(Result: any, TURMA: string) {
               },
               turma: TURMA
             }
-            console.log(_data)
             _temparr.push(_data)
           }
         });
