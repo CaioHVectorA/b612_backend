@@ -11,12 +11,14 @@ import formatFromSheet, {
 import { horarioRoute } from "./TemposRoute";
 import { AppError } from "../config/error";
 import { adminRoutes } from "./AdminRoute";
+import { NoteRoutes } from './NoteRoute'
 import { verify } from "jsonwebtoken";
 const indexRoutes = Router();
 indexRoutes.get("/unformatted", (req: Request, res: Response) => {
-  res.json(exampleData);
+  res.json({'Otário caught!': 'Era uma data fake e antiga(obsoleta!)'});
 });
 indexRoutes.use("/admin", adminRoutes)
 indexRoutes.use("/aviso", AvisoRoute);
 indexRoutes.use("/horario", horarioRoute);
+indexRoutes.use('/note', NoteRoutes)
 export { indexRoutes };

@@ -1,6 +1,7 @@
 //@ts-nocheck
 import { type } from "os";
 import { Tempo, getIndex, getName, getTempo } from "./formatHorarios";
+import { randomUUID } from "crypto";
 const tempos = [
   "7:00",
   "7:50",
@@ -89,7 +90,9 @@ const TURMAS = {
 export function formatFromJSON(Result: any, TURMA: string) {
   const finalArr = [];
   const arr = [];
-  Object.values(Result).forEach((days, index) => {
+  let d = typeof Result === 'string' ? JSON.parse(Result) : Result
+  if (typeof d === 'string') d = JSON.parse(d) // Yep two json parse 
+  Object.values(d).forEach((days, index) => {
     const _index = index === 0 ? 1 : 0;
     console.log(index * 2)
     const temparr = [];
@@ -102,10 +105,9 @@ export function formatFromJSON(Result: any, TURMA: string) {
     });
     arr.push(temparr);
   });
-  type value_data = { value: string; columnIndex: bigint | number };
+  type value_data = { value: string; columnIndex: bigint | number, id: string };
   arr.forEach((dia, index) => {
     let turmas: value_data[]; // armazenar os códigos
-    let tempos: value_data[] = []; // armazenar os tempos pós-processados de cada turma
     const _temparr = [];
     dia.forEach((tempos: value_data[], index) => {
       if (tempos.length === 0) return;
@@ -117,6 +119,7 @@ export function formatFromJSON(Result: any, TURMA: string) {
             const formated = getTempo(tempo.value, tempos[0].value);
             const final = {
               tempo: formated,
+              id: tempo.id,
               turma: turmas.find(
                 (turma) => tempo.columnIndex === turma.columnIndex
               )?.value,
@@ -131,7 +134,7 @@ export function formatFromJSON(Result: any, TURMA: string) {
                 materia: splitted[0],
                 isBreak: true
               },
-              turma: TURMA
+              turma: TURMA,
             }
             _temparr.push(_data)
           }

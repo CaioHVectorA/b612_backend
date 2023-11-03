@@ -10,11 +10,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  name  String
-  id    String @id @unique @default(uuid())
-  class Int
-  tags  String
+model ProfNote {
+  uuid        String @unique
+  id          String @id @unique @default(uuid())
+  description String @default("")
 }
 
 model Admin {

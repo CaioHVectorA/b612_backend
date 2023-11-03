@@ -8,6 +8,7 @@ export type Tempo = {
         isBreak: boolean;
     };
     turma: string;
+    id: string
 };
 export function getTempo(item: string, horario: string): Tempo | unknown {
     if (item === null) {
