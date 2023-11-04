@@ -1,4 +1,3 @@
-//@ts-nocheck
 import { Request, Response, Router } from "express";
 import { prisma } from "../utils/prisma.client";
 import { AvisoRoute } from "./AvisoRoute";
@@ -13,10 +12,18 @@ import { AppError } from "../config/error";
 import { adminRoutes } from "./AdminRoute";
 import { NoteRoutes } from './NoteRoute'
 import { verify } from "jsonwebtoken";
+import { cache } from "../config/cache";
 const indexRoutes = Router();
 indexRoutes.get("/unformatted", (req: Request, res: Response) => {
   res.json({'Otário caught!': 'Era uma data fake e antiga(obsoleta!)'});
 });
+indexRoutes.get('/uncache', (req, res) => {
+  for(let x = 1;x !== 4;x++) for (let y = 1; y !== 5; y++) {
+    console.log(`${x}00${y}`)
+    cache.del(`${x}00${y}`)
+  } 
+  res.json({"Cache Deletado": "Y"})
+})
 indexRoutes.use("/admin", adminRoutes)
 indexRoutes.use("/aviso", AvisoRoute);
 indexRoutes.use("/horario", horarioRoute);
