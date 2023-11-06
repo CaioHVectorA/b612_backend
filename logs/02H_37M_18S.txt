@@ -1,2 +1,2 @@
-02H_37M_18S INFO ALERT --------------------------------------- Info: Requisição no banco de dados: Aviso Get Avisos!
+02H_37M_18S INFO ALERT --------------------------------------- Info: Requisição no banco de dados: Aviso Get Horarios!
 ---------------------------------------
