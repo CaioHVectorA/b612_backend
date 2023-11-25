@@ -1,2 +1,0 @@
-12H_17M_39S INFO ALERT --------------------------------------- Info: Requisição no banco de dados: Admin Create
----------------------------------------
