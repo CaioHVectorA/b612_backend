@@ -34,6 +34,12 @@ model Avisos {
   category   String
 }
 
+model Visits {
+  createdAt DateTime @default(now())
+  device    String
+  id        Int      @id @default(autoincrement())
+}
+
 // model Tempo {
 //   materia String
 //   prof String
