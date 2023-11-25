@@ -1,2 +1,0 @@
-02H_26M_49S INFO ALERT --------------------------------------- Info: Requisição no banco de dados: Aviso Get Avisos!
----------------------------------------

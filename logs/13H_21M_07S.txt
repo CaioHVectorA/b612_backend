@@ -1,2 +1,0 @@
-13H_21M_07S INFO ALERT --------------------------------------- Info: Requisição no banco de dados: Aviso Create
----------------------------------------

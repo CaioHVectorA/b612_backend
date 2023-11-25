@@ -1,2 +1,0 @@
-16H_32M_09S INFO ALERT --------------------------------------- Info: Requisição no banco de dados: Admin Create
----------------------------------------

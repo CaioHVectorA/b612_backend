@@ -1,2 +1,0 @@
-01H_30M_47S INFO ALERT --------------------------------------- Info: Requisição no banco de dados: Admin Login
----------------------------------------

@@ -1,2 +1,0 @@
-01H_54M_09S INFO ALERT --------------------------------------- Info: Requisição no banco de dados: Aviso Create
----------------------------------------

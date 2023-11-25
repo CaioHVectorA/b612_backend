@@ -1,2 +1,0 @@
-05H_02M_43S INFO ALERT --------------------------------------- Info: Requisição no banco de dados: Aviso Get Horarios!
----------------------------------------
