@@ -77,7 +77,7 @@ export function getAllFromSheet(Result: any): getAllFromSheetResponse {
         return t.columnIndex_two === tempo.columnIndex_two || t.columnIndex === tempo.columnIndex
         })
         if (!turma) console.log(tempo,tempo.columnIndex_two + 1)
-        return { value, horario: horario, day: ["SEGUNDA-FEIRA", "TERÇA-FEIRA", "QUARTA-FEIRA", "QUINTA-FEIRA", "SEXTA-FEIRA"][dayIndex], turma: turma?.value }
+        return { value, horario: horario, day: ["SEGUNDA-FEIRA", "TERÇA-FEIRA", "QUARTA-FEIRA", "QUINTA-FEIRA", "SEXTA-FEIRA"][dayIndex], turma: turma?.value, id: tempo.id }
       });
     });
   });
