@@ -17,7 +17,7 @@ export class AppFactory {
       res.header("Access-Control-Allow-Origin", "*");
       next();
     });
-    this.app.use(json());
+    this.app.use(json({ limit: '10mb' }));
     this.app.use(indexRoutes)
     this.app.use(
       (err: Error, request: Request, response: Response, next: NextFunction) => {

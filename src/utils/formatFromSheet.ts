@@ -2,7 +2,10 @@
 import { type } from "os";
 import { Tempo, getIndex, getName, getTempo } from "./formatHorarios";
 import { randomUUID } from "crypto";
-const tempos = [
+import { getTimestamp } from './timestampFuncs'
+import { writeFileSync } from "fs";
+import { getAllFromSheetResponse } from "./entities/Tempos";
+const TEMPOS = [
   "7:00",
   "7:50",
   "8:40",
@@ -18,6 +21,7 @@ const tempos = [
   "16:10",
   "17:00",
 ];
+export const TEMPOS_RANGE = ['7:00 às 7:50', '7:50 às 8:40', '8:40 às 8:55', '8:55 às 9:45', '9:45 às 10:35', '10:35 às 11:25', '11:25 às 12:15', '12:15 às 13:25', '13:25 às 14:15', '14:15 às 15:05', '15:05 às 15:20', '15:20 às 16:10', '16:10 às 17:00']
 const turmas: number[] = [
   1001, 1002, 1003, 1004, 2001, 2002, 2003, 2004, 3001, 3002, 3003, 3004,
 ];
@@ -31,7 +35,7 @@ export default function formatFromSheet(data: any, turma: string): Tempo[] {
   // }
   const formatedArr = arr
     .map((item, index) =>
-      getTempo(item, `${tempos[index]} - ${tempos[index + 1]}`)
+      getTempo(item, `${TEMPOS[index]} - ${TEMPOS[index + 1]}`)
     )
     .map((turma, index) => {
       if (index === 2) {
@@ -55,38 +59,30 @@ export default function formatFromSheet(data: any, turma: string): Tempo[] {
   return formatedArr;
 }
 
-export function getAllFromSheet(data: any) {
+export function getAllFromSheet(Result: any): getAllFromSheetResponse {
+  const t = getTimestamp()
   const arr: any[] = [];
-  data.forEach((item) => {
-    // arr.push(item.data)
-    arr.push(item.data.slice(2 + getIndex(item), 15));
+  let d = (typeof Result === 'string' ? Object.values(JSON.parse(Result)) : Object.values(Result)) as Tempo[][][]
+  if (typeof d === 'string') d = JSON.parse(d) // Yep two json parse 
+  const turmas = Object.values(JSON.parse(Result)[0][0]) as { columnIndex: bigint | number, value: string, id: string, columnIndex_two: number }[]
+  d.forEach((item, index) => {
+    arr.push(item.slice(1 + getIndex({ data: JSON.parse(Result) }), 15));
   });
-  // DIA[] -> TEMPOS[](DE TURMAS, COM INDICE 0 COM OS TEMPOS)
-  const formated = arr.map((item) => {
-    return item.map((tempos) => {
-      return tempos.slice(1).map((tempo, index) => {
-        // if (index === 0) return
-        return getTempo(tempo, tempos[0]);
+  const formated = arr.map((item, dayIndex) => {
+    return item.map((tempos, index) => {
+      return Object.values(tempos).map((tempo, __index) => {
+        const horario = TEMPOS_RANGE[index]
+        const value = tempo.value
+        const turma = turmas.find(t => {
+        return t.columnIndex_two === tempo.columnIndex_two || t.columnIndex === tempo.columnIndex
+        })
+        if (!turma) console.log(tempo,tempo.columnIndex_two + 1)
+        return { value, horario: horario, day: ["SEGUNDA-FEIRA", "TERÇA-FEIRA", "QUARTA-FEIRA", "QUINTA-FEIRA", "SEXTA-FEIRA"][dayIndex], turma: turma?.value }
       });
     });
   });
   return formated;
 }
-
-const TURMAS = {
-  1001: "__EMPTY_1",
-  1002: "__EMPTY_2",
-  1003: "__EMPTY_3",
-  1004: "__EMPTY_4",
-  2001: "__EMPTY_5",
-  2002: "__EMPTY_6",
-  2003: "__EMPTY_7",
-  2004: "__EMPTY_8",
-  3001: "__EMPTY_9",
-  3002: "__EMPTY_10",
-  3003: "__EMPTY_11",
-  3004: "__EMPTY_12",
-};
 export function formatFromJSON(Result: any, TURMA: string) {
   const finalArr = [];
   const arr = [];
@@ -148,5 +144,3 @@ export function formatFromJSON(Result: any, TURMA: string) {
   );
   return filtered;
 }
-
-//
