@@ -54,7 +54,9 @@ export function getIndex(data: any): number {
 
 export function getName(data: any): string {
     if (data.data[0].length > 0) {
-        let name: string = data.data[0][0];
+        let name = data.data[0][0] as string;
+        if (typeof name !== 'string') name = Object.values(name)[0].value
+        console.log(name)
         for (let index = 0; name.includes(" "); index++) {
             name = name.replace(" ", "").replace("  ", "").replace("  ", "").replace(" ", "")
         }

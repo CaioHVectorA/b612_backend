@@ -14,15 +14,22 @@ import { NoteRoutes } from './NoteRoute'
 import { verify } from "jsonwebtoken";
 import { cache } from "../config/cache";
 const indexRoutes = Router();
-indexRoutes.get("/unformatted", (req: Request, res: Response) => {
-  res.json({'Otário caught!': 'Era uma data fake e antiga(obsoleta!)'});
-});
+// indexRoutes.get("/unformatted", async (req: Request, res: Response) => {
+//   const data = (await prisma.tempos.findFirst())?.value
+//   if (!data) throw new AppError('S')
+//   res.json(getAllFromSheet(JSON.parse(data)));
+// });
 indexRoutes.get('/uncache', (req, res) => {
   for(let x = 1;x !== 4;x++) for (let y = 1; y !== 5; y++) {
-    console.log(`${x}00${y}`)
     cache.del(`${x}00${y}`)
   } 
   res.json({"Cache Deletado": "Y"})
+})
+indexRoutes.get('/analytics/:device', async (req: Request, res: Response) => {
+  await prisma.visits.create({data: { device: req.params.device }
+  }
+  )
+  res.status(200)
 })
 indexRoutes.use("/admin", adminRoutes)
 indexRoutes.use("/aviso", AvisoRoute);
