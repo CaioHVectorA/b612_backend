@@ -98,6 +98,7 @@ Esta documentação descreve as rotas e funcionalidades da API.
 
 - **Exemplo:**
   ```JSON
+  // horario/prof/carlos
   [
     {
       "tempo": {

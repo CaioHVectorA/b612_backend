@@ -1,16 +1,16 @@
 //@ts-nocheck
 export type Tempo = {
-    tempo: {
+    // tempo: {
         horario: string;
         materia: string;
         professor: string;
         sala: string;
         isBreak: boolean;
-    };
-    turma: string;
-    id: string
+    // };
+    // turma: string;
+    // id: string
 };
-export function getTempo(item: string, horario: string): Tempo | unknown {
+export function getTempo(item: string, horario: string): Tempo | null {
     if (item === null) {
         return null; // Keep null entries unchanged
     }
@@ -56,7 +56,6 @@ export function getName(data: any): string {
     if (data.data[0].length > 0) {
         let name = data.data[0][0] as string;
         if (typeof name !== 'string') name = Object.values(name)[0].value
-        console.log(name)
         for (let index = 0; name.includes(" "); index++) {
             name = name.replace(" ", "").replace("  ", "").replace("  ", "").replace(" ", "")
         }

@@ -1,4 +1,3 @@
-import { info } from "veclog";
 import { AppError } from "../../config/error";
 import { prisma } from "../../utils/prisma.client";
 import { genSalt, hash } from 'bcrypt'
@@ -21,7 +20,6 @@ const key = (() => {
     role,
     acess_code
   }: CreateProps): Promise<AdminResponse> {
-    info("Requisição no banco de dados: Admin Create", true);
     const findUser = await prisma.admin.findFirst({ where: { name } });
     if (findUser) throw new AppError("Já existe usuário com esse nome!");
     if (!password) throw new AppError("Faltou credenciais!");

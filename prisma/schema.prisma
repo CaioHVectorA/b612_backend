@@ -40,35 +40,38 @@ model Visits {
   id        Int      @id @default(autoincrement())
 }
 
-// model Tempo {
-//   materia String
-//   prof String
-//   sala String
-//   inicial String
-//   final String
-//   id String @unique @id @default(uuid())
-//   img String
-//   ativity String?
-//   turma_ref Int
-//   turma Turma @relation("tempos-turma", fields: [turma_ref], references: [ref], onDelete: Cascade, onUpdate: Cascade)
-// }
-
-// model Turma {
-//   ref Int @unique
-//   Tempos Tempo[] @relation("tempos-turma")
-//   day_ref String
-//   day Dia @relation("turma-dia", fields: [day_ref], references: [day], onDelete: Cascade, onUpdate: NoAction)
-// }
-
-// model Dia {
-//   day String @unique
-//   id String @id @unique @default(uuid())
-//   turmas Turma[] @relation("turma-dia")
-// }
-
 model Tempos {
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
   id         String   @id @unique @default(uuid())
   value      String   @unique
+}
+
+// -- experimental --
+
+model Tempo {
+  horario     String
+  materia     String
+  isBreak     Boolean
+  sala        String
+  Turma       Turma?     @relation(references: [id], fields: [turmaId])
+  day         String
+  Professor   Professor? @relation(references: [id], fields: [professorId])
+  professorId String?
+  turmaId     String?
+  id          String     @id @unique @default(uuid())
+}
+
+model Turma {
+  turma  Int
+  Tempos Tempo[]
+  serie  String
+  id     String  @id @unique @default(uuid())
+}
+
+model Professor {
+  name  String
+  email String
+  id    String  @id @unique @default(uuid())
+  Tempo Tempo[]
 }

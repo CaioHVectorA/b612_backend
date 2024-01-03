@@ -1,6 +1,7 @@
 import { AppError } from "../../config/error";
 import { I_Tempo_WITHOUT_ENCODING } from "../../utils/entities/Tempos";
 import { getAllFromSheet, TEMPOS_RANGE } from "../../utils/formatFromSheet";
+import { getTempo } from "../../utils/formatHorarios";
 import { prisma } from "../../utils/prisma.client";
 
 export class GetProfessorHorariosUseCase {
@@ -10,7 +11,9 @@ export class GetProfessorHorariosUseCase {
         const data = getAllFromSheet(JSON.parse(sheetData.value))
     const timesWhichHasProf = [] as I_Tempo_WITHOUT_ENCODING[]
     data.forEach(_ => _.forEach(k => k.forEach((tempo) => {
-        if (tempo.value.toUpperCase().includes(prof.toUpperCase())) timesWhichHasProf.push(tempo)
+        if (!tempo) return
+        //@ts-ignore
+        if (tempo.value.toUpperCase().includes(prof.toUpperCase())) timesWhichHasProf.push({...tempo, value: getTempo(tempo.value).materia, sala: getTempo(tempo.value).sala})
     })))
     if (timesWhichHasProf.length === 0) throw new AppError('Professor não existe no sistema')
         return timesWhichHasProf

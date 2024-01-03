@@ -22,6 +22,7 @@ const TEMPOS = [
   "17:00",
 ];
 export const TEMPOS_RANGE = ['7:00 às 7:50', '7:50 às 8:40', '8:40 às 8:55', '8:55 às 9:45', '9:45 às 10:35', '10:35 às 11:25', '11:25 às 12:15', '12:15 às 13:25', '13:25 às 14:15', '14:15 às 15:05', '15:05 às 15:20', '15:20 às 16:10', '16:10 às 17:00']
+const TEMPOS_RANGE_DUPLICATED = ['7:00 às 7:50', '7:50 às 8:40', '7:50 às 8:40', '8:55 às 9:45', '9:45 às 10:35', '10:35 às 11:25', '11:25 às 12:15', '11:25 às 12:15', '13:25 às 14:15', '14:15 às 15:05', '14:15 às 15:05', '15:20 às 16:10', '16:10 às 17:00']
 const turmas: number[] = [
   1001, 1002, 1003, 1004, 2001, 2002, 2003, 2004, 3001, 3002, 3003, 3004,
 ];
@@ -64,7 +65,7 @@ export function getAllFromSheet(Result: any): getAllFromSheetResponse {
   const arr: any[] = [];
   let d = (typeof Result === 'string' ? Object.values(JSON.parse(Result)) : Object.values(Result)) as Tempo[][][]
   if (typeof d === 'string') d = JSON.parse(d) // Yep two json parse 
-  const turmas = Object.values(JSON.parse(Result)[0][0]) as { columnIndex: bigint | number, value: string, id: string, columnIndex_two: number }[]
+  const turmas = Object.values(JSON.parse(Result)[0][1]) as { columnIndex: bigint | number, value: string, id: string, columnIndex_two: number }[]
   d.forEach((item, index) => {
     arr.push(item.slice(1 + getIndex({ data: JSON.parse(Result) }), 15));
   });
@@ -73,11 +74,16 @@ export function getAllFromSheet(Result: any): getAllFromSheetResponse {
       return Object.values(tempos).map((tempo, __index) => {
         const horario = TEMPOS_RANGE[index]
         const value = tempo.value
-        const turma = turmas.find(t => {
-        return t.columnIndex_two === tempo.columnIndex_two || t.columnIndex === tempo.columnIndex
-        })
-        if (!turma) console.log(tempo,tempo.columnIndex_two + 1)
-        return { value, horario: horario, day: ["SEGUNDA-FEIRA", "TERÇA-FEIRA", "QUARTA-FEIRA", "QUINTA-FEIRA", "SEXTA-FEIRA"][dayIndex], turma: turma?.value, id: tempo.id }
+        const turma = turmas[(turmas.findIndex(t => {
+        return t.columnIndex_two === tempo.columnIndex_two // || t.columnIndex === tempo.columnIndex
+        })) - 1]
+        if (!turma) return // console.log('coiso', horario, value)
+        let turmaNumber = turma.value
+        if (dayIndex > 0) {
+          // console.log(turmaNumber)
+          // if (turmaNumber[3] !== '1') turmaNumber = String(Number(turmaNumber) - 1)
+        }
+        return { value, horario: horario, day: ["SEGUNDA-FEIRA", "TERÇA-FEIRA", "QUARTA-FEIRA", "QUINTA-FEIRA", "SEXTA-FEIRA"][dayIndex], turma: turmaNumber, id: tempo.id }
       });
     });
   });
@@ -90,7 +96,7 @@ export function formatFromJSON(Result: any, TURMA: string) {
   if (typeof d === 'string') d = JSON.parse(d) // Yep two json parse 
   Object.values(d).forEach((days, index) => {
     const _index = index === 0 ? 1 : 0;
-    console.log(index * 2)
+    // const _index = 1
     const temparr = [];
     days.slice(_index, 13 + index + (_index * 2)).forEach((day, index) => {
       temparr.push(
@@ -108,6 +114,7 @@ export function formatFromJSON(Result: any, TURMA: string) {
     dia.forEach((tempos: value_data[], index) => {
       if (tempos.length === 0) return;
       if (index === 0) {
+        console.log(tempos[0].value)
         turmas = tempos;
       } else {
         const formated = tempos.forEach((tempo, index) => {

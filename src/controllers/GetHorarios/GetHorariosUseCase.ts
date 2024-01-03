@@ -7,7 +7,6 @@ import { cache } from "../../config/cache";
 
 export default class GetHorariosUseCase {
   async execute({ turma }: { turma: string }): Promise<Tempo[]> {
-    info("Requisição no banco de dados: Aviso Get Horarios!", true);
     if (cache.get(turma)) return cache.get(turma) as Tempo[]
     const data = await prisma.tempos.findFirst();
     if (!data) throw new AppError("Ainda não há horários.");

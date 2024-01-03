@@ -1,6 +1,5 @@
 import express, { NextFunction, Request, Response, json } from "express";
 import { indexRoutes } from "./routes";
-import { debug,error,fatal,info } from 'veclog'
 import cors from "cors";
 import { AppError } from "./config/error";
 import { AppFactory } from "./config/defaultConfig";

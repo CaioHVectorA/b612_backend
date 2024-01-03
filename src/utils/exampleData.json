@@ -1,0 +1,3450 @@
+[
+    [
+        {
+            "__EMPTY": {
+                "value": "1001",
+                "columnIndex": 9947236440,
+                "id": "440274f2-7129-4901-9fcc-734d77714746"
+            },
+            "__EMPTY_1": {
+                "value": "1002",
+                "columnIndex": 6724331834906,
+                "id": "235767e4-8fc5-40ea-bef4-2cfd10a2516c"
+            },
+            "__EMPTY_2": {
+                "value": "1003",
+                "columnIndex": 6724331834907,
+                "id": "8cff6ec2-cb77-4ddb-9bbb-9138e2d2eea7"
+            },
+            "__EMPTY_3": {
+                "value": "1004",
+                "columnIndex": 6724331834908,
+                "id": "34727f50-d56a-4878-bf27-1377ed6e9bba"
+            },
+            "__EMPTY_4": {
+                "value": "2001",
+                "columnIndex": 6724331834909,
+                "id": "b2214758-e17f-4807-bb01-28524e52acc5"
+            },
+            "__EMPTY_5": {
+                "value": "2002",
+                "columnIndex": 6724331834910,
+                "id": "4e1c6a86-4715-4900-b2b6-dc90d172c05e"
+            },
+            "__EMPTY_6": {
+                "value": "2003",
+                "columnIndex": 6724331834911,
+                "id": "497080b3-ff9a-4658-b7ca-a971844812c1"
+            },
+            "__EMPTY_7": {
+                "value": "2004",
+                "columnIndex": 6724331834912,
+                "id": "db9cd8df-fb34-4b09-b294-30fac0004831"
+            },
+            "__EMPTY_8": {
+                "value": "3001",
+                "columnIndex": 6724331834913,
+                "id": "16764f70-906b-45ef-856c-24081f5550a8"
+            },
+            "__EMPTY_9": {
+                "value": "3002",
+                "columnIndex": 6724331834914,
+                "id": "9983ab0e-8e3f-43f2-9a98-095f834c3357"
+            },
+            "__EMPTY_10": {
+                "value": "3003",
+                "columnIndex": 174832627707565,
+                "id": "20a0c5c4-ca3f-4f03-a76c-8e28388c14dd"
+            },
+            "__EMPTY_11": {
+                "value": "3004",
+                "columnIndex": 174832627707566,
+                "id": "d578bdfc-7554-4930-bfa2-1766e07a1997"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "7:00 - 7:50",
+                "columnIndex": 1832607044045883100,
+                "id": "976a0ad4-8ed5-4a6b-9e43-b3b2ec7dc3b7"
+            },
+            "__EMPTY": {
+                "value": "Lab. Linguagens  Maiara               Sala 45",
+                "columnIndex": 9947236440,
+                "id": "7dd9679e-df6f-490c-9347-c63827e631ec"
+            },
+            "__EMPTY_1": {
+                "value": "Geografia Adriana                                         Sala 44",
+                "columnIndex": 6724331834906,
+                "id": "00810d98-1cf7-400e-8d5b-4c9486c24e00"
+            },
+            "__EMPTY_2": {
+                "value": "Língua Portuguesa Rosa                          Sala 34",
+                "columnIndex": 6724331834907,
+                "id": "d0243b8a-6ff1-4d63-a2ed-b24f398c4616"
+            },
+            "__EMPTY_3": {
+                "value": "Matemática Marcelo.                       Sala 33",
+                "columnIndex": 6724331834908,
+                "id": "13249855-3941-4f0d-ab3a-25747a3d6fdf"
+            },
+            "__EMPTY_4": {
+                "value": "Lab. Ciên. Natureza      Andrea                               Sala 42",
+                "columnIndex": 6724331834909,
+                "id": "6fc80c91-314d-41ec-b191-c022694ff621"
+            },
+            "__EMPTY_5": {
+                "value": "Desig. Interação          Luana                   Lab. 22",
+                "columnIndex": 6724331834910,
+                "id": "45f00644-e8a8-4527-a1d2-663839fc78e6"
+            },
+            "__EMPTY_6": {
+                "value": "Lab Matemática   Suzana                     Sala 43",
+                "columnIndex": 6724331834911,
+                "id": "7de9c51b-8b5c-41e2-834e-614cc39ed5dd"
+            },
+            "__EMPTY_7": {
+                "value": "Química        Sérgio             Sala 41",
+                "columnIndex": 6724331834912,
+                "id": "d50599e1-eabc-4d95-a0e8-14dc8ed1076f"
+            },
+            "__EMPTY_8": {
+                "value": "3 D                Nathan                     Lab 21",
+                "columnIndex": 6724331834913,
+                "id": "81295465-8c1a-45ef-ad52-4e82c9b60c36"
+            },
+            "__EMPTY_9": {
+                "value": "Sociologia Clara                 Sala 31",
+                "columnIndex": 6724331834914,
+                "id": "7c429bc2-7962-4daa-813d-e71f681bedc3"
+            },
+            "__EMPTY_10": {
+                "value": "Filosofia               Diogo                   Sala 32",
+                "columnIndex": 174832627707565,
+                "id": "38e60e5c-2a21-4575-a6f6-18ee1f551254"
+            },
+            "__EMPTY_11": {
+                "value": "Estudo                    Lab. 35",
+                "columnIndex": 174832627707566,
+                "id": "bc1515ce-a006-4104-a74e-a3e8a71057ab"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "7:50 - 8:40",
+                "columnIndex": 1832607044045883100,
+                "id": "399da23e-38ee-4396-8b8c-801bc25aae65"
+            },
+            "__EMPTY": {
+                "value": "Lab. Linguagens  Maiara                  Sala 45",
+                "columnIndex": 9947236440,
+                "id": "5eafa6b8-f218-420a-bb20-23e84415a9e4"
+            },
+            "__EMPTY_1": {
+                "value": "Geografia Adriana                       Sala 44",
+                "columnIndex": 6724331834906,
+                "id": "08e45050-f0ff-46cb-badd-c428e76ad436"
+            },
+            "__EMPTY_2": {
+                "value": "Língua Portuguesa Rosa                        Sala 34",
+                "columnIndex": 6724331834907,
+                "id": "da140477-07ec-4cf8-a4f3-d51194e90932"
+            },
+            "__EMPTY_3": {
+                "value": "Matemática Marcelo.                  Sala 33",
+                "columnIndex": 6724331834908,
+                "id": "557b79a2-e804-46e5-97d4-41fb7b1ca34f"
+            },
+            "__EMPTY_4": {
+                "value": "Lab. Ciên. Natureza       Andrea                      Sala 42",
+                "columnIndex": 6724331834909,
+                "id": "8a33ad2c-770b-4ec8-89c4-180d04b5c5c0"
+            },
+            "__EMPTY_5": {
+                "value": "Desig. Interação          Luana                   Lab. 22",
+                "columnIndex": 6724331834910,
+                "id": "b335545b-7fb7-427c-acd3-0023450522ea"
+            },
+            "__EMPTY_6": {
+                "value": "Lab Matemática   Suzana                     Sala 43",
+                "columnIndex": 6724331834911,
+                "id": "223933ee-1830-42d9-b695-e27593290b1b"
+            },
+            "__EMPTY_7": {
+                "value": "Química             Sérgio                    Sala 41",
+                "columnIndex": 6724331834912,
+                "id": "43d4b42c-2d71-4c57-8697-ea985d48b9c8"
+            },
+            "__EMPTY_8": {
+                "value": "3 D                     Nathan                           Lab 21",
+                "columnIndex": 6724331834913,
+                "id": "5383bcf8-2979-4995-9594-bcf687571995"
+            },
+            "__EMPTY_9": {
+                "value": "Sociologia               Clara               Sala 31",
+                "columnIndex": 6724331834914,
+                "id": "d86fccd0-d163-4ceb-acc0-c0122bcb2bca"
+            },
+            "__EMPTY_10": {
+                "value": "Filosofia              Diogo                   Sala 32",
+                "columnIndex": 174832627707565,
+                "id": "9cfa242d-bb9e-4c7f-940b-a94266183176"
+            },
+            "__EMPTY_11": {
+                "value": "Estudo                    Lab. 35",
+                "columnIndex": 174832627707566,
+                "id": "43a475b8-c61f-43c6-9953-4c5146cf9ebd"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "LANCHE - 8:40 - 8:55",
+                "columnIndex": 1832607044045883100,
+                "id": "be1683c5-99ee-4f46-8475-55dfd44d84e3"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "8:55 - 9:45",
+                "columnIndex": 1832607044045883100,
+                "id": "91fe671d-7571-4776-ae34-01f183c60d00"
+            },
+            "__EMPTY": {
+                "value": "Lab. Linguagens  Maiara               Sala 45",
+                "columnIndex": 9947236440,
+                "id": "071ff1c6-8003-47c7-97fd-5a0017f3e490"
+            },
+            "__EMPTY_1": {
+                "value": "Língua Portuguesa Rosa                       Sala 34",
+                "columnIndex": 6724331834906,
+                "id": "97d47481-514a-4fa2-80f0-079e4a132963"
+            },
+            "__EMPTY_2": {
+                "value": "Lab Matemática Marcelo.                        Sala 33 ",
+                "columnIndex": 6724331834907,
+                "id": "a571921e-cc50-4f93-832f-bd39b928ba9d"
+            },
+            "__EMPTY_3": {
+                "value": "Cult.Jogos Luana                   Lab. 22",
+                "columnIndex": 6724331834908,
+                "id": "1a3f8e1c-7347-41bd-aeb9-d2cff9146a59"
+            },
+            "__EMPTY_4": {
+                "value": "Geografia Adriana                 Sala 44",
+                "columnIndex": 6724331834909,
+                "id": "be190940-e165-4f85-a1a4-c42b4573f133"
+            },
+            "__EMPTY_5": {
+                "value": "Lab. Ciên. Natureza    Andrea                    Sala 42",
+                "columnIndex": 6724331834910,
+                "id": "5155b574-82aa-49ef-ba20-8ba2d01e4411"
+            },
+            "__EMPTY_6": {
+                "value": "Cult.Jogos                                   Fabri.                            Lab. 35",
+                "columnIndex": 6724331834911,
+                "id": "726ec37e-7fa3-4c38-8343-81d71d01b795"
+            },
+            "__EMPTY_7": {
+                "value": "Lab Matemática   Suzana                     Sala 43",
+                "columnIndex": 6724331834912,
+                "id": "e364d3ae-c6f4-4acc-ba4f-0a7738396be9"
+            },
+            "__EMPTY_8": {
+                "value": "Sociologia                                         Clara                   Sala 31",
+                "columnIndex": 6724331834913,
+                "id": "9e7b7403-cdfb-456a-b368-e25c0d03c0f4"
+            },
+            "__EMPTY_9": {
+                "value": "Filosofia               Diogo                   Sala 32",
+                "columnIndex": 6724331834914,
+                "id": "12fa392b-05a7-424e-ae8e-2ea182cd5108"
+            },
+            "__EMPTY_10": {
+                "value": "Oficina Integ. Nathan                Lab. 36",
+                "columnIndex": 174832627707565,
+                "id": "f6f198ad-96c8-4370-8d32-37e0548499ca"
+            },
+            "__EMPTY_11": {
+                "value": "Química           Sérgio                  Sala 41",
+                "columnIndex": 174832627707566,
+                "id": "8e1b373c-9871-4e40-9ef9-ab3327cbdbba"
+            },
+            "__EMPTY_16": {
+                "value": " ",
+                "columnIndex": 174832627707571,
+                "id": "caa5a19e-0c1c-4d7e-8a7a-c8dc0481faab"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "9:45 - 10:35",
+                "columnIndex": 1832607044045883100,
+                "id": "835e2b4c-597a-479b-a0bc-5e44335fc8ad"
+            },
+            "__EMPTY": {
+                "value": "Oficina Integ. Michele                     Lab. 21",
+                "columnIndex": 9947236440,
+                "id": "9b4c8778-2c1f-4ae7-96ae-c4ac74c2f45e"
+            },
+            "__EMPTY_1": {
+                "value": "Língua Portuguesa Rosa                       Sala 34",
+                "columnIndex": 6724331834906,
+                "id": "19bfe940-13c7-4b6e-a923-7df74053d0e9"
+            },
+            "__EMPTY_2": {
+                "value": "Lab Matemática Marcelo.                     Sala 33 ",
+                "columnIndex": 6724331834907,
+                "id": "f75e018a-3d56-4aa8-9c42-f2629cb680aa"
+            },
+            "__EMPTY_3": {
+                "value": "Cult.Jogos Luana                    Lab. 22",
+                "columnIndex": 6724331834908,
+                "id": "48ec22be-8c2b-4958-9eea-72c0a1d59e57"
+            },
+            "__EMPTY_4": {
+                "value": "Geografia Adriana                     Sala 44",
+                "columnIndex": 6724331834909,
+                "id": "b03b11c7-3538-4c82-8fba-1b2f5066965c"
+            },
+            "__EMPTY_5": {
+                "value": "Lab. Ciên. Natureza  Andrea                 Sala 42",
+                "columnIndex": 6724331834910,
+                "id": "d3739c93-f3df-409b-9d6a-d3fb3293a3ee"
+            },
+            "__EMPTY_6": {
+                "value": "Cult.Jogos                           Fabri.                    Lab. 35",
+                "columnIndex": 6724331834911,
+                "id": "19f66538-e212-42bd-b1c8-0918ab274cd6"
+            },
+            "__EMPTY_7": {
+                "value": "Lab Matemática   Suzana                     Sala 43",
+                "columnIndex": 6724331834912,
+                "id": "066fa2df-965b-41d7-ba76-13f899d8f13f"
+            },
+            "__EMPTY_8": {
+                "value": "Sociologia                           Clara                  Sala 31",
+                "columnIndex": 6724331834913,
+                "id": "a60e2d70-2f4d-4b54-b253-f8efb9651c36"
+            },
+            "__EMPTY_9": {
+                "value": "Filosofia              Diogo                   Sala 32",
+                "columnIndex": 6724331834914,
+                "id": "56797b14-5e42-4c2b-8e61-073d3a16b710"
+            },
+            "__EMPTY_10": {
+                "value": "Oficina Integ. Nathan                    Lab. 36",
+                "columnIndex": 174832627707565,
+                "id": "077864c1-7b53-43d7-a25a-760ea05d641e"
+            },
+            "__EMPTY_11": {
+                "value": "Química          Sérgio                 Sala 41",
+                "columnIndex": 174832627707566,
+                "id": "35541325-c7dc-4d95-afba-aa48b6a5902e"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "10:35 - 11:25",
+                "columnIndex": 1832607044045883100,
+                "id": "f1bdc369-bc98-4643-ac76-ee6b560f5b92"
+            },
+            "__EMPTY": {
+                "value": "Oficina Integ. Michele                 Sala 34",
+                "columnIndex": 9947236440,
+                "id": "cf576609-c68f-4957-bdc6-f5f4580b9288"
+            },
+            "__EMPTY_1": {
+                "value": "Oficina Integ. Luana               Lab. 22",
+                "columnIndex": 6724331834906,
+                "id": "0f199eb8-56c6-42c2-b925-9e07744b0c30"
+            },
+            "__EMPTY_2": {
+                "value": "Oficina Integ. Nathan             Lab. 36",
+                "columnIndex": 6724331834907,
+                "id": "51831735-745e-4004-ad00-676db793e572"
+            },
+            "__EMPTY_3": {
+                "value": "Oficina Integ. Fabri                   Lab. 35",
+                "columnIndex": 6724331834908,
+                "id": "75f9c5bb-aa0f-4257-8a41-544f939516d2"
+            },
+            "__EMPTY_4": {
+                "value": "Biologia                  Andrea                   sala 42",
+                "columnIndex": 6724331834909,
+                "id": "bc18d1e2-b340-4f45-ac66-92fa17180331"
+            },
+            "__EMPTY_5": {
+                "value": "Geografia Adriana                    Sala 44",
+                "columnIndex": 6724331834910,
+                "id": "aacbc8f0-aaa0-4444-ba98-53f68f3986db"
+            },
+            "__EMPTY_6": {
+                "value": "Arte.                      Maiara                      Sala 34",
+                "columnIndex": 6724331834911,
+                "id": "d36e27d8-5118-41f7-bc1b-d4c33c78c307"
+            },
+            "__EMPTY_7": {
+                "value": "Lab. Ciên. Natureza                                MC                            Sala 43",
+                "columnIndex": 6724331834912,
+                "id": "7b3e5658-d098-4a8c-af15-7364a45aff1b"
+            },
+            "__EMPTY_8": {
+                "value": "Filosofia               Diogo                    Sala 32",
+                "columnIndex": 6724331834913,
+                "id": "bba0fa2c-c2de-40b5-b467-99272574908a"
+            },
+            "__EMPTY_9": {
+                "value": "Química           Sérgio                         Sala 41",
+                "columnIndex": 6724331834914,
+                "id": "2cb1d351-bcbb-445d-b3bb-445218a88145"
+            },
+            "__EMPTY_10": {
+                "value": "Sociologia                   Clara                Sala 31",
+                "columnIndex": 174832627707565,
+                "id": "ff5a202a-f599-419a-9b1e-3c7698b6ca15"
+            },
+            "__EMPTY_11": {
+                "value": "Matemática Marcelo.                       Sala 33",
+                "columnIndex": 174832627707566,
+                "id": "d0c2a6c4-2a41-4a10-87d9-f017a7a6ac8c"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "11:25 - 12:15",
+                "columnIndex": 1832607044045883100,
+                "id": "0a7d6251-96f4-4b7e-bad6-ce28a092d518"
+            },
+            "__EMPTY": {
+                "value": "Oficina Integ. Michele            Sala 34",
+                "columnIndex": 9947236440,
+                "id": "b390d6fc-674e-4d98-a73d-25d73420d9e6"
+            },
+            "__EMPTY_1": {
+                "value": "Oficina Integ. Luana                          Lab. 22",
+                "columnIndex": 6724331834906,
+                "id": "a0c261b1-3c31-4c44-a00b-08f8c0eb4dac"
+            },
+            "__EMPTY_2": {
+                "value": "Oficina Integ. Nathan                   Lab. 36",
+                "columnIndex": 6724331834907,
+                "id": "add4bc71-21ec-4ba9-a5e6-cff9bbf931c4"
+            },
+            "__EMPTY_3": {
+                "value": "Oficina Integ. Fabri                                Lab. 35",
+                "columnIndex": 6724331834908,
+                "id": "f80c83fb-c156-44c7-a40f-7544a727082f"
+            },
+            "__EMPTY_4": {
+                "value": "Biologia                    Andrea                Sala 42",
+                "columnIndex": 6724331834909,
+                "id": "1c3d2b69-d8bf-45b1-a07d-b9e7e69a0cc5"
+            },
+            "__EMPTY_5": {
+                "value": "Geografia Adriana                    Sala 44",
+                "columnIndex": 6724331834910,
+                "id": "1d8f4eeb-773c-4112-a34b-9c5e56332965"
+            },
+            "__EMPTY_6": {
+                "value": "Arte.                      Maiara                      Sala 34",
+                "columnIndex": 6724331834911,
+                "id": "cf2ed858-a11a-4f09-be46-aa7de2dfe37e"
+            },
+            "__EMPTY_7": {
+                "value": "Lab. Ciên. Natureza                                   MC                                       Sala 43",
+                "columnIndex": 6724331834912,
+                "id": "09820f4f-8caa-427d-994f-ed09f2cbf98c"
+            },
+            "__EMPTY_8": {
+                "value": "Filosofia                Diogo                          Sala 32",
+                "columnIndex": 6724331834913,
+                "id": "3a2d33dc-36e9-4b25-a964-5a984f56138d"
+            },
+            "__EMPTY_9": {
+                "value": "Química          Sérgio                    Sala 41",
+                "columnIndex": 6724331834914,
+                "id": "2f19be0b-98b0-472f-8194-2e7653c105dc"
+            },
+            "__EMPTY_10": {
+                "value": "Sociologia       Clara                          Sala 31",
+                "columnIndex": 174832627707565,
+                "id": "4af41ff3-8cf5-4e8a-b5d7-b77b0f2686db"
+            },
+            "__EMPTY_11": {
+                "value": "Matemática Marcelo.                       Sala 33",
+                "columnIndex": 174832627707566,
+                "id": "02f0d83b-fc17-4a12-8665-6ade6a2bc4e5"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "ALMOÇO - 12:15 - 13:25",
+                "columnIndex": 1832607044045883100,
+                "id": "f2f6375a-fe25-4eb7-86ee-50cf36f33452"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "13:25 - 14:15",
+                "columnIndex": 1832607044045883100,
+                "id": "d6a9f5c3-a457-4d39-9227-c83130e43927"
+            },
+            "__EMPTY": {
+                "value": "Lab Matemática Marcelo.                     Sala 33 ",
+                "columnIndex": 9947236440,
+                "id": "7059dbd3-71fe-4533-b56c-c795fd616a20"
+            },
+            "__EMPTY_1": {
+                "value": "Oficina Integ. Luana                    Lab. 22",
+                "columnIndex": 6724331834906,
+                "id": "13836436-d326-4e0f-a83e-493f45eca704"
+            },
+            "__EMPTY_2": {
+                "value": "Filosofia. Mariana                       Sala 44",
+                "columnIndex": 6724331834907,
+                "id": "d83a8bf2-df30-4b79-a57a-c978cebc8ec3"
+            },
+            "__EMPTY_3": {
+                "value": "Lógica de Progr. Nathan                 Lab 36",
+                "columnIndex": 6724331834908,
+                "id": "30e0adba-ee49-47f5-a8a1-a360cdb5ff5e"
+            },
+            "__EMPTY_4": {
+                "value": "Ref. escolar                  Rose                    Sala 24",
+                "columnIndex": 6724331834909,
+                "id": "53a5ef73-9616-49cb-8a84-47c21356c25e"
+            },
+            "__EMPTY_5": {
+                "value": "Estu. orient.                    M. Cristina                   Sala 43",
+                "columnIndex": 6724331834910,
+                "id": "0dbcde23-75b6-4c0b-9a93-ee98a6c92908"
+            },
+            "__EMPTY_6": {
+                "value": "Proj. de Vida João                 Espaço Z",
+                "columnIndex": 6724331834911,
+                "id": "3f72d6f1-4a6f-4cca-9553-231cbca47d04"
+            },
+            "__EMPTY_7": {
+                "value": "Lab Matemática   Suzana                     Sala 31 ",
+                "columnIndex": 6724331834912,
+                "id": "168778a5-9be0-49ac-b83d-33d525ca8f62"
+            },
+            "__EMPTY_8": {
+                "value": "Química     Sérgio              Sala 41",
+                "columnIndex": 6724331834913,
+                "id": "2584dcfe-b786-43d6-8307-c27609005bd5"
+            },
+            "__EMPTY_9": {
+                "value": "Matemática. Ernani.                  Sala 32",
+                "columnIndex": 6724331834914,
+                "id": "d1865891-c212-40e8-9b7b-8a873f3d32ff"
+            },
+            "__EMPTY_10": {
+                "value": "Biologia           Andrea             Sala 42",
+                "columnIndex": 174832627707565,
+                "id": "3c98e8f7-2b62-4694-b8c9-59cb888d383b"
+            },
+            "__EMPTY_11": {
+                "value": "Oficina Integ. Jamv                      Lab. 35",
+                "columnIndex": 174832627707566,
+                "id": "a31c62e1-e21f-47e0-adcc-ca28a288262f"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "14:15 - 15:05",
+                "columnIndex": 1832607044045883100,
+                "id": "4a49ad9d-ae59-4808-a92c-f31d56e05fde"
+            },
+            "__EMPTY": {
+                "value": "Lab Matemática Marcelo.                     Sala 33 ",
+                "columnIndex": 9947236440,
+                "id": "3054e4a0-4f52-43d1-a639-280e45ed9c4a"
+            },
+            "__EMPTY_1": {
+                "value": "Lab. Linguagens  Maiara                  Sala 34",
+                "columnIndex": 6724331834906,
+                "id": "94737d38-c684-4a76-b9a6-0fbbdeb7681b"
+            },
+            "__EMPTY_2": {
+                "value": "Filosofia. Mariana                       Sala 44",
+                "columnIndex": 6724331834907,
+                "id": "82595df6-8858-4c1a-9497-6020b311ba84"
+            },
+            "__EMPTY_3": {
+                "value": "Lógica de Progr. Nathan                    Lab 36",
+                "columnIndex": 6724331834908,
+                "id": "44b8774d-d4ca-4a24-b14e-026a4a60778b"
+            },
+            "__EMPTY_4": {
+                "value": "Estu. orient.                    M. Cristina                   Sala 43",
+                "columnIndex": 6724331834909,
+                "id": "5423c14a-1c7e-486d-a03c-d7d412316b5f"
+            },
+            "__EMPTY_5": {
+                "value": "Ref. escolar                  Rose                    Sala 24",
+                "columnIndex": 6724331834910,
+                "id": "048d6561-6491-4cc7-b63f-c5c3b2d37e9f"
+            },
+            "__EMPTY_6": {
+                "value": "Proj. de Vida João                 Espaço Z",
+                "columnIndex": 6724331834911,
+                "id": "986b3202-ce75-474f-987f-4bf9b55ff10c"
+            },
+            "__EMPTY_7": {
+                "value": "Lab Matemática   Suzana                     Sala 31 ",
+                "columnIndex": 6724331834912,
+                "id": "21469362-ca69-4d89-9491-2b2a4ad7865b"
+            },
+            "__EMPTY_8": {
+                "value": "Química           Sérgio                  Sala 41",
+                "columnIndex": 6724331834913,
+                "id": "77f02b03-f85a-4a13-8301-5a1bb09762c5"
+            },
+            "__EMPTY_9": {
+                "value": "Matemática. Ernani.                      Sala 32",
+                "columnIndex": 6724331834914,
+                "id": "bb635a25-2f31-4989-9402-f01f3ea18edf"
+            },
+            "__EMPTY_10": {
+                "value": "Biologia                Andrea                 Sala 42",
+                "columnIndex": 174832627707565,
+                "id": "7b210774-d1ac-4e9e-b4d9-4b7ac3904323"
+            },
+            "__EMPTY_11": {
+                "value": "Oficina Integ. Jamv                     Lab. 35",
+                "columnIndex": 174832627707566,
+                "id": "e24bcd50-6fb5-4826-a43e-ed6b202cfc54"
+            },
+            "__EMPTY_14": {
+                "value": "     ",
+                "columnIndex": 174832627707569,
+                "id": "79c3a9a0-af52-46ab-a390-7813fe713de9"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "LANCHE - 15:05 - 15:20",
+                "columnIndex": 1832607044045883100,
+                "id": "99f884ad-336c-49d4-8e1c-bc67d2dde217"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "15:20 - 16:10",
+                "columnIndex": 1832607044045883100,
+                "id": "a82e5fbc-abd4-4ec6-a425-adf66bb5a42d"
+            },
+            "__EMPTY": {
+                "value": "Int. Mídias Digitais Michele                            Lab 21",
+                "columnIndex": 9947236440,
+                "id": "9d538793-b7d4-494b-a956-85b752bd41c1"
+            },
+            "__EMPTY_1": {
+                "value": "Lab. Linguagens  Maiara                  Sala 34",
+                "columnIndex": 6724331834906,
+                "id": "7220a24f-558e-4ffa-a2f2-8fbde5645d9f"
+            },
+            "__EMPTY_2": {
+                "value": "Lógica de Progr.                  Fabri                                             Lab 35",
+                "columnIndex": 6724331834907,
+                "id": "4078542b-d146-437d-bd4c-eb1f1af81c01"
+            },
+            "__EMPTY_3": {
+                "value": "Filosofia. Mariana                       Sala 44",
+                "columnIndex": 6724331834908,
+                "id": "23816ef7-b728-445d-b85a-296e0d5138b6"
+            },
+            "__EMPTY_4": {
+                "value": "Oficina Integ. Luana              Lab. 22",
+                "columnIndex": 6724331834909,
+                "id": "30666b1c-1bb8-49b6-aa77-74e0292b67b0"
+            },
+            "__EMPTY_5": {
+                "value": "Biologia              Andrea                     Sala 42             ",
+                "columnIndex": 6724331834910,
+                "id": "8915578f-cf25-4cd0-af23-ecf2091e17bc"
+            },
+            "__EMPTY_6": {
+                "value": "Lab. Ciên. Natureza                           MC                           Sala 43",
+                "columnIndex": 6724331834911,
+                "id": "57f98d84-41bc-471c-ab35-509556da9f3b"
+            },
+            "__EMPTY_7": {
+                "value": "Proj. de Vida João                 Espaço Z",
+                "columnIndex": 6724331834912,
+                "id": "f2412562-5c68-4424-a36f-5c4729ebe0aa"
+            },
+            "__EMPTY_8": {
+                "value": "Matemática. Ernani.                Sala 32",
+                "columnIndex": 6724331834913,
+                "id": "d08d979c-5af0-4187-8973-df356b270b5b"
+            },
+            "__EMPTY_9": {
+                "value": "Ens. Religioso Rose                            Biblioteca",
+                "columnIndex": 6724331834914,
+                "id": "a685fa24-e210-46d0-b099-aaddfb7fc390"
+            },
+            "__EMPTY_10": {
+                "value": "Ens. Religioso Rose                                 Biblioteca",
+                "columnIndex": 174832627707565,
+                "id": "748a5c55-57b3-4b52-9005-621421e8d760"
+            },
+            "__EMPTY_11": {
+                "value": "Filosofia       Diogo                          Sala 31",
+                "columnIndex": 174832627707566,
+                "id": "6b73aa6d-e013-490f-b397-ab32af4948aa"
+            }
+        },
+        {
+            "SEGUNDA-FEIRA": {
+                "value": "16:10 - 17:00",
+                "columnIndex": 1832607044045883100,
+                "id": "c9183d79-e30e-4d90-b6d6-3459cfd3dbd5"
+            },
+            "__EMPTY": {
+                "value": "Int. Mídias Digitais Michele                                Lab 21",
+                "columnIndex": 9947236440,
+                "id": "5a22fef2-2d70-4dd4-96f5-1d6325a439a9"
+            },
+            "__EMPTY_1": {
+                "value": "Lab. Linguagens Maiara                    Sala 34",
+                "columnIndex": 6724331834906,
+                "id": "30a1f69c-67fd-4db2-899e-1e19b6016bbc"
+            },
+            "__EMPTY_2": {
+                "value": "Lógica de Program.                Fabri                                                      Lab 35",
+                "columnIndex": 6724331834907,
+                "id": "2d2ecb8e-7a56-4910-b66c-608b4165db15"
+            },
+            "__EMPTY_3": {
+                "value": "Filosofia. Mariana                       Sala 44",
+                "columnIndex": 6724331834908,
+                "id": "f5e112cf-2f7f-4641-a868-8bf6223bcf1b"
+            },
+            "__EMPTY_4": {
+                "value": "Oficina Integ. Luana                     Lab. 22",
+                "columnIndex": 6724331834909,
+                "id": "ac18e5a0-17cb-4d5a-a70d-b0bf502c1478"
+            },
+            "__EMPTY_5": {
+                "value": "Biologia                    Andrea                 Sala 42",
+                "columnIndex": 6724331834910,
+                "id": "b194b19d-a50f-4407-a417-8b33e7f7c44a"
+            },
+            "__EMPTY_6": {
+                "value": "Lab. Ciên. Natureza                              MC                        Sala 43",
+                "columnIndex": 6724331834911,
+                "id": "7ecb447d-bd62-4b8d-a66c-29db22daa73d"
+            },
+            "__EMPTY_7": {
+                "value": "Proj. de Vida João                 Espaço Z",
+                "columnIndex": 6724331834912,
+                "id": "ad677e92-affe-4b94-bb68-4752356d8a6a"
+            },
+            "__EMPTY_8": {
+                "value": "Matemática. Ernani.                Sala 32",
+                "columnIndex": 6724331834913,
+                "id": "0782c53d-339f-47e9-a05b-b2b0768cfa18"
+            },
+            "__EMPTY_11": {
+                "value": "Filosofia       Diogo                          Sala 31",
+                "columnIndex": 174832627707566,
+                "id": "a16f4870-3447-4968-a7ef-9193e732cfc5"
+            }
+        }
+    ],
+    [
+        {
+            "__EMPTY": {
+                "value": "1001",
+                "columnIndex": 9947236440,
+                "id": "109a7e28-1e53-4a64-99aa-1f18a1e23da6"
+            },
+            "__EMPTY_1": {
+                "value": "1002",
+                "columnIndex": 6724331834906,
+                "id": "17ec58ce-0df1-4656-ae77-aa34faa871bb"
+            },
+            "__EMPTY_2": {
+                "value": "1003",
+                "columnIndex": 6724331834907,
+                "id": "71beec7c-49fb-4316-9170-acdfa4f060e1"
+            },
+            "__EMPTY_3": {
+                "value": "1004",
+                "columnIndex": 6724331834908,
+                "id": "3ce58b8e-aed9-4a37-a1b6-0905b2b8b783"
+            },
+            "__EMPTY_4": {
+                "value": "2001",
+                "columnIndex": 6724331834909,
+                "id": "fa69cee1-fcb9-4e34-a692-372e6584abed"
+            },
+            "__EMPTY_5": {
+                "value": "2002",
+                "columnIndex": 6724331834910,
+                "id": "f6a06155-a492-4a1b-8dd6-de5dea0a26a3"
+            },
+            "__EMPTY_6": {
+                "value": "2003",
+                "columnIndex": 6724331834911,
+                "id": "e0d63bfd-ba31-4fd3-add0-01cc43050720"
+            },
+            "__EMPTY_7": {
+                "value": "2004",
+                "columnIndex": 6724331834912,
+                "id": "803323fc-0082-442e-b7d5-906ac0d61b3f"
+            },
+            "__EMPTY_8": {
+                "value": "3001",
+                "columnIndex": 6724331834913,
+                "id": "7bca7489-6d2d-4109-a8f9-9d3a88eac28e"
+            },
+            "__EMPTY_9": {
+                "value": "3002",
+                "columnIndex": 6724331834914,
+                "id": "14214044-93e9-4a1e-8b14-2ce5f3eda97e"
+            },
+            "__EMPTY_10": {
+                "value": "3003",
+                "columnIndex": 174832627707565,
+                "id": "7d9e1217-a174-4bc5-9e2a-2068aba60593"
+            },
+            "__EMPTY_11": {
+                "value": "3004",
+                "columnIndex": 174832627707566,
+                "id": "92b5749d-8211-49f3-b2ec-605de06d6e70"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "7:00 - 7:50",
+                "columnIndex": 1930204791949376500,
+                "id": "43f697fb-5319-4638-812c-37c4f4a2bc4f"
+            },
+            "__EMPTY": {
+                "value": "MATEMÁTICA  SUZANA                          SALA 33",
+                "columnIndex": 9947236440,
+                "id": "ffb5d37a-237b-47e5-a4e3-d54cdc43bdf7"
+            },
+            "__EMPTY_1": {
+                "value": "INGLÊS       SÔNIA                      SALA  41",
+                "columnIndex": 6724331834906,
+                "id": "175d1578-fc95-46cc-accb-9583da269944"
+            },
+            "__EMPTY_2": {
+                "value": "REF. DE EST. ROSE               ESPAÇO Z",
+                "columnIndex": 6724331834907,
+                "id": "03c38336-537d-433e-9a66-07d3efe2c40f"
+            },
+            "__EMPTY_3": {
+                "value": "EST. ORIENT.                MC                  SALA 43",
+                "columnIndex": 6724331834908,
+                "id": "db220d96-7d91-4008-94c7-9f22d735c1e0"
+            },
+            "__EMPTY_4": {
+                "value": "MATEMÁTICA ALEXANDRE  SALA 32",
+                "columnIndex": 6724331834909,
+                "id": "bd01d116-6c7d-4d27-817b-3d85baf04067"
+            },
+            "__EMPTY_5": {
+                "value": "LÍNG. PORT RENATA                             BIBLIOTECA",
+                "columnIndex": 6724331834910,
+                "id": "58a48048-7e6a-410f-8f97-4090d18a4f97"
+            },
+            "__EMPTY_6": {
+                "value": "GEOGRAFIA MARTA               SALA 24",
+                "columnIndex": 6724331834911,
+                "id": "0242ed90-51fb-4a32-ad76-dbe81636aff1"
+            },
+            "__EMPTY_7": {
+                "value": "BIOLOGIA                   DANI B                       SALA 42",
+                "columnIndex": 6724331834912,
+                "id": "18a821d1-b79f-4ce5-b6e7-32f4dad434ca"
+            },
+            "__EMPTY_8": {
+                "value": "MATEMÁTICA     ERNANI           SALA 31",
+                "columnIndex": 6724331834913,
+                "id": "ad952c2d-f7f0-43d5-b1d3-3d4d0053cb6b"
+            },
+            "__EMPTY_9": {
+                "value": "LÍNG. PORT ÁUREA                   SALA 44",
+                "columnIndex": 6724331834914,
+                "id": "ab6bdea9-e6a2-44f6-8bb9-869a0b13d056"
+            },
+            "__EMPTY_10": {
+                "value": "HISTÓRIA               JOÃO ALBERTO                SALA 45",
+                "columnIndex": 174832627707565,
+                "id": "5e3b2a2b-4aa3-400c-bfce-76a28974821b"
+            },
+            "__EMPTY_11": {
+                "value": "FÍSICA          FLÁVIO              SALA 34",
+                "columnIndex": 174832627707566,
+                "id": "a54625fe-ef43-4443-ad57-675691489090"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "7:50 - 8:40",
+                "columnIndex": 1930204791949376500,
+                "id": "a6e322df-1c2e-48f2-9287-299fce8e343b"
+            },
+            "__EMPTY": {
+                "value": "MATEMÁTICA  SUZANA                          SALA 33",
+                "columnIndex": 9947236440,
+                "id": "7984c7b0-dc39-4045-96d3-ffb81ff0a8ef"
+            },
+            "__EMPTY_1": {
+                "value": "INGLÊS       SÔNIA                      SALA  41",
+                "columnIndex": 6724331834906,
+                "id": "d3d923f9-0362-408e-a882-4778cebb7173"
+            },
+            "__EMPTY_2": {
+                "value": "EST. ORIENT.                MC                  SALA 43",
+                "columnIndex": 6724331834907,
+                "id": "161a8c92-b5e4-4b6e-b44e-c7188ec2bd1a"
+            },
+            "__EMPTY_3": {
+                "value": "REF. DE EST. ROSE               ESPAÇO Z",
+                "columnIndex": 6724331834908,
+                "id": "d5bb95a8-ffab-41ac-923d-602009ad932b"
+            },
+            "__EMPTY_4": {
+                "value": "MATEMÁTICA ALEXANDRE  SALA 32",
+                "columnIndex": 6724331834909,
+                "id": "c2ad31f7-1668-416e-abc5-e7102f56422e"
+            },
+            "__EMPTY_5": {
+                "value": "LÍNG. PORT RENATA                             BIBLIOTECA",
+                "columnIndex": 6724331834910,
+                "id": "5615fcb5-95d4-4060-89b6-f4f047b969ca"
+            },
+            "__EMPTY_6": {
+                "value": "GEOGRAFIA MARTA               SALA 24",
+                "columnIndex": 6724331834911,
+                "id": "dc7732f5-70fa-4d73-b254-480eaf8b10c8"
+            },
+            "__EMPTY_7": {
+                "value": "BIOLOGIA                   DANI B                       SALA 42",
+                "columnIndex": 6724331834912,
+                "id": "549adaee-3700-4347-b664-774568f96231"
+            },
+            "__EMPTY_8": {
+                "value": "MATEMÁTICA     ERNANI           SALA 31",
+                "columnIndex": 6724331834913,
+                "id": "ba72b815-d157-4ce0-877e-815ba99b1955"
+            },
+            "__EMPTY_9": {
+                "value": "LÍNG. PORT ÁUREA                   SALA 44",
+                "columnIndex": 6724331834914,
+                "id": "9f1c12b4-f8be-4612-9176-0457fc2bb88e"
+            },
+            "__EMPTY_10": {
+                "value": "HISTÓRIA               JOÃO ALBERTO                SALA 45",
+                "columnIndex": 174832627707565,
+                "id": "70417ec7-d9ef-4ac2-b798-510bd2e83d50"
+            },
+            "__EMPTY_11": {
+                "value": "FÍSICA          FLÁVIO              SALA 34",
+                "columnIndex": 174832627707566,
+                "id": "87fcbff1-9ae8-4aa2-96a3-56cb4c6aebc5"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "LANCHE - 8:40 - 8:55",
+                "columnIndex": 1930204791949376500,
+                "id": "a2b9dfe7-0ed6-4151-b9f2-3a19992ae679"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "8:55 - 9:45",
+                "columnIndex": 1930204791949376500,
+                "id": "c59e039f-a027-4929-8433-1f45da65310f"
+            },
+            "__EMPTY": {
+                "value": "REF. DE EST. ROSE               SALA 45",
+                "columnIndex": 9947236440,
+                "id": "b0167e78-936c-4bf2-844c-93d256705003"
+            },
+            "__EMPTY_1": {
+                "value": "EST. ORIENT.                MC                  SALA 43",
+                "columnIndex": 6724331834906,
+                "id": "7f62a9bf-5341-4437-b1fd-f05bfdc220cb"
+            },
+            "__EMPTY_2": {
+                "value": "INGLÊS       SÔNIA                      SALA  41",
+                "columnIndex": 6724331834907,
+                "id": "dcd55091-19b0-43ba-a6de-75aa31064d67"
+            },
+            "__EMPTY_3": {
+                "value": "LAB MATEMÁ. CRIS N                      SALA 33",
+                "columnIndex": 6724331834908,
+                "id": "0417befe-7c0d-4299-a610-05082a07b32b"
+            },
+            "__EMPTY_4": {
+                "value": "MATEMÁTICA ALEXANDRE  SALA 32",
+                "columnIndex": 6724331834909,
+                "id": "87e730f4-2744-4e9c-872a-ab76b27e7bbf"
+            },
+            "__EMPTY_5": {
+                "value": "LÍNG. PORT RENATA                             BIBLIOTECA",
+                "columnIndex": 6724331834910,
+                "id": "3f9fab46-a150-4daf-82ce-499740e881b6"
+            },
+            "__EMPTY_6": {
+                "value": "BIOLOGIA                   DANI B                       SALA 42",
+                "columnIndex": 6724331834911,
+                "id": "5ced7af8-b74b-4657-840c-290232f7af91"
+            },
+            "__EMPTY_7": {
+                "value": "GEOGRAFIA MARTA               SALA 24",
+                "columnIndex": 6724331834912,
+                "id": "674dfe83-dd92-4b02-88b3-e007f3b7524c"
+            },
+            "__EMPTY_8": {
+                "value": "MATEMÁTICA     ERNANI           SALA 31",
+                "columnIndex": 6724331834913,
+                "id": "e8ebc91b-2ef4-4849-b182-1716034d637e"
+            },
+            "__EMPTY_9": {
+                "value": "LÍNG. PORT ÁUREA                   SALA 44",
+                "columnIndex": 6724331834914,
+                "id": "3300206d-2dd7-48e6-af84-1d878a6a00ac"
+            },
+            "__EMPTY_10": {
+                "value": "FÍSICA          FLÁVIO              SALA 34",
+                "columnIndex": 174832627707565,
+                "id": "13a18c56-c3d3-4605-ab1b-714a33b3890f"
+            },
+            "__EMPTY_11": {
+                "value": "HISTÓRIA               JOÃO ALBERTO                SALA 45",
+                "columnIndex": 174832627707566,
+                "id": "33061c7a-13cf-4498-817c-1046743c39c7"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "9:45 - 10:35",
+                "columnIndex": 1930204791949376500,
+                "id": "5d6c19c4-b7f4-4b77-847e-3487a7bf4f00"
+            },
+            "__EMPTY": {
+                "value": "EST. ORIENT.                MC                  SALA 43",
+                "columnIndex": 9947236440,
+                "id": "a4e1792c-8c5d-443d-b31b-6467b914d019"
+            },
+            "__EMPTY_1": {
+                "value": "REF. DE EST. ROSE               SALA 45",
+                "columnIndex": 6724331834906,
+                "id": "24f9c741-0370-45b7-a00f-53db2fcea86b"
+            },
+            "__EMPTY_2": {
+                "value": "INGLÊS       SÔNIA                      SALA  41",
+                "columnIndex": 6724331834907,
+                "id": "d7fcfcf8-8fa9-4c02-b7fa-fb75321849da"
+            },
+            "__EMPTY_3": {
+                "value": "LAB MATEMÁ. CRIS N                             SALA 33",
+                "columnIndex": 6724331834908,
+                "id": "8ef52803-0b19-41ae-98b8-1faa31000990"
+            },
+            "__EMPTY_4": {
+                "value": "LÍNG. PORT ÁUREA                   SALA 44",
+                "columnIndex": 6724331834909,
+                "id": "0e20f80d-9365-46e4-bf90-d6057a4c8569"
+            },
+            "__EMPTY_5": {
+                "value": "MATEMÁTICA  SUZANA                  SALA 32",
+                "columnIndex": 6724331834910,
+                "id": "71735c3f-4f1d-45b6-9105-366474fa2671"
+            },
+            "__EMPTY_6": {
+                "value": "BIOLOGIA                   DANI B                       SALA 42",
+                "columnIndex": 6724331834911,
+                "id": "c229f2cb-0909-42d6-8b04-b34054841535"
+            },
+            "__EMPTY_7": {
+                "value": "GEOGRAFIA MARTA               SALA 24",
+                "columnIndex": 6724331834912,
+                "id": "29845f56-d195-4795-9f33-4125af2187e0"
+            },
+            "__EMPTY_8": {
+                "value": "LÍNG. PORT RENATA                             BIBLIOTECA",
+                "columnIndex": 6724331834913,
+                "id": "eb4266d7-2ae4-4b03-b07b-bf4b7069e08b"
+            },
+            "__EMPTY_9": {
+                "value": "MATEMÁTICA ERNANI                    SALA 31",
+                "columnIndex": 6724331834914,
+                "id": "a73a895e-0677-4e05-a371-46329c5e477d"
+            },
+            "__EMPTY_10": {
+                "value": "FÍSICA          FLÁVIO              SALA 34",
+                "columnIndex": 174832627707565,
+                "id": "180e8a31-e42e-4549-8390-acfec4f12f1d"
+            },
+            "__EMPTY_11": {
+                "value": "HISTÓRIA               JOÃO ALBERTO                SALA 45",
+                "columnIndex": 174832627707566,
+                "id": "f22df043-3523-4ad6-8e59-84377ea2b58d"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "10:35 - 11:25",
+                "columnIndex": 1930204791949376500,
+                "id": "e8eabde0-9b56-484f-b41c-5f7d981223d6"
+            },
+            "__EMPTY": {
+                "value": "INGLÊS       SÔNIA                      SALA  41",
+                "columnIndex": 9947236440,
+                "id": "10e1fb89-5a6d-4b19-bb9b-368cea2a2e7e"
+            },
+            "__EMPTY_1": {
+                "value": "INT. MÍDIAS DIG. MICHELE LAB 21",
+                "columnIndex": 6724331834906,
+                "id": "b901cb4f-f87a-4883-8088-31d9a32d3edc"
+            },
+            "__EMPTY_2": {
+                "value": "FÍSICA          FLÁVIO              SALA 34",
+                "columnIndex": 6724331834907,
+                "id": "4c66dbc9-c708-4e82-b35e-0dc8528a5509"
+            },
+            "__EMPTY_3": {
+                "value": "BIOLOGIA                   DANI B                       SALA 42",
+                "columnIndex": 6724331834908,
+                "id": "289e065d-71be-4617-bf79-60afae8a120a"
+            },
+            "__EMPTY_4": {
+                "value": "LÍNG. PORT ÁUREA                   SALA 44",
+                "columnIndex": 6724331834909,
+                "id": "81bde55e-af2b-48e2-b793-d2a3d768bd70"
+            },
+            "__EMPTY_5": {
+                "value": "MATEMÁTICA  SUZANA                  SALA 32",
+                "columnIndex": 6724331834910,
+                "id": "96c73825-2906-4269-9876-40326851c95c"
+            },
+            "__EMPTY_6": {
+                "value": "PRO. ART. DIG.                              IGOR                            LAB 35",
+                "columnIndex": 6724331834911,
+                "id": "33d08e9c-dfa9-4a24-81b0-90c11d24012f"
+            },
+            "__EMPTY_7": {
+                "value": "HISTÓRIA               JOÃO ALBERTO                SALA 45",
+                "columnIndex": 6724331834912,
+                "id": "035e9322-e603-4071-b1f2-2fef6f81f23b"
+            },
+            "__EMPTY_8": {
+                "value": "LÍNG. PORT RENATA                             BIBLIOTECA",
+                "columnIndex": 6724331834913,
+                "id": "9ce1bf48-943a-46df-b9af-3203794a54d6"
+            },
+            "__EMPTY_9": {
+                "value": "MATEMÁTICA ERNANI                 SALA 31",
+                "columnIndex": 6724331834914,
+                "id": "54409aec-19c8-4fec-bbe3-dc74da1c48a1"
+            },
+            "__EMPTY_10": {
+                "value": "MATEMÁTICA CRIS N                        SALA 33",
+                "columnIndex": 174832627707565,
+                "id": "1527d356-8651-4a63-96cc-74fcd628932a"
+            },
+            "__EMPTY_11": {
+                "value": "GEOGRAFIA MARTA               SALA 24",
+                "columnIndex": 174832627707566,
+                "id": "6a8f7ea2-144e-43f7-84d8-1f19ed71c3bc"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "11:25 - 12:15",
+                "columnIndex": 1930204791949376500,
+                "id": "5e4ecda2-774b-4761-98b6-57988c22d9aa"
+            },
+            "__EMPTY": {
+                "value": "INGLÊS       SÔNIA                      SALA  41",
+                "columnIndex": 9947236440,
+                "id": "cfe64036-1b39-4698-addd-0e07a0c7f07b"
+            },
+            "__EMPTY_1": {
+                "value": "INT. MÍDIAS DIG. MICHELE LAB 21",
+                "columnIndex": 6724331834906,
+                "id": "f83421f0-4c23-47fc-a0bd-e73fc88d2902"
+            },
+            "__EMPTY_2": {
+                "value": "FÍSICA          FLÁVIO              SALA 34",
+                "columnIndex": 6724331834907,
+                "id": "fb981531-07b8-447a-90ad-ac0db3058c5a"
+            },
+            "__EMPTY_3": {
+                "value": "BIOLOGIA                   DANI B                       SALA 42",
+                "columnIndex": 6724331834908,
+                "id": "079e6f77-0a46-48df-a18a-0ef85b0d3639"
+            },
+            "__EMPTY_4": {
+                "value": "LÍNG. PORT ÁUREA                   SALA 44",
+                "columnIndex": 6724331834909,
+                "id": "b3a621d3-24bd-430a-b708-02a18e49bc98"
+            },
+            "__EMPTY_5": {
+                "value": "MATEMÁTICA  SUZANA                  SALA 32",
+                "columnIndex": 6724331834910,
+                "id": "ea9594a7-9581-4abd-80dc-9eec37e49031"
+            },
+            "__EMPTY_6": {
+                "value": "PRO. ART. DIG.                              IGOR                            LAB 35",
+                "columnIndex": 6724331834911,
+                "id": "64488b53-47ac-4068-9577-a748287d193c"
+            },
+            "__EMPTY_7": {
+                "value": "HISTÓRIA               JOÃO ALBERTO                SALA 45",
+                "columnIndex": 6724331834912,
+                "id": "591721c1-86bb-4a5e-af4c-0e1bdbae0fe5"
+            },
+            "__EMPTY_8": {
+                "value": "LÍNG. PORT RENATA                             BIBLIOTECA",
+                "columnIndex": 6724331834913,
+                "id": "61146fc3-d532-40ad-9fc5-a40679fb9727"
+            },
+            "__EMPTY_9": {
+                "value": "MATEMÁTICA ERNANI                      SALA 31",
+                "columnIndex": 6724331834914,
+                "id": "a258f722-2ab0-4109-b307-b429a7e84a6e"
+            },
+            "__EMPTY_10": {
+                "value": "MATEMÁTICA CRIS N                        SALA 33",
+                "columnIndex": 174832627707565,
+                "id": "d615f7f0-6276-4218-95fd-74e4f82cfe29"
+            },
+            "__EMPTY_11": {
+                "value": "GEOGRAFIA MARTA               SALA 24",
+                "columnIndex": 174832627707566,
+                "id": "fbc15b28-691c-4fe7-97b4-089a352b782e"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "ALMOÇO - 12:15 - 13:25",
+                "columnIndex": 1930204791949376500,
+                "id": "45c2d96e-a3d7-476d-9f4d-ccf533b4192d"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "13:25 - 14:15",
+                "columnIndex": 1930204791949376500,
+                "id": "49799cda-a340-49df-8082-5cf851f0ab74"
+            },
+            "__EMPTY": {
+                "value": "ED FÍSICA                 JOÃO                       ESPAÇO Z",
+                "columnIndex": 9947236440,
+                "id": "e387ad5d-de78-4667-a36a-e2b0578927e2"
+            },
+            "__EMPTY_1": {
+                "value": "LAB CIÊN. HUM. MARIANA                    SALA 44",
+                "columnIndex": 6724331834906,
+                "id": "f67baf6f-4049-4c03-8530-49c84b0e66fb"
+            },
+            "__EMPTY_2": {
+                "value": "MATEMÁTICA             CRISTIANO SALA 33",
+                "columnIndex": 6724331834907,
+                "id": "31fc0ae3-e103-41d3-af38-7d3b7f23039d"
+            },
+            "__EMPTY_3": {
+                "value": "LÍNG. PORT                      DAIELLO                   SALA 34",
+                "columnIndex": 6724331834908,
+                "id": "75599e61-ed31-409c-b9ff-a7c3a978019c"
+            },
+            "__EMPTY_4": {
+                "value": "LAB MATEMÁT. ERNANI                  SALA 32",
+                "columnIndex": 6724331834909,
+                "id": "fe2ffee1-f448-47a2-9f76-1fdd4b6c6902"
+            },
+            "__EMPTY_5": {
+                "value": "LAB CIÊN. NAT. ANDREA                      SALA 42",
+                "columnIndex": 6724331834910,
+                "id": "2cc3ce6c-8a7c-43e9-9302-16a925e4e658"
+            },
+            "__EMPTY_6": {
+                "value": "EST. ORIENT.                MC                  SALA 43",
+                "columnIndex": 6724331834911,
+                "id": "8759149c-504a-4a2f-b591-d225b40ccd81"
+            },
+            "__EMPTY_7": {
+                "value": "REF. ESCOLAR                       ROSE                 SALA 41",
+                "columnIndex": 6724331834912,
+                "id": "8d3e1221-38cd-4881-adb8-3441be478f60"
+            },
+            "__EMPTY_8": {
+                "value": "OFICINA                LUANA                   LAB. 22",
+                "columnIndex": 6724331834913,
+                "id": "8fbc16d5-6d95-4d99-b610-307628df4490"
+            },
+            "__EMPTY_9": {
+                "value": "OFICINA                      IGOR                     LAB. 21",
+                "columnIndex": 6724331834914,
+                "id": "5fb507f2-9f81-4974-bea0-3766e654bcc7"
+            },
+            "__EMPTY_10": {
+                "value": "OFICINA NATHAN                        LAB. 35",
+                "columnIndex": 174832627707565,
+                "id": "4d2c173a-6506-482d-ad4a-98248faaa2c2"
+            },
+            "__EMPTY_11": {
+                "value": "OFICINA                   JAMV                LAB. 36",
+                "columnIndex": 174832627707566,
+                "id": "614d2b0d-f1db-4e8c-a7b5-799008fde4e9"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "14:15 - 15:05",
+                "columnIndex": 1930204791949376500,
+                "id": "878a3e89-a04d-47c9-b2c0-25a98f0808fe"
+            },
+            "__EMPTY": {
+                "value": "ED FÍSICA                 JOÃO                       ESPAÇO Z",
+                "columnIndex": 9947236440,
+                "id": "96dc870a-0344-48c7-bc33-ed3bd079a52b"
+            },
+            "__EMPTY_1": {
+                "value": "LAB CIÊN. HUM. MARIANA                    SALA 44",
+                "columnIndex": 6724331834906,
+                "id": "b9c95ac8-b4c4-49b4-af9b-6896c0131783"
+            },
+            "__EMPTY_2": {
+                "value": "MATEMÁTICA             CRISTIANO SALA 33",
+                "columnIndex": 6724331834907,
+                "id": "6878757d-2294-4d13-9d09-467c35457163"
+            },
+            "__EMPTY_3": {
+                "value": "LÍNG. PORT                         DAIELLO                     SALA 34",
+                "columnIndex": 6724331834908,
+                "id": "0dd7ec1a-a23a-4389-85d3-6febbbcf7080"
+            },
+            "__EMPTY_4": {
+                "value": "LAB MATEMÁT. ERNANI            SALA 32",
+                "columnIndex": 6724331834909,
+                "id": "81a1fd8b-c909-4dba-b5d5-6c2e51bae8c4"
+            },
+            "__EMPTY_5": {
+                "value": "LAB CIÊN. NAT. ANDREA                   SALA 42",
+                "columnIndex": 6724331834910,
+                "id": "c0531716-20d5-497b-b3f2-7ded0b55fec5"
+            },
+            "__EMPTY_6": {
+                "value": "REF. ESCOLAR                       ROSE                 SALA 41",
+                "columnIndex": 6724331834911,
+                "id": "ddc7c76d-58ae-460b-a3a4-3d502a0bb5cd"
+            },
+            "__EMPTY_7": {
+                "value": "EST. ORIENT.                MC                  SALA 43",
+                "columnIndex": 6724331834912,
+                "id": "0da96a30-fd86-4c53-8051-52c857aa5603"
+            },
+            "__EMPTY_8": {
+                "value": "OFICINA                 LUANA                     LAB. 22",
+                "columnIndex": 6724331834913,
+                "id": "9022a753-4613-46e1-896d-35f88bba306e"
+            },
+            "__EMPTY_9": {
+                "value": "OFICINA                            IGOR                          LAB. 21",
+                "columnIndex": 6724331834914,
+                "id": "6d1399f2-4821-40b1-868e-e1849c9c4543"
+            },
+            "__EMPTY_10": {
+                "value": "OFICINA NATHAN                    LAB. 35",
+                "columnIndex": 174832627707565,
+                "id": "399729f7-00a4-4ca5-9204-ffe2287cbc89"
+            },
+            "__EMPTY_11": {
+                "value": "OFICINA                  JAMV                      LAB. 36",
+                "columnIndex": 174832627707566,
+                "id": "4bc72bc2-5c0b-46ef-b036-9d9e91f42f58"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "LANCHE - 15:05 - 15:20",
+                "columnIndex": 1930204791949376500,
+                "id": "a241b830-19c1-4798-875b-d8600eff37cc"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "15:20 - 16:10",
+                "columnIndex": 1930204791949376500,
+                "id": "456cccbe-7f38-4c26-ab5b-4d8a28f1a039"
+            },
+            "__EMPTY": {
+                "value": "LÍNG. PORT                         DAIELLO                     SALA 34",
+                "columnIndex": 9947236440,
+                "id": "0b189fc1-f2aa-4b35-8edd-7c8a1895e8f7"
+            },
+            "__EMPTY_1": {
+                "value": "ED FÍSICA                 JOÃO                       ESPAÇO Z",
+                "columnIndex": 6724331834906,
+                "id": "8fbf72bc-8b8d-4798-81f4-20d75a575266"
+            },
+            "__EMPTY_2": {
+                "value": "CULT. JOGOS IGOR                     LAB. 35",
+                "columnIndex": 6724331834907,
+                "id": "33d67236-b417-4f42-bcd8-9b7fd47674ad"
+            },
+            "__EMPTY_3": {
+                "value": "MATEMÁTICA MARCELO   SALA 32",
+                "columnIndex": 6724331834908,
+                "id": "21204bb0-001a-48b4-a9c6-ceb2182e3736"
+            },
+            "__EMPTY_4": {
+                "value": "LAB CIÊN. NAT. ANDREA                      SALA 42",
+                "columnIndex": 6724331834909,
+                "id": "249f4833-10b4-48b5-bb9a-a17f616d353e"
+            },
+            "__EMPTY_5": {
+                "value": "LAB MATEMÁT. CRISTIANO SALA 45",
+                "columnIndex": 6724331834910,
+                "id": "086e803f-1167-4df4-a98e-bc4bff5d66be"
+            },
+            "__EMPTY_6": {
+                "value": "OFICINA                   JAMV                LAB 35",
+                "columnIndex": 6724331834911,
+                "id": "c0d3e746-1aa2-4778-a012-3b26573208d8"
+            },
+            "__EMPTY_7": {
+                "value": "LAB CIÊN. NAT. MC                     SALA 43",
+                "columnIndex": 6724331834912,
+                "id": "de89f113-c6cc-4b8f-ba03-f94ffaf6a339"
+            },
+            "__EMPTY_8": {
+                "value": "MÍDIAS INT.                LUANA                   LAB 22",
+                "columnIndex": 6724331834913,
+                "id": "eb862936-4f30-401b-9cbb-4b707ee959f6"
+            },
+            "__EMPTY_9": {
+                "value": "3D                       MICHELE                        LAB. 21",
+                "columnIndex": 6724331834914,
+                "id": "19cea8fd-c3d0-4b20-8618-1689b3dd5245"
+            },
+            "__EMPTY_11": {
+                "value": "TPJ                             NATHAN                     LAB. 36",
+                "columnIndex": 174832627707566,
+                "id": "0d6de0b9-8521-464c-92f6-9d49ff307c2c"
+            }
+        },
+        {
+            "TERÇA - FEIRA": {
+                "value": "16:10 - 17:00",
+                "columnIndex": 1930204791949376500,
+                "id": "cd245848-75ec-4c47-8199-09ab78b8210c"
+            },
+            "__EMPTY": {
+                "value": "LÍNG. PORT                         DAIELLO                     SALA 34",
+                "columnIndex": 9947236440,
+                "id": "a60cc4d1-c0a9-4c75-8d53-03269c59b906"
+            },
+            "__EMPTY_1": {
+                "value": "ED FÍSICA                 JOÃO                       ESPAÇO Z",
+                "columnIndex": 6724331834906,
+                "id": "4fadf9fe-ea2c-4698-b075-8d47717ab3ed"
+            },
+            "__EMPTY_2": {
+                "value": "CULT. JOGOS IGOR                     LAB. 35",
+                "columnIndex": 6724331834907,
+                "id": "f4577dcd-c9db-4146-8afd-dd23190f49b2"
+            },
+            "__EMPTY_3": {
+                "value": "MATEMÁTICA MARCELO   SALA 32",
+                "columnIndex": 6724331834908,
+                "id": "14bae9d8-37e0-4cd4-a17c-3db18e927170"
+            },
+            "__EMPTY_4": {
+                "value": "LAB CIÊN. NAT. ANDREA                   SALA 42",
+                "columnIndex": 6724331834909,
+                "id": "7739e2b8-3117-4db4-893b-9a6200cc147a"
+            },
+            "__EMPTY_5": {
+                "value": "LAB MATEMÁT. CRISTIANO SALA 45",
+                "columnIndex": 6724331834910,
+                "id": "f3d42c65-1b0e-4883-949b-91a720bd4348"
+            },
+            "__EMPTY_6": {
+                "value": "OFICINA                  JAMV                      LAB 35",
+                "columnIndex": 6724331834911,
+                "id": "5fa63393-6cf9-41ff-b9d2-c1b04df24c7a"
+            },
+            "__EMPTY_7": {
+                "value": "LAB CIÊN. NAT. MC                     SALA 43",
+                "columnIndex": 6724331834912,
+                "id": "ddaf240a-df22-4a7f-b260-eb7ddf4f84e6"
+            },
+            "__EMPTY_8": {
+                "value": "MÍDIAS INT.                 LUANA                     LAB 22",
+                "columnIndex": 6724331834913,
+                "id": "189eea14-42a0-49c0-a4d6-4437ea85240a"
+            },
+            "__EMPTY_9": {
+                "value": "3D                       MICHELE                        LAB. 21",
+                "columnIndex": 6724331834914,
+                "id": "89f38bbf-be9d-4a6f-b757-43659fae2d8a"
+            },
+            "__EMPTY_11": {
+                "value": "TPJ                             NATHAN                     LAB. 36",
+                "columnIndex": 174832627707566,
+                "id": "5d8915de-d4b9-4880-9200-f7d76045bfe3"
+            }
+        },
+        {
+            "__EMPTY_15": {
+                "value": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+                "columnIndex": 174832627707570,
+                "id": "4465d81e-2094-410a-8c99-8fbaf5db1842"
+            }
+        }
+    ],
+    [
+        {
+            "__EMPTY": {
+                "value": "1001",
+                "columnIndex": 9947236440,
+                "id": "c5099f64-32a9-43e3-b092-178becbd5f18"
+            },
+            "__EMPTY_1": {
+                "value": "1002",
+                "columnIndex": 6724331834906,
+                "id": "158961e3-1bb5-45e0-babc-679ce57f7b61"
+            },
+            "__EMPTY_2": {
+                "value": "1003",
+                "columnIndex": 6724331834907,
+                "id": "58eab746-80ba-45c8-83a2-c84fa569eaa8"
+            },
+            "__EMPTY_3": {
+                "value": "1004",
+                "columnIndex": 6724331834908,
+                "id": "215791f8-ecc5-432b-85fa-c3a05f3cfb66"
+            },
+            "__EMPTY_4": {
+                "value": "2001",
+                "columnIndex": 6724331834909,
+                "id": "f6cb7115-98e6-47e0-a4ce-9a5e55b4f168"
+            },
+            "__EMPTY_5": {
+                "value": "2002",
+                "columnIndex": 6724331834910,
+                "id": "6f607ff0-9d0a-42c4-928f-bc9318ac7ee4"
+            },
+            "__EMPTY_6": {
+                "value": "2003",
+                "columnIndex": 6724331834911,
+                "id": "83228fcd-9073-4b60-afcf-6e8ffec4839b"
+            },
+            "__EMPTY_7": {
+                "value": "2004",
+                "columnIndex": 6724331834912,
+                "id": "6d5c1c40-dab6-4b84-ba2d-7748cbabcbb8"
+            },
+            "__EMPTY_8": {
+                "value": "3001",
+                "columnIndex": 6724331834913,
+                "id": "6575e358-47ad-4fcb-9c9e-b147c24a2d96"
+            },
+            "__EMPTY_9": {
+                "value": "3002",
+                "columnIndex": 6724331834914,
+                "id": "5f125573-6181-440e-81e3-0076a1007fd3"
+            },
+            "__EMPTY_10": {
+                "value": "3003",
+                "columnIndex": 174832627707565,
+                "id": "a75653ac-fbf7-4466-8ff3-3cdb6221f26f"
+            },
+            "__EMPTY_11": {
+                "value": "3004",
+                "columnIndex": 174832627707566,
+                "id": "27f1ff11-5cb4-48f5-8812-b58616fdf54d"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "7:00 - 7:50",
+                "columnIndex": 1699612573963549400,
+                "id": "6e7a8de7-9868-46c6-a218-5a633f755b42"
+            },
+            "__EMPTY": {
+                "value": "HIST         MARCELO G       SALA 42",
+                "columnIndex": 9947236440,
+                "id": "e3a19d9a-1d15-455e-8501-5ea9e53884c8"
+            },
+            "__EMPTY_1": {
+                "value": "PROJ. DE VIDA      MAIARA            SALA 34",
+                "columnIndex": 6724331834906,
+                "id": "920f65d9-0495-4085-8508-fba07e675b00"
+            },
+            "__EMPTY_2": {
+                "value": "ED. FÍSICA      MARCOS    ESPAÇO Z         ",
+                "columnIndex": 6724331834907,
+                "id": "9d946535-b1b8-4a23-87ba-5408e3b27508"
+            },
+            "__EMPTY_3": {
+                "value": "OFICINA                   FABRI                  LAB. 36",
+                "columnIndex": 6724331834908,
+                "id": "b7dd7698-d0f0-45e2-92d7-af09527b2ced"
+            },
+            "__EMPTY_4": {
+                "value": "LAB CN                 ANDREA                    SALA 42",
+                "columnIndex": 6724331834909,
+                "id": "c2c3e803-affd-48fb-b195-33524de44ef2"
+            },
+            "__EMPTY_5": {
+                "value": "OFICINA MICHELE                  LAB. 21",
+                "columnIndex": 6724331834910,
+                "id": "cfebde37-98d0-4653-87d4-847652b96e50"
+            },
+            "__EMPTY_6": {
+                "value": "QUÍM                     SÉRGIO                 SALA 41",
+                "columnIndex": 6724331834911,
+                "id": "cef0be3b-8cca-472d-9cfe-5b01a701119f"
+            },
+            "__EMPTY_7": {
+                "value": "PAD                      IGOR                    LAB. 22",
+                "columnIndex": 6724331834912,
+                "id": "0e77959d-f615-4ff5-a5d3-ad48200bda18"
+            },
+            "__EMPTY_8": {
+                "value": "HIST                    JOÃO ALBERTO                  SALA 45",
+                "columnIndex": 6724331834913,
+                "id": "648edf72-0ce5-4c11-85f8-13ddf7fbb66c"
+            },
+            "__EMPTY_9": {
+                "value": "GEO                       MARTA            LAB.  35",
+                "columnIndex": 6724331834914,
+                "id": "c1b77536-7d02-4313-9f16-b11e29d66bbe"
+            },
+            "__EMPTY_10": {
+                "value": "LÍNG. PORT  RENATA               BIBLIOTECA",
+                "columnIndex": 174832627707565,
+                "id": "bf4482ca-062a-499c-8145-5368c33879ab"
+            },
+            "__EMPTY_11": {
+                "value": "INGLÊS                  IZAURA                     SALA 44",
+                "columnIndex": 174832627707566,
+                "id": "7c53a427-0dce-4052-9ef1-0b8768ef3a90"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "7:50 - 8:40",
+                "columnIndex": 1699612573963549400,
+                "id": "09ef3eab-5027-4e7c-978c-802935871276"
+            },
+            "__EMPTY": {
+                "value": "HIST         MARCELO G       SALA 42",
+                "columnIndex": 9947236440,
+                "id": "0d7256cb-d7f6-469a-be60-fbeb010d6d04"
+            },
+            "__EMPTY_1": {
+                "value": "PROJ. DE VIDA      MAIARA            SALA 34",
+                "columnIndex": 6724331834906,
+                "id": "af023adf-4f75-4f3d-b134-f83907fdc214"
+            },
+            "__EMPTY_2": {
+                "value": "ED. FÍSICA      MARCOS    ESPAÇO Z         ",
+                "columnIndex": 6724331834907,
+                "id": "1e4cfff9-9b4a-486f-8511-85fe4ddb2930"
+            },
+            "__EMPTY_3": {
+                "value": "OFICINA                           FABRI                 LAB. 36",
+                "columnIndex": 6724331834908,
+                "id": "5049846d-ae21-47a8-a920-86253e57c935"
+            },
+            "__EMPTY_4": {
+                "value": "LAB CN                                        ANDREA                     SALA 42",
+                "columnIndex": 6724331834909,
+                "id": "aaa856f2-a8be-4c58-bad2-3bf25081a8ae"
+            },
+            "__EMPTY_5": {
+                "value": "OFICINA MICHELE                        LAB. 21",
+                "columnIndex": 6724331834910,
+                "id": "4a6d1582-f8da-436f-a8f4-e21ff5502f31"
+            },
+            "__EMPTY_6": {
+                "value": "QUÍM                       SÉRGIO                 SALA 41",
+                "columnIndex": 6724331834911,
+                "id": "c9c7054b-0c5b-4c51-a484-4fda36a90c4e"
+            },
+            "__EMPTY_7": {
+                "value": "PAD                     IGOR                        LAB. 22",
+                "columnIndex": 6724331834912,
+                "id": "a57fe152-b248-4a01-b453-112e7f75d436"
+            },
+            "__EMPTY_8": {
+                "value": "HIST                    JOÃO ALBERTO                  SALA 45",
+                "columnIndex": 6724331834913,
+                "id": "59025502-43d0-40e1-8533-7a152877161e"
+            },
+            "__EMPTY_9": {
+                "value": "GEO                       MARTA            LAB.  35",
+                "columnIndex": 6724331834914,
+                "id": "8a77d58c-f527-430f-841e-c7871f3dd2bd"
+            },
+            "__EMPTY_10": {
+                "value": "LÍNG. PORT  RENATA               BIBLIOTECA",
+                "columnIndex": 174832627707565,
+                "id": "0f9ad616-cf7f-4d92-bc0e-17bb5f8559c8"
+            },
+            "__EMPTY_11": {
+                "value": "INGLÊS                  IZAURA                     SALA 44",
+                "columnIndex": 174832627707566,
+                "id": "22251fdc-9ae8-49fa-9b04-e743b26dee15"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "LANCHE - 8:40 - 8:55",
+                "columnIndex": 1699612573963549400,
+                "id": "94001338-0bda-455d-a7bb-180b856920b7"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "8:55 - 9:45",
+                "columnIndex": 1699612573963549400,
+                "id": "3e95939c-5b77-4c34-aca5-299ca9390647"
+            },
+            "__EMPTY": {
+                "value": "CULT. DE JOGOS                IGOR               LAB. 22",
+                "columnIndex": 9947236440,
+                "id": "5b1cb1b1-7f79-4071-9155-fa940d3c8c69"
+            },
+            "__EMPTY_1": {
+                "value": "IMD              MICHELE                     LAB. 21",
+                "columnIndex": 6724331834906,
+                "id": "6a04cd0a-4077-408d-b95e-df3004936769"
+            },
+            "__EMPTY_2": {
+                "value": "LÓG. PROG.                             FABRI                   LAB. 36",
+                "columnIndex": 6724331834907,
+                "id": "a247ffdf-873c-475f-aa2a-0d6190c22b11"
+            },
+            "__EMPTY_3": {
+                "value": "ED. FÍSICA      MARCOS    ESPAÇO Z         ",
+                "columnIndex": 6724331834908,
+                "id": "7733e0f2-ebe4-4255-ae3e-b600a62491b0"
+            },
+            "__EMPTY_4": {
+                "value": "ELETIVA 3  ÁUREA             SALA 24",
+                "columnIndex": 6724331834909,
+                "id": "05666c55-1a63-4026-b87c-ad8298b72b42"
+            },
+            "__EMPTY_5": {
+                "value": "ELETIVA 3                     RENATA             BIBLIOTECA",
+                "columnIndex": 6724331834910,
+                "id": "81e0c486-88f4-42dd-a0cb-2674fe351164"
+            },
+            "__EMPTY_6": {
+                "value": "INGLÊS                  IZAURA                     SALA 44",
+                "columnIndex": 6724331834911,
+                "id": "462c99e7-7a9a-4b2d-82eb-46469dc486b0"
+            },
+            "__EMPTY_7": {
+                "value": "ARTES                  MAIARA                  SALA 34                ",
+                "columnIndex": 6724331834912,
+                "id": "af3ebfb9-1d3b-4b53-9060-74a193a5b113"
+            },
+            "__EMPTY_8": {
+                "value": "GEO                       MARTA             LAB. 23",
+                "columnIndex": 6724331834913,
+                "id": "eb5369ed-146d-40f2-90a5-9785921bd2ad"
+            },
+            "__EMPTY_9": {
+                "value": "HIST                    JOÃO ALBERTO                  SALA 45",
+                "columnIndex": 6724331834914,
+                "id": "2498211d-7d49-4010-a351-8ccc7d54cdb3"
+            },
+            "__EMPTY_10": {
+                "value": "QUÍM                    SÉRGIO                      SALA 41",
+                "columnIndex": 174832627707565,
+                "id": "9ed99432-7bb5-4c34-a520-d4252c03ca58"
+            },
+            "__EMPTY_11": {
+                "value": "PAD                   NATHAN                 LAB. 35",
+                "columnIndex": 174832627707566,
+                "id": "f290c6d1-e101-4410-9c84-a1b376a35d5c"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "9:45 - 10:35",
+                "columnIndex": 1699612573963549400,
+                "id": "0dfa32f2-9f8e-4503-8ca1-44e155d692c8"
+            },
+            "__EMPTY": {
+                "value": "CULT. DE JOGOS                IGOR               LAB. 22",
+                "columnIndex": 9947236440,
+                "id": "c5dade56-f946-4a85-a54b-d2bcea5e1494"
+            },
+            "__EMPTY_1": {
+                "value": "IMD                     MICHELE                   LAB. 21",
+                "columnIndex": 6724331834906,
+                "id": "393c089d-9d86-47ef-827c-d1ce68a93b86"
+            },
+            "__EMPTY_2": {
+                "value": "LÓG. PROG.                             FABRI                   LAB. 36",
+                "columnIndex": 6724331834907,
+                "id": "e4c9fa9b-1a6d-4808-85e1-9f21e68bce44"
+            },
+            "__EMPTY_3": {
+                "value": "ED. FÍSICA      MARCOS    ESPAÇO Z         ",
+                "columnIndex": 6724331834908,
+                "id": "71173d21-ca31-4693-8792-e18c4aace062"
+            },
+            "__EMPTY_4": {
+                "value": "ELETIVA 3  ÁUREA             SALA 24",
+                "columnIndex": 6724331834909,
+                "id": "4d4d4774-f329-4d0b-b8f8-33fab44884bd"
+            },
+            "__EMPTY_5": {
+                "value": "ELETIVA 3                     RENATA             BIBLIOTECA",
+                "columnIndex": 6724331834910,
+                "id": "7cf51d0c-51c1-4c45-91ba-253c1b09dcc2"
+            },
+            "__EMPTY_6": {
+                "value": "INGLÊS                  IZAURA                     SALA 44",
+                "columnIndex": 6724331834911,
+                "id": "dad0568a-ba1d-4814-9035-0e676500450d"
+            },
+            "__EMPTY_7": {
+                "value": "ARTES                  MAIARA                  SALA 34                ",
+                "columnIndex": 6724331834912,
+                "id": "1aeee0b2-1442-43f3-a37f-cec7f0ecb3a6"
+            },
+            "__EMPTY_8": {
+                "value": "GEO                      MARTA                        LAB. 23",
+                "columnIndex": 6724331834913,
+                "id": "da3702f2-2a69-4df7-bf0b-ac3341306ef5"
+            },
+            "__EMPTY_9": {
+                "value": "HIST                    JOÃO ALBERTO                  SALA 45",
+                "columnIndex": 6724331834914,
+                "id": "165860c9-0f3b-46fa-94b8-99e61a91b625"
+            },
+            "__EMPTY_10": {
+                "value": "QUÍM                          SÉRGIO                    SALA 41",
+                "columnIndex": 174832627707565,
+                "id": "a20296ab-46dc-4a55-85db-5f8dfddb4754"
+            },
+            "__EMPTY_11": {
+                "value": "PAD                    NATHAN                    LAB. 35",
+                "columnIndex": 174832627707566,
+                "id": "be776d7a-8cdb-458a-b51e-f0b294c96393"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "10:35 - 11:25",
+                "columnIndex": 1699612573963549400,
+                "id": "e1aef50e-6aab-4ecd-b236-48efa2cda72f"
+            },
+            "__EMPTY": {
+                "value": "IMD                                      MICHELE                        LAB. 21",
+                "columnIndex": 9947236440,
+                "id": "c3c92790-0989-4fbb-a302-49f544268125"
+            },
+            "__EMPTY_1": {
+                "value": "QUÍMICA                     NILMA                    SALA 41",
+                "columnIndex": 6724331834906,
+                "id": "94ce2be3-dc77-4752-a2ce-f5da70ef0d9b"
+            },
+            "__EMPTY_2": {
+                "value": "PROJ. DE VIDA      MAIARA            SALA 34",
+                "columnIndex": 6724331834907,
+                "id": "e8b8cc0f-4f0b-4bc9-8b63-5baaa7ff5c2a"
+            },
+            "__EMPTY_3": {
+                "value": "LOG PROG NATHAN                LAB. 36",
+                "columnIndex": 6724331834908,
+                "id": "3b4ce50a-fb9c-44b3-8030-bcce9a726027"
+            },
+            "__EMPTY_4": {
+                "value": "DI                     LUANA                  LAB. 22",
+                "columnIndex": 6724331834909,
+                "id": "de43ce8f-46f8-4912-a448-3a34309683b0"
+            },
+            "__EMPTY_5": {
+                "value": "LAB CH  DENISE              SALA 32",
+                "columnIndex": 6724331834910,
+                "id": "a399d262-98d2-48e5-8b32-87cdae9e7c1f"
+            },
+            "__EMPTY_6": {
+                "value": "HIST                    JOÃO ALBERTO                  SALA 45",
+                "columnIndex": 6724331834911,
+                "id": "eb01be43-3e60-4b15-aa56-0f686576ef36"
+            },
+            "__EMPTY_7": {
+                "value": "INGLÊS                  IZAURA                     SALA 44",
+                "columnIndex": 6724331834912,
+                "id": "4590c1ce-3a3c-4be5-b83e-b69ead9690b8"
+            },
+            "__EMPTY_8": {
+                "value": "LÍNG. PORT  RENATA               BIBLIOTECA",
+                "columnIndex": 6724331834913,
+                "id": "70be47e3-1d97-4026-bd1e-f3c2790b7c7c"
+            },
+            "__EMPTY_9": {
+                "value": "LÍNG. PORT.                      ÁUREA                    SALA 24",
+                "columnIndex": 6724331834914,
+                "id": "3309b89c-4461-4d73-913e-06e616e011c3"
+            },
+            "__EMPTY_10": {
+                "value": "GEO                       MARTA            LAB.  23",
+                "columnIndex": 174832627707565,
+                "id": "278fe11b-98c9-4949-8426-dfc20f742000"
+            },
+            "__EMPTY_11": {
+                "value": "ED. FÍSICA      MARCOS    ESPAÇO Z         ",
+                "columnIndex": 174832627707566,
+                "id": "8d909b63-7db1-48b8-b4de-807b7f242630"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "11:25 - 12:15",
+                "columnIndex": 1699612573963549400,
+                "id": "2c63f1f9-677d-440d-b129-21eeda1aa7ba"
+            },
+            "__EMPTY": {
+                "value": "IMD                             MICHELE                               LAB. 21",
+                "columnIndex": 9947236440,
+                "id": "358deb4b-3cc5-4817-8e99-3c6212af9279"
+            },
+            "__EMPTY_1": {
+                "value": "QUÍMICA                     NILMA                    SALA 41",
+                "columnIndex": 6724331834906,
+                "id": "5e374b12-60a7-4ca3-b78c-94b9921a2a7c"
+            },
+            "__EMPTY_2": {
+                "value": "PROJ. DE VIDA      MAIARA            SALA 34",
+                "columnIndex": 6724331834907,
+                "id": "963d665c-a071-4087-9345-20d4c70aaa1e"
+            },
+            "__EMPTY_3": {
+                "value": "LOG PROG NATHAN                LAB. 36",
+                "columnIndex": 6724331834908,
+                "id": "b7d49b7a-9fb4-403d-8bb3-86ffdad37c62"
+            },
+            "__EMPTY_4": {
+                "value": "DI                     LUANA                  LAB. 22",
+                "columnIndex": 6724331834909,
+                "id": "b7a1bcb0-a8b8-48f6-b151-4084b69258c9"
+            },
+            "__EMPTY_5": {
+                "value": "LAB CH  DENISE              SALA 32",
+                "columnIndex": 6724331834910,
+                "id": "dfeb64f6-e222-4462-a8af-e6f0f46495b9"
+            },
+            "__EMPTY_6": {
+                "value": "HIST                    JOÃO ALBERTO                  SALA 45",
+                "columnIndex": 6724331834911,
+                "id": "46c4f7b8-21ac-4cb3-92ac-5df0d0b119c8"
+            },
+            "__EMPTY_7": {
+                "value": "INGLÊS                  IZAURA                     SALA 44",
+                "columnIndex": 6724331834912,
+                "id": "d9a32238-3089-4a61-a473-408c1d76c438"
+            },
+            "__EMPTY_8": {
+                "value": "LÍNG. PORT  RENATA               BIBLIOTECA",
+                "columnIndex": 6724331834913,
+                "id": "e3bb525f-8a7a-4d9b-8f86-4a04d8e83b51"
+            },
+            "__EMPTY_9": {
+                "value": "LÍNG. PORT.                      ÁUREA                    SALA 24",
+                "columnIndex": 6724331834914,
+                "id": "0e565190-c41c-4395-94f9-ce4eb0a270e7"
+            },
+            "__EMPTY_10": {
+                "value": "GEO                       MARTA            LAB.  23",
+                "columnIndex": 174832627707565,
+                "id": "0f44e632-6620-40dd-bfbc-6313481ca9e0"
+            },
+            "__EMPTY_11": {
+                "value": "ED. FÍSICA      MARCOS    ESPAÇO Z         ",
+                "columnIndex": 174832627707566,
+                "id": "bc987980-ba30-4350-8dc1-20ea318886c4"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "ALMOÇO - 12:15 - 13:25",
+                "columnIndex": 1699612573963549400,
+                "id": "c45d4947-626b-4872-94b2-2ae1b199fc25"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "13:25 - 14:15",
+                "columnIndex": 1699612573963549400,
+                "id": "20957b1b-9e10-4f9a-b3d5-f88241022de4"
+            },
+            "__EMPTY": {
+                "value": "LÍNG. PORT. DAIELLO                         SALA 34",
+                "columnIndex": 9947236440,
+                "id": "0caf6cc4-3fd1-411f-9a46-c067a29ffc97"
+            },
+            "__EMPTY_1": {
+                "value": "LÍNG. PORT. ROSA                         BIBLIOTECA",
+                "columnIndex": 6724331834906,
+                "id": "dec1a601-09b0-4d1c-b61d-374eb89f77e0"
+            },
+            "__EMPTY_2": {
+                "value": "QUÍMICA                     NILMA                    SALA 41",
+                "columnIndex": 6724331834907,
+                "id": "e453b5ae-be43-4b71-9c52-779f97a93234"
+            },
+            "__EMPTY_3": {
+                "value": "PROJ. DE VIDA MAIARA                  SALA 33                ",
+                "columnIndex": 6724331834908,
+                "id": "7b8c4dcc-86bb-44e1-a1a1-7c4efa22f1ac"
+            },
+            "__EMPTY_4": {
+                "value": "OFICINA               LUANA                  LAB. 22",
+                "columnIndex": 6724331834909,
+                "id": "189f16e1-2220-4164-97bb-90356aeadd70"
+            },
+            "__EMPTY_5": {
+                "value": "OFICINA MICHELE               LAB. 21",
+                "columnIndex": 6724331834910,
+                "id": "4f5f201b-df4b-40bf-885c-62745949e42b"
+            },
+            "__EMPTY_6": {
+                "value": "OFICINA                    JAMV                     LAB. 35",
+                "columnIndex": 6724331834911,
+                "id": "8e444e97-393f-4cb0-bb23-786d96dcce23"
+            },
+            "__EMPTY_7": {
+                "value": "OFICINA                      IGOR                   MÍDIA LAB.",
+                "columnIndex": 6724331834912,
+                "id": "310d5885-8262-4a25-9f2d-c662051a9421"
+            },
+            "__EMPTY_8": {
+                "value": "MÍDIAS INT.                LUANA                   LAB 23",
+                "columnIndex": 6724331834913,
+                "id": "a6ef13bd-4568-4be0-9db9-84edef3d727e"
+            },
+            "__EMPTY_9": {
+                "value": "LÍNG. PORT.                      ÁUREA                    SALA 24",
+                "columnIndex": 6724331834914,
+                "id": "f3479b7f-fa13-4e2f-bf83-7220b1a70f35"
+            },
+            "__EMPTY_10": {
+                "value": "MPD                      NATHAN                                               LAB. 36",
+                "columnIndex": 174832627707565,
+                "id": "dcf7755c-082b-47bb-b37f-8a01ed4f510a"
+            },
+            "__EMPTY_11": {
+                "value": "SOC                 DENISE                SALA 31",
+                "columnIndex": 174832627707566,
+                "id": "0440c0a9-5c15-4ee3-b0d9-527712920921"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "14:15 - 15:05",
+                "columnIndex": 1699612573963549400,
+                "id": "573747df-1b44-4770-aa2f-60b3e56d385a"
+            },
+            "__EMPTY": {
+                "value": "LÍNG. PORT. DAIELLO                         SALA 34",
+                "columnIndex": 9947236440,
+                "id": "fb36543b-f036-4bbe-b982-58824041e0f4"
+            },
+            "__EMPTY_1": {
+                "value": "LÍNG. PORT. ROSA                         BIBLIOTECA",
+                "columnIndex": 6724331834906,
+                "id": "45c54b76-386f-4b3c-82d2-e578f981f1cb"
+            },
+            "__EMPTY_2": {
+                "value": "QUÍMICA                     NILMA                    SALA 41",
+                "columnIndex": 6724331834907,
+                "id": "83119788-f278-432f-af4b-2bae490e3000"
+            },
+            "__EMPTY_3": {
+                "value": "PROJ. DE VIDA MAIARA                  SALA 33                ",
+                "columnIndex": 6724331834908,
+                "id": "3cf7439d-fa1c-4f0a-aaeb-9c05ff5cb388"
+            },
+            "__EMPTY_4": {
+                "value": "OFICINA               LUANA                  LAB. 22",
+                "columnIndex": 6724331834909,
+                "id": "749098bf-c778-48a7-8efc-07e37aaff4d6"
+            },
+            "__EMPTY_5": {
+                "value": "OFICINA MICHELE                LAB. 21",
+                "columnIndex": 6724331834910,
+                "id": "91995f97-b66e-4662-ad77-d4d2529aa040"
+            },
+            "__EMPTY_6": {
+                "value": "OFICINA                    JAMV                     LAB. 35",
+                "columnIndex": 6724331834911,
+                "id": "01a4a5fe-529b-4684-a13c-ea491075d459"
+            },
+            "__EMPTY_7": {
+                "value": "OFICINA                      IGOR                   MÍDIA LAB.",
+                "columnIndex": 6724331834912,
+                "id": "82f0de3a-0551-482d-9103-5ed59710a5e3"
+            },
+            "__EMPTY_8": {
+                "value": "MÍDIAS INT.                LUANA                   LAB 23",
+                "columnIndex": 6724331834913,
+                "id": "eab376d5-4014-4a33-b45b-8bc1273d1849"
+            },
+            "__EMPTY_9": {
+                "value": "LÍNG. PORT.                      ÁUREA                    SALA 24",
+                "columnIndex": 6724331834914,
+                "id": "8375042b-fed4-4f93-ba89-9c33dd978dcf"
+            },
+            "__EMPTY_10": {
+                "value": "MPD                      NATHAN                                               LAB. 36",
+                "columnIndex": 174832627707565,
+                "id": "773946e9-49a6-4533-853d-6d414f77ae20"
+            },
+            "__EMPTY_11": {
+                "value": "SOC                 DENISE                SALA 31",
+                "columnIndex": 174832627707566,
+                "id": "fa5910f5-b37a-47a8-b580-7269c1de976f"
+            },
+            "__EMPTY_13": {
+                "value": "  ",
+                "columnIndex": 174832627707568,
+                "id": "3ef89eac-3708-4678-9fae-77a4490eceac"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "LANCHE - 15:05 - 15:20",
+                "columnIndex": 1699612573963549400,
+                "id": "f4547135-24f5-42b5-83b1-11a816a8de48"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "15:20 - 16:10",
+                "columnIndex": 1699612573963549400,
+                "id": "57201a4e-c9ca-47f1-a77f-ecdfb8c7cdc7"
+            },
+            "__EMPTY": {
+                "value": "QUÍMICA                     NILMA                    SALA 41",
+                "columnIndex": 9947236440,
+                "id": "667d48a2-378f-4a7a-b6a5-9acbd079a348"
+            },
+            "__EMPTY_1": {
+                "value": "MATEMÁTICA                         ANA CRISTINA               SALA 33",
+                "columnIndex": 6724331834906,
+                "id": "8f8d5dc6-4844-49d5-b010-908698e9518e"
+            },
+            "__EMPTY_2": {
+                "value": "LÍNG. PORT. ROSA                         BIBLIOTECA",
+                "columnIndex": 6724331834907,
+                "id": "0185eb4d-d617-4cf7-b6b9-6de2feacc5c3"
+            },
+            "__EMPTY_3": {
+                "value": "LÍNG. PORT. DAIELLO                         SALA 34",
+                "columnIndex": 6724331834908,
+                "id": "ee8696f9-0959-4322-9d32-1fd410abfe89"
+            },
+            "__EMPTY_4": {
+                "value": "LAB CH  DENISE              SALA 31",
+                "columnIndex": 6724331834909,
+                "id": "b31837fe-b787-4c23-8da9-c34748b131dc"
+            },
+            "__EMPTY_5": {
+                "value": "ARTES                  MAIARA                  SALA 44               ",
+                "columnIndex": 6724331834910,
+                "id": "1b5db497-7ed7-4690-afe1-d6f7acc94200"
+            },
+            "__EMPTY_6": {
+                "value": "LAB MAT  SUZANA                SALA 32",
+                "columnIndex": 6724331834911,
+                "id": "8ef4d59a-b612-4604-84b7-c851a13cedab"
+            },
+            "__EMPTY_7": {
+                "value": "OFICINA                    IGOR                    LAB. 21",
+                "columnIndex": 6724331834912,
+                "id": "cb90063e-834a-4e15-b679-186e736c3bc0"
+            },
+            "__EMPTY_10": {
+                "value": "TPJ                                                           NATHAN                                LAB. 36",
+                "columnIndex": 174832627707565,
+                "id": "c054fc3a-62b1-4213-8330-d2b43d31ee34"
+            },
+            "__EMPTY_11": {
+                "value": "MDP              LUANA          LAB. 22",
+                "columnIndex": 174832627707566,
+                "id": "015cd83e-960c-4c88-a2a6-34e18f925bfa"
+            }
+        },
+        {
+            "QUARTA- FEIRA": {
+                "value": "16:10 - 17:00",
+                "columnIndex": 1699612573963549400,
+                "id": "fed10e07-9411-4515-bd66-afae59e73ad6"
+            },
+            "__EMPTY": {
+                "value": "QUÍMICA                   NILMA                  SALA 41",
+                "columnIndex": 9947236440,
+                "id": "013dc025-3bb7-492d-8237-365bc8110774"
+            },
+            "__EMPTY_1": {
+                "value": "MATEMÁTICA                         ANA CRISTINA               SALA 33",
+                "columnIndex": 6724331834906,
+                "id": "5c23a732-e583-47b1-b7e0-e11320136f0c"
+            },
+            "__EMPTY_2": {
+                "value": "LÍNG. PORT. ROSA                         BIBLIOTECA",
+                "columnIndex": 6724331834907,
+                "id": "1aca1d63-3f2a-40b1-97cb-16887d17679b"
+            },
+            "__EMPTY_3": {
+                "value": "LÍNG. PORT. DAIELLO                         SALA 34",
+                "columnIndex": 6724331834908,
+                "id": "93088019-32ab-4ec9-a8b2-bffe6a0dda2e"
+            },
+            "__EMPTY_4": {
+                "value": "LAB CH  DENISE              SALA 31",
+                "columnIndex": 6724331834909,
+                "id": "a91d36cc-5e17-4525-bfd6-ebc9e5168ec7"
+            },
+            "__EMPTY_5": {
+                "value": "ARTES                  MAIARA                  SALA 44               ",
+                "columnIndex": 6724331834910,
+                "id": "dfdb535d-1f8e-4a4f-bc56-a7bf5bacf665"
+            },
+            "__EMPTY_6": {
+                "value": "LAB MAT  SUZANA                SALA 32",
+                "columnIndex": 6724331834911,
+                "id": "3b8f36d7-5b51-4abd-944b-8f1a20fac3eb"
+            },
+            "__EMPTY_7": {
+                "value": "OFICINA                    IGOR                    LAB. 21",
+                "columnIndex": 6724331834912,
+                "id": "d7e80c57-31a4-4108-84cb-cd763aa8d201"
+            },
+            "__EMPTY_10": {
+                "value": "TPJ                       NATHAN           LAB. 36",
+                "columnIndex": 174832627707565,
+                "id": "bec5e84d-0415-4b3d-9871-6f9b6b930bfd"
+            },
+            "__EMPTY_11": {
+                "value": "MDP              LUANA           LAB. 22",
+                "columnIndex": 174832627707566,
+                "id": "e48df4c5-a4bb-4b15-8181-c241dc5f9d39"
+            }
+        }
+    ],
+    [
+        {
+            "__EMPTY": {
+                "value": "1001",
+                "columnIndex": 9947236440,
+                "id": "d91589f7-4570-4c08-828b-b7b449bbd2be"
+            },
+            "__EMPTY_1": {
+                "value": "1002",
+                "columnIndex": 6724331834906,
+                "id": "2fcc7d2b-affb-4cb0-927e-07ff69ed086a"
+            },
+            "__EMPTY_2": {
+                "value": "1003",
+                "columnIndex": 6724331834907,
+                "id": "a4c48045-6449-4fe4-a801-42c8cda594c1"
+            },
+            "__EMPTY_3": {
+                "value": "1004",
+                "columnIndex": 6724331834908,
+                "id": "5c78c793-5341-4eac-9eaf-fc3097b2e6ec"
+            },
+            "__EMPTY_4": {
+                "value": "2001",
+                "columnIndex": 6724331834909,
+                "id": "92aab7d5-9399-48bd-8da2-d36cad21f377"
+            },
+            "__EMPTY_5": {
+                "value": "2002",
+                "columnIndex": 6724331834910,
+                "id": "525a9fb7-70fb-4ef2-a0ca-bce64969d7aa"
+            },
+            "__EMPTY_6": {
+                "value": "2003",
+                "columnIndex": 6724331834911,
+                "id": "88eb8e9e-f77f-43c8-b995-34ee841cef1e"
+            },
+            "__EMPTY_7": {
+                "value": "2004",
+                "columnIndex": 6724331834912,
+                "id": "70b46016-18bf-47ca-b8a2-7eb034cc10af"
+            },
+            "__EMPTY_8": {
+                "value": "3001",
+                "columnIndex": 6724331834913,
+                "id": "56c0660a-d1c1-44ff-af86-e10fb480e409"
+            },
+            "__EMPTY_9": {
+                "value": "3002",
+                "columnIndex": 6724331834914,
+                "id": "2a6005dc-0cb6-4959-9f76-bbd6de9e2d96"
+            },
+            "__EMPTY_10": {
+                "value": "3003",
+                "columnIndex": 174832627707565,
+                "id": "d6f79794-fb8f-43f9-9c72-82282c7039bc"
+            },
+            "__EMPTY_11": {
+                "value": "3004",
+                "columnIndex": 174832627707566,
+                "id": "e6e9513d-3f61-4f56-87a9-c5e1c74b6106"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "1° | 7:00 às 7:50",
+                "columnIndex": 65412315121737380,
+                "id": "6e47bc34-bddb-4ea6-a79e-097328c79ae6"
+            },
+            "__EMPTY": {
+                "value": "Biologia     Dani               SALA 42",
+                "columnIndex": 9947236440,
+                "id": "5cb40950-8e71-476b-9bcc-c09546c059b5"
+            },
+            "__EMPTY_1": {
+                "value": "Física             Flávio               SALA 34",
+                "columnIndex": 6724331834906,
+                "id": "2cdd0ab9-2d82-470f-af67-72835bd6212d"
+            },
+            "__EMPTY_2": {
+                "value": "Oficina Nathan LAB. 36",
+                "columnIndex": 6724331834907,
+                "id": "a1dc3707-d00e-4ee1-9830-4c633eb12032"
+            },
+            "__EMPTY_3": {
+                "value": "Geo             Adriana               SALA 44",
+                "columnIndex": 6724331834908,
+                "id": "f8c5b696-955e-449b-ab14-34d13e059a0b"
+            },
+            "__EMPTY_4": {
+                "value": "PAV              Michele              LAB. 21",
+                "columnIndex": 6724331834909,
+                "id": "a5cb6491-f441-44ae-9227-170776662169"
+            },
+            "__EMPTY_5": {
+                "value": "Lab. Inglês Sônia           SALA 41",
+                "columnIndex": 6724331834910,
+                "id": "c8a826dd-ecb9-41e1-ad4e-9a953ac6e364"
+            },
+            "__EMPTY_6": {
+                "value": "Matemá.  Amanda              SALA 32",
+                "columnIndex": 6724331834911,
+                "id": "0bb8ad74-5964-4805-961a-5063a8bdb367"
+            },
+            "__EMPTY_7": {
+                "value": "Port.   André SALA 24",
+                "columnIndex": 6724331834912,
+                "id": "8664bce8-faf1-4014-8d8e-e3b1284c9257"
+            },
+            "__EMPTY_8": {
+                "value": "Oficina Luana                 LAB 22",
+                "columnIndex": 6724331834913,
+                "id": "5b64a966-6791-4a4f-b095-017ce21013f9"
+            },
+            "__EMPTY_10": {
+                "value": "Port.            Renata BIBLIOTECA",
+                "columnIndex": 174832627707565,
+                "id": "f26cd267-74f3-46f5-b4ea-e7a4239b57ac"
+            },
+            "__EMPTY_11": {
+                "value": "Biologia Andrea SALA 45",
+                "columnIndex": 174832627707566,
+                "id": "786de08f-df7a-4df2-b85d-4bec3b30f278"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "2° | 7:50 às 8:40",
+                "columnIndex": 65412315121737380,
+                "id": "b2fb4594-6726-47f4-af61-3b2545adae23"
+            },
+            "__EMPTY": {
+                "value": "Biologia     Dani               SALA 42",
+                "columnIndex": 9947236440,
+                "id": "5d1ae363-653f-4457-9186-d9695b6a7ce0"
+            },
+            "__EMPTY_1": {
+                "value": "Física             Flávio               SALA 34",
+                "columnIndex": 6724331834906,
+                "id": "decc9f87-a2b9-4ee3-b987-d11ea4c5823f"
+            },
+            "__EMPTY_2": {
+                "value": "Oficina Nathan LAB. 36",
+                "columnIndex": 6724331834907,
+                "id": "9de18ca8-dea4-447e-b09c-efe93db3d72d"
+            },
+            "__EMPTY_3": {
+                "value": "Geo             Adriana               SALA 44",
+                "columnIndex": 6724331834908,
+                "id": "0cac2089-515f-4e39-a6da-2993a0ab2e9b"
+            },
+            "__EMPTY_4": {
+                "value": "PAV              Michele              LAB. 21",
+                "columnIndex": 6724331834909,
+                "id": "595ea8d0-a319-432c-8da9-722572ae8ed8"
+            },
+            "__EMPTY_5": {
+                "value": "Lab. Inglês Sônia           SALA 41",
+                "columnIndex": 6724331834910,
+                "id": "2178ba81-33e5-40f0-8534-66e6f50b7de1"
+            },
+            "__EMPTY_6": {
+                "value": "Matemá.  Amanda              SALA 32",
+                "columnIndex": 6724331834911,
+                "id": "95d3bdb0-92ba-4491-bff4-f2bc228c2d2d"
+            },
+            "__EMPTY_7": {
+                "value": "Port.   André SALA 24",
+                "columnIndex": 6724331834912,
+                "id": "b8280bb6-4964-4b36-a957-c5290e4a8493"
+            },
+            "__EMPTY_8": {
+                "value": "Oficina Luana                 LAB. 22",
+                "columnIndex": 6724331834913,
+                "id": "557a0e96-d7f3-434b-bd1c-12320641985c"
+            },
+            "__EMPTY_10": {
+                "value": "Port.            Renata BIBLIOTECA",
+                "columnIndex": 174832627707565,
+                "id": "336d482f-36c4-4b90-8838-b7067a98c144"
+            },
+            "__EMPTY_11": {
+                "value": "Biologia Andrea SALA 45",
+                "columnIndex": 174832627707566,
+                "id": "8221fe58-e218-4938-a5e7-eb90f772ca02"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "LANCHE: 8:40 ÀS 8:55",
+                "columnIndex": 65412315121737380,
+                "id": "9e984997-130e-4e54-b12e-4b07b6fc46d9"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "3° | 8:55 às 9:45",
+                "columnIndex": 65412315121737380,
+                "id": "c4217d28-0d31-48af-be57-fb38632dc5c1"
+            },
+            "__EMPTY": {
+                "value": "Física   Flávio    SALA 34",
+                "columnIndex": 9947236440,
+                "id": "f4eee522-bee2-468b-afb9-35f7973643f5"
+            },
+            "__EMPTY_1": {
+                "value": "Biologia             Dani               SALA 42",
+                "columnIndex": 6724331834906,
+                "id": "8246da32-2bc7-40cf-89d4-dd4dd5d5dc81"
+            },
+            "__EMPTY_2": {
+                "value": "Geo Adriana SALA 44",
+                "columnIndex": 6724331834907,
+                "id": "5a19f10d-97f3-4199-b3e5-8d19746a8dc9"
+            },
+            "__EMPTY_3": {
+                "value": "Lab. Matemá.   Cris               LAB. 22",
+                "columnIndex": 6724331834908,
+                "id": "adac1745-d47b-4fb2-8884-4b8d0340de63"
+            },
+            "__EMPTY_4": {
+                "value": "PAV              Michele              LAB. 21",
+                "columnIndex": 6724331834909,
+                "id": "7fd81228-37da-4e82-a561-a8abbc2a6574"
+            },
+            "__EMPTY_5": {
+                "value": "Lab. Inglês Sônia           SALA 41",
+                "columnIndex": 6724331834910,
+                "id": "5533e303-f20f-48bf-8f2d-3a5a27514a50"
+            },
+            "__EMPTY_6": {
+                "value": "Matemá.  Amanda              SALA 32",
+                "columnIndex": 6724331834911,
+                "id": "f41a254d-25db-49c7-8585-18bdbb18671f"
+            },
+            "__EMPTY_7": {
+                "value": "Port.   André SALA 24",
+                "columnIndex": 6724331834912,
+                "id": "a3b8f380-a599-442e-8649-c3ba34cf501d"
+            },
+            "__EMPTY_8": {
+                "value": "Biologia Andrea SALA 45",
+                "columnIndex": 6724331834913,
+                "id": "084a3451-b237-4b71-a139-184e8f492e60"
+            },
+            "__EMPTY_9": {
+                "value": "Física                MC              SALA  43",
+                "columnIndex": 6724331834914,
+                "id": "2502bbac-b6b9-4e36-a340-6a1bf667851d"
+            },
+            "__EMPTY_10": {
+                "value": "Port.            Renata BIBLIOTECA",
+                "columnIndex": 174832627707565,
+                "id": "5835155d-02c3-4b94-ac2c-209bc7993434"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "4° | 9:45 às 10:35",
+                "columnIndex": 65412315121737380,
+                "id": "f8f1b395-1c44-456d-abcd-81262ebc7b7a"
+            },
+            "__EMPTY": {
+                "value": "Física   Flávio    SALA 34",
+                "columnIndex": 9947236440,
+                "id": "2e302d19-396a-4e3a-80d6-74599f18f773"
+            },
+            "__EMPTY_1": {
+                "value": "Biologia             Dani               SALA 42",
+                "columnIndex": 6724331834906,
+                "id": "39769d13-ef67-41fa-a349-da5bc2ca5d22"
+            },
+            "__EMPTY_2": {
+                "value": "Geo Adriana SALA 44",
+                "columnIndex": 6724331834907,
+                "id": "672dd6c9-c258-4f45-8ac9-86993272a965"
+            },
+            "__EMPTY_3": {
+                "value": "Lab. Matemá.   Cris               LAB. 22",
+                "columnIndex": 6724331834908,
+                "id": "436d84bd-9981-4772-b1a6-332b8819553d"
+            },
+            "__EMPTY_4": {
+                "value": "Lab. Inglês Sônia           SALA 41",
+                "columnIndex": 6724331834909,
+                "id": "3f83ebb1-da0b-46c0-b952-2a9b43fab46f"
+            },
+            "__EMPTY_5": {
+                "value": "PAV                              Michele            LAB. 21",
+                "columnIndex": 6724331834910,
+                "id": "82f4bf5d-2e54-4803-8743-2814ff602e48"
+            },
+            "__EMPTY_6": {
+                "value": "Port.            Renata BIBLIOTECA",
+                "columnIndex": 6724331834911,
+                "id": "b31f00d7-007a-4de5-869d-b6df057543be"
+            },
+            "__EMPTY_7": {
+                "value": "Matemá.  Amanda              SALA 32",
+                "columnIndex": 6724331834912,
+                "id": "9d427a90-bd11-4d04-94dc-a0e0fcc1b922"
+            },
+            "__EMPTY_8": {
+                "value": "Biologia Andrea SALA 45",
+                "columnIndex": 6724331834913,
+                "id": "5661753c-6704-4a07-9a64-433eb008a5de"
+            },
+            "__EMPTY_9": {
+                "value": "Física                MC              SALA 43",
+                "columnIndex": 6724331834914,
+                "id": "ed8e4db0-96e8-43bc-80a3-f6646ab928b7"
+            },
+            "__EMPTY_11": {
+                "value": "Port.   André SALA 24",
+                "columnIndex": 174832627707566,
+                "id": "1520d34f-569d-452f-bd07-6b693836570b"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "5° | 10:35 às 11:25",
+                "columnIndex": 65412315121737380,
+                "id": "f85be89b-75cb-411e-a1a5-f574337f87ad"
+            },
+            "__EMPTY": {
+                "value": "Geo    Adriana SALA 44",
+                "columnIndex": 9947236440,
+                "id": "c4ad8490-3342-4d6f-9986-22786ab6b414"
+            },
+            "__EMPTY_1": {
+                "value": "Cult. Jogos   Igor                  LAB. 22",
+                "columnIndex": 6724331834906,
+                "id": "23392106-1243-49b6-8464-35254642e274"
+            },
+            "__EMPTY_2": {
+                "value": "Biologia Dani               SALA 42",
+                "columnIndex": 6724331834907,
+                "id": "db447602-a403-4b32-ab96-bd4edf0da552"
+            },
+            "__EMPTY_3": {
+                "value": "Física                     Flávio              SALA 34",
+                "columnIndex": 6724331834908,
+                "id": "4bcab953-c4b2-4f36-90cb-5c9bd51ddd22"
+            },
+            "__EMPTY_4": {
+                "value": "Lab. Inglês Sônia           SALA 41",
+                "columnIndex": 6724331834909,
+                "id": "17599db0-a21f-4593-a4f5-6e53e405254c"
+            },
+            "__EMPTY_5": {
+                "value": "PAV                              Michele            LAB. 21",
+                "columnIndex": 6724331834910,
+                "id": "6a82f4a6-c30e-42f5-8579-d6e72cf38117"
+            },
+            "__EMPTY_6": {
+                "value": "Port.            Renata BIBLIOTECA",
+                "columnIndex": 6724331834911,
+                "id": "90728874-fa22-410d-ac7e-05169d1fd0e3"
+            },
+            "__EMPTY_7": {
+                "value": "Matemá.  Amanda              SALA 32",
+                "columnIndex": 6724331834912,
+                "id": "cd11dbcf-647b-4edb-ac48-fc62d64b8480"
+            },
+            "__EMPTY_8": {
+                "value": "Física                MC              SALA 43",
+                "columnIndex": 6724331834913,
+                "id": "facdd049-8f83-4849-ae8c-2117422660f9"
+            },
+            "__EMPTY_9": {
+                "value": "Biologia Andrea SALA 45",
+                "columnIndex": 6724331834914,
+                "id": "c752519d-345b-4e57-91b5-e88758b36199"
+            },
+            "__EMPTY_10": {
+                "value": "Matemá.   Cris               SALA 33",
+                "columnIndex": 174832627707565,
+                "id": "6914ed6d-310e-4a19-aabd-431dd824827f"
+            },
+            "__EMPTY_11": {
+                "value": "Port.   André SALA 24",
+                "columnIndex": 174832627707566,
+                "id": "f0e11b45-c082-4a04-96c8-7ea76bd361b9"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "6° | 11:25 às 12:15",
+                "columnIndex": 65412315121737380,
+                "id": "d0db30e9-d299-4de0-801a-df4f760172a2"
+            },
+            "__EMPTY": {
+                "value": "Geo    Adriana SALA 44",
+                "columnIndex": 9947236440,
+                "id": "1fccfc65-d2df-462e-a90b-adcb07d62461"
+            },
+            "__EMPTY_1": {
+                "value": "Cult. Jogos   Igor                     LAB. 22",
+                "columnIndex": 6724331834906,
+                "id": "b2a31002-3e42-48ce-8f14-a0f888940cee"
+            },
+            "__EMPTY_2": {
+                "value": "Biologia Dani               SALA 42",
+                "columnIndex": 6724331834907,
+                "id": "1190f46d-8bac-4208-9965-45b519af8293"
+            },
+            "__EMPTY_3": {
+                "value": "Física                     Flávio              SALA 34",
+                "columnIndex": 6724331834908,
+                "id": "ec7fbed7-0f10-49fa-b2c1-3a7ae725dcfd"
+            },
+            "__EMPTY_4": {
+                "value": "Lab. Inglês Sônia           SALA 41",
+                "columnIndex": 6724331834909,
+                "id": "3a4f9955-229f-4cb2-8c4c-ff8449f630c3"
+            },
+            "__EMPTY_5": {
+                "value": "PAV                              Michele            LAB. 21",
+                "columnIndex": 6724331834910,
+                "id": "4f5f3826-ac32-4dec-990c-858d3cf8d16f"
+            },
+            "__EMPTY_6": {
+                "value": "Port.            Renata BIBLIOTECA",
+                "columnIndex": 6724331834911,
+                "id": "0fd26796-413d-4417-a039-edab229345b7"
+            },
+            "__EMPTY_7": {
+                "value": "Matemá.  Amanda              SALA 32",
+                "columnIndex": 6724331834912,
+                "id": "2989e44c-d657-403e-b59c-a56f6ab9a6e4"
+            },
+            "__EMPTY_8": {
+                "value": "Física                MC              SALA 43",
+                "columnIndex": 6724331834913,
+                "id": "62580540-1b5d-4725-aa42-20a5c0c98813"
+            },
+            "__EMPTY_9": {
+                "value": "Biologia Andrea SALA 45",
+                "columnIndex": 6724331834914,
+                "id": "9d593eaf-0f62-43b2-9e52-f322c6fd3bf6"
+            },
+            "__EMPTY_10": {
+                "value": "Matemá.   Cris               SALA 33",
+                "columnIndex": 174832627707565,
+                "id": "85d16616-8cbd-4990-b3a5-61ef16fa4786"
+            },
+            "__EMPTY_11": {
+                "value": "Port.   André SALA 24",
+                "columnIndex": 174832627707566,
+                "id": "38441c4a-8c45-4a36-b334-79d2de10c593"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "ALMOÇO: 12:15 ÀS 13:25",
+                "columnIndex": 65412315121737380,
+                "id": "41325307-e15c-4380-a018-c4490aa4139d"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "7° | 13:25 às 14:15",
+                "columnIndex": 65412315121737380,
+                "id": "f8253f54-d677-4a05-942b-c680ff00b5e3"
+            },
+            "__EMPTY": {
+                "value": "Proj. de Vida               Maiara                BIBLIOTECA              ",
+                "columnIndex": 9947236440,
+                "id": "b2a8b0bc-55e4-4428-a1ab-aeef45fead47"
+            },
+            "__EMPTY_1": {
+                "value": "Lab. Matemá.   Cris               SALA 33",
+                "columnIndex": 6724331834906,
+                "id": "93acce09-fe36-4025-beb5-394c2907eb66"
+            },
+            "__EMPTY_2": {
+                "value": "História Marcelo SALA 44",
+                "columnIndex": 6724331834907,
+                "id": "11c1b1f1-d378-4ade-abc2-6f474ba5869e"
+            },
+            "__EMPTY_3": {
+                "value": "Líng. Port.   Pri Daiello              SALA 34",
+                "columnIndex": 6724331834908,
+                "id": "e1cdd449-41e8-4b26-95f3-99aa7cf20607"
+            },
+            "__EMPTY_4": {
+                "value": "Proj. Vida                        João                ESPAÇO Z",
+                "columnIndex": 6724331834909,
+                "id": "e0d1b8a9-6747-4680-9389-2f44a48b8f11"
+            },
+            "__EMPTY_5": {
+                "value": "Lab. Ciên. Natureza      Andrea                               SALA 42",
+                "columnIndex": 6724331834910,
+                "id": "79d7a307-5d8f-4351-b217-8d318c63a53f"
+            },
+            "__EMPTY_6": {
+                "value": "Física                MC              SALA  43",
+                "columnIndex": 6724331834911,
+                "id": "d585facb-ecfa-40e9-b94e-bbc2a0e709fe"
+            },
+            "__EMPTY_7": {
+                "value": "Cult. Jogos   Fabri    LAB. 36",
+                "columnIndex": 6724331834912,
+                "id": "8b667d74-d064-41c3-94e6-a5c6965cf7e9"
+            },
+            "__EMPTY_8": {
+                "value": "M. I.      Luana                               Lab. 23",
+                "columnIndex": 6724331834913,
+                "id": "b7d14260-bc2e-43e3-add8-606c2208bb2c"
+            },
+            "__EMPTY_9": {
+                "value": "M. I.      Igor                               Lab. 21",
+                "columnIndex": 6724331834914,
+                "id": "ae3be417-b0e3-4379-8f36-28ecb3e16bd7"
+            },
+            "__EMPTY_10": {
+                "value": "PAD                  Nathan            Lab. 35",
+                "columnIndex": 174832627707565,
+                "id": "63281b8d-aae5-491e-92f8-a76b6260f5ee"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "8° | 14:15 às 15:05",
+                "columnIndex": 65412315121737380,
+                "id": "cce6199e-9ebc-40b1-801a-1420f44a9bb1"
+            },
+            "__EMPTY": {
+                "value": "Proj. de Vida               Maiara                BIBLIOTECA              ",
+                "columnIndex": 9947236440,
+                "id": "a1797e2e-e77e-4b88-b495-543ff3d31f8c"
+            },
+            "__EMPTY_1": {
+                "value": "Lab. Matemá.   Cris               SALA 33",
+                "columnIndex": 6724331834906,
+                "id": "041c0f9e-a206-44e0-9978-5d3a71fc070b"
+            },
+            "__EMPTY_2": {
+                "value": "História Marcelo SALA 44",
+                "columnIndex": 6724331834907,
+                "id": "62cfe9e1-a48a-4b64-9d48-1bb2d85e5f0e"
+            },
+            "__EMPTY_3": {
+                "value": "Líng. Port.   Pri Daiello              SALA 34",
+                "columnIndex": 6724331834908,
+                "id": "c12bb56d-ad99-4b94-9855-0db052792cb9"
+            },
+            "__EMPTY_4": {
+                "value": "Proj. Vida                        João                ESPAÇO Z",
+                "columnIndex": 6724331834909,
+                "id": "147d3cac-09ec-486f-87af-09ca217b6dfe"
+            },
+            "__EMPTY_5": {
+                "value": "Lab. Ciên. Natureza      Andrea                               SALA 42",
+                "columnIndex": 6724331834910,
+                "id": "440ba49e-2c8e-4ca9-8bb8-8c6f5a639904"
+            },
+            "__EMPTY_6": {
+                "value": "Física                MC              SALA 43",
+                "columnIndex": 6724331834911,
+                "id": "bfa2448e-6d7d-43ef-94ae-ecf00a182d1c"
+            },
+            "__EMPTY_7": {
+                "value": "Cult. Jogos   Fabri    LAB. 36",
+                "columnIndex": 6724331834912,
+                "id": "fd22308a-00e3-4db7-80db-03a138c43871"
+            },
+            "__EMPTY_8": {
+                "value": "Ensino Religioso Rose              SALA 24",
+                "columnIndex": 6724331834913,
+                "id": "b808f79a-ccf3-4958-aba7-7c051886fd6f"
+            },
+            "__EMPTY_9": {
+                "value": "M. I.      Igor                               Lab. 21",
+                "columnIndex": 6724331834914,
+                "id": "9f52a88e-3582-449d-a1a9-48b7fbe55a36"
+            },
+            "__EMPTY_10": {
+                "value": "PAD                  Nathan            Lab. 35",
+                "columnIndex": 174832627707565,
+                "id": "3dd0bf0b-b4a2-464e-a8f8-66fa95284d17"
+            },
+            "__EMPTY_11": {
+                "value": "Ensino Religioso Rose              SALA 24",
+                "columnIndex": 174832627707566,
+                "id": "bc9e2a83-d159-4872-958c-592e6fa66cde"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "LANCHE: 15:05 ÀS 15:20",
+                "columnIndex": 65412315121737380,
+                "id": "a9347882-9668-43b0-a180-837d01a1ac13"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "9° | 15:20 às 16:10",
+                "columnIndex": 65412315121737380,
+                "id": "0e1500f7-adca-4067-8688-47d75191a02f"
+            },
+            "__EMPTY": {
+                "value": "Líng. Port.   Pri Daiello              SALA 34",
+                "columnIndex": 9947236440,
+                "id": "b816a614-3352-4353-8153-d49efa73ce3b"
+            },
+            "__EMPTY_1": {
+                "value": "História Marcelo                      SALA 42",
+                "columnIndex": 6724331834906,
+                "id": "c0dfe879-ab39-455f-8b31-a9d7052cb889"
+            },
+            "__EMPTY_2": {
+                "value": "Matemá.   Cristiano               SALA 45",
+                "columnIndex": 6724331834907,
+                "id": "fd214ea1-8d4e-43ba-b0dc-c81e37b53dfe"
+            },
+            "__EMPTY_3": {
+                "value": "Lab. Matemá.   Cris               LAB. 22",
+                "columnIndex": 6724331834908,
+                "id": "5fabfa02-4c24-446b-946d-9b019ae7e1b4"
+            },
+            "__EMPTY_4": {
+                "value": "Artes              Maiara            SALA 44",
+                "columnIndex": 6724331834909,
+                "id": "6610ed59-4413-4307-86cd-f52ecf3d9e48"
+            },
+            "__EMPTY_5": {
+                "value": "Proj. Vida                        João                ESPAÇO Z",
+                "columnIndex": 6724331834910,
+                "id": "bb037434-fa36-4978-adc4-b19fabfc5d60"
+            },
+            "__EMPTY_6": {
+                "value": "Lab. Ciê. Nat.               MC              SALA 43",
+                "columnIndex": 6724331834911,
+                "id": "467027b2-da25-4959-b1af-a415016e0749"
+            },
+            "__EMPTY_7": {
+                "value": "Lab. Matemá.   Suzana               SALA 32",
+                "columnIndex": 6724331834912,
+                "id": "36761fe0-6105-4042-8500-f27faf0e7353"
+            },
+            "__EMPTY_9": {
+                "value": "M. I.      Igor                               Lab. 21",
+                "columnIndex": 6724331834914,
+                "id": "035b5d68-f4e9-413d-a1cf-7d083151f00b"
+            }
+        },
+        {
+            "QUINTA-FEIRA": {
+                "value": "10° | 16:10 às 17:00",
+                "columnIndex": 65412315121737380,
+                "id": "74488152-1019-4cef-a0dc-6c8e5d4f7f38"
+            },
+            "__EMPTY": {
+                "value": "Líng. Port.   Pri Daiello              SALA 34",
+                "columnIndex": 9947236440,
+                "id": "71d8367d-f355-4353-b530-7078cbac62d4"
+            },
+            "__EMPTY_1": {
+                "value": "História Marcelo               SALA 42",
+                "columnIndex": 6724331834906,
+                "id": "0810369c-8297-41c2-a746-6d03389384a8"
+            },
+            "__EMPTY_2": {
+                "value": "Matemá.   Cristiano               SALA 45",
+                "columnIndex": 6724331834907,
+                "id": "29455598-16f0-4247-92e5-80f0db444afb"
+            },
+            "__EMPTY_3": {
+                "value": "Lab. Matemá.   Cris               LAB. 22",
+                "columnIndex": 6724331834908,
+                "id": "02d48aa1-c803-4a7c-894d-addbdbf54603"
+            },
+            "__EMPTY_4": {
+                "value": "Artes              Maiara            SALA 44",
+                "columnIndex": 6724331834909,
+                "id": "d4543a1c-1c29-409e-8c68-2bfc34d71526"
+            },
+            "__EMPTY_5": {
+                "value": "Proj. Vida                        João                ESPAÇO Z",
+                "columnIndex": 6724331834910,
+                "id": "3d951368-688a-42e7-b60a-306d6fc46441"
+            },
+            "__EMPTY_6": {
+                "value": "Lab. Ciê. Nat.               MC              SALA 43",
+                "columnIndex": 6724331834911,
+                "id": "f99d2c72-4f6b-4f96-a352-a853727a2bc1"
+            },
+            "__EMPTY_7": {
+                "value": "Lab. Matemá.   Suzana               SALA 32",
+                "columnIndex": 6724331834912,
+                "id": "b24f66e8-77d0-41fc-a04e-6e592b11b3d3"
+            }
+        }
+    ],
+    [
+        {
+            "__EMPTY": {
+                "value": "1001",
+                "columnIndex": 9947236440,
+                "id": "9b4c0dee-19cb-4429-aafe-239ab3d53b0f"
+            },
+            "__EMPTY_1": {
+                "value": "1002",
+                "columnIndex": 6724331834906,
+                "id": "32b48982-10e3-40fc-a701-31da12cb2b65"
+            },
+            "__EMPTY_2": {
+                "value": "1003",
+                "columnIndex": 6724331834907,
+                "id": "3ff93c6c-8bd7-462b-a4fe-eaaf3cc16982"
+            },
+            "__EMPTY_3": {
+                "value": "1004",
+                "columnIndex": 6724331834908,
+                "id": "60f4d6ad-3c6c-46d9-bd60-250b37eb426e"
+            },
+            "__EMPTY_4": {
+                "value": "2001",
+                "columnIndex": 6724331834909,
+                "id": "50d387a3-366b-4215-875c-4124894ecfd6"
+            },
+            "__EMPTY_5": {
+                "value": "2002",
+                "columnIndex": 6724331834910,
+                "id": "4ed9a4cf-6b22-4e42-8988-bd22f71bfb1c"
+            },
+            "__EMPTY_6": {
+                "value": "2003",
+                "columnIndex": 6724331834911,
+                "id": "b20c5580-6d0a-4447-a1c9-5685d1a4d323"
+            },
+            "__EMPTY_7": {
+                "value": "2004",
+                "columnIndex": 6724331834912,
+                "id": "ca294dec-b8c2-4edc-ba95-92b5916e00eb"
+            },
+            "__EMPTY_8": {
+                "value": "3001",
+                "columnIndex": 6724331834913,
+                "id": "651a11b0-b1d0-4f45-a133-0c7e6ae0caf2"
+            },
+            "__EMPTY_9": {
+                "value": "3002",
+                "columnIndex": 6724331834914,
+                "id": "b35474f8-b362-4167-806d-c47808975a4e"
+            },
+            "__EMPTY_10": {
+                "value": "3003",
+                "columnIndex": 174832627707565,
+                "id": "46bbc3dd-db2f-4dab-ae15-3dfa2ca543be"
+            },
+            "__EMPTY_11": {
+                "value": "3004",
+                "columnIndex": 174832627707566,
+                "id": "331c14c8-e634-4364-a0c6-b099e82cb162"
+            }
+        },
+        {
+            "SEXTA - FEIRA": {
+                "value": "1° | 7:00 às 7:50",
+                "columnIndex": 1834998444938532400,
+                "id": "cbff0efe-b88c-4528-b576-d421031abcb3"
+            },
+            "__EMPTY": {
+                "value": "LAB CIÊN. HUMANAS MARIANA                   SALA 44",
+                "columnIndex": 9947236440,
+                "id": "ffd40d6e-d4b0-41d7-ad52-141be1e64a4d"
+            },
+            "__EMPTY_1": {
+                "value": "LÍNG.PORT ROSA             SALA 34",
+                "columnIndex": 6724331834906,
+                "id": "4dcb0e38-92b3-4e1c-a7eb-3d874f19713c"
+            },
+            "__EMPTY_2": {
+                "value": "LAB MATEMÁT. MARCELO SALA 33",
+                "columnIndex": 6724331834907,
+                "id": "3b811f47-813a-4b3c-aa46-59b5801065b4"
+            },
+            "__EMPTY_3": {
+                "value": "HISTÓRIA MARCELO  SALA 42",
+                "columnIndex": 6724331834908,
+                "id": "13df3718-5e83-4bf1-8a82-be4324633cff"
+            },
+            "__EMPTY_4": {
+                "value": "FÍSICA              MC               LAB. 22",
+                "columnIndex": 6724331834909,
+                "id": "bfb71fd7-c3e1-43ad-a819-32f9da0a1447"
+            },
+            "__EMPTY_5": {
+                "value": "QUÍMICA NILMA                             SALA 41",
+                "columnIndex": 6724331834910,
+                "id": "4f154463-002a-468f-9b35-72d206cc6d24"
+            },
+            "__EMPTY_6": {
+                "value": "LAB MATEMÁT. SUZANA                        SALA 32",
+                "columnIndex": 6724331834911,
+                "id": "984cb29f-832c-437a-bfdc-6125102acb46"
+            },
+            "__EMPTY_7": {
+                "value": "TÉC.PROG.JOG IGOR               LAB. 36",
+                "columnIndex": 6724331834912,
+                "id": "00bb52d7-23db-41af-a656-e1a1ed5efe59"
+            },
+            "__EMPTY_8": {
+                "value": "LÍNG. PORT RENATA                         BIBLIOTECA",
+                "columnIndex": 6724331834913,
+                "id": "ecb8ae40-4291-4dcd-a572-3a0a66f6cc06"
+            },
+            "__EMPTY_9": {
+                "value": "ED FÍSICA MARCOS          ESPAÇO Z",
+                "columnIndex": 6724331834914,
+                "id": "a0be6ca5-d4f3-4fb9-b66e-a6130fe01541"
+            },
+            "__EMPTY_10": {
+                "value": "INGLÊS IZAURA              SALA 45",
+                "columnIndex": 174832627707565,
+                "id": "909effe0-d335-48fd-8768-3c2cf1e3d5a0"
+            },
+            "__EMPTY_11": {
+                "value": "LÍNG. PORT ANDRÉ                     SALA 24",
+                "columnIndex": 174832627707566,
+                "id": "360b56a7-69b0-4597-b762-aeb190ce20f0"
+            }
+        },
+        {
+            "SEXTA - FEIRA": {
+                "value": "2° | 7:50 às 8:40",
+                "columnIndex": 1834998444938532400,
+                "id": "195ff1e6-a938-4642-ac06-4aa0d4f6b5a0"
+            },
+            "__EMPTY": {
+                "value": "LAB CIÊN. HUMANAS MARIANA                   SALA 44",
+                "columnIndex": 9947236440,
+                "id": "4c25dbb3-7db9-435d-a0c6-7717b0f11596"
+            },
+            "__EMPTY_1": {
+                "value": "LÍNG.PORT ROSA             SALA 34",
+                "columnIndex": 6724331834906,
+                "id": "908ef51c-b2cd-4e16-99b2-345b49beb227"
+            },
+            "__EMPTY_2": {
+                "value": "LAB MATEMÁT. MARCELO SALA 33",
+                "columnIndex": 6724331834907,
+                "id": "450f6f05-eae7-4d23-8c1b-e8247b807737"
+            },
+            "__EMPTY_3": {
+                "value": "HISTÓRIA MARCELO  SALA 42",
+                "columnIndex": 6724331834908,
+                "id": "4755fee8-8aae-4e7b-a180-cd859063d425"
+            },
+            "__EMPTY_4": {
+                "value": "FÍSICA              MC               LAB. 22",
+                "columnIndex": 6724331834909,
+                "id": "5ebb4fc5-f590-410c-993e-40444d397e96"
+            },
+            "__EMPTY_5": {
+                "value": "QUÍMICA NILMA                           SALA 41",
+                "columnIndex": 6724331834910,
+                "id": "c265ae49-d145-411c-ba3a-39c3f21436fa"
+            },
+            "__EMPTY_6": {
+                "value": "LAB MATEMÁT. SUZANA                        SALA 32",
+                "columnIndex": 6724331834911,
+                "id": "cdb42cde-e966-47f6-afaf-bb63b521f6ad"
+            },
+            "__EMPTY_7": {
+                "value": "TÉC.PROG.JOG IGOR               LAB. 36",
+                "columnIndex": 6724331834912,
+                "id": "c7936202-87b2-4a35-a67f-2a37255e8b1d"
+            },
+            "__EMPTY_8": {
+                "value": "LÍNG. PORT RENATA                         BIBLIOTECA",
+                "columnIndex": 6724331834913,
+                "id": "5ce10ad0-5004-44dd-898c-af0d895b7e00"
+            },
+            "__EMPTY_9": {
+                "value": "ED FÍSICA MARCOS          ESPAÇO Z",
+                "columnIndex": 6724331834914,
+                "id": "148ddabe-cbb0-4fb0-a4f1-3ae2f6ffe200"
+            },
+            "__EMPTY_10": {
+                "value": "INGLÊS IZAURA              SALA 45",
+                "columnIndex": 174832627707565,
+                "id": "e572578c-b5e9-4a6f-83bd-41d0bdb9d6e0"
+            },
+            "__EMPTY_11": {
+                "value": "LÍNG. PORT ANDRÉ                     SALA 24",
+                "columnIndex": 174832627707566,
+                "id": "97dd41ac-0598-44ec-8de8-8e55abb9f686"
+            }
+        },
+        {
+            "SEXTA - FEIRA": {
+                "value": "LANCHE: 8:40 ÀS 8:55",
+                "columnIndex": 1834998444938532400,
+                "id": "cae43c1f-dfe9-42db-ac32-e8e8d0a17b03"
+            }
+        },
+        {
+            "SEXTA - FEIRA": {
+                "value": "3° | 8:55 às 9:45",
+                "columnIndex": 1834998444938532400,
+                "id": "1181f9ed-842a-4688-a501-dbe6f3898da6"
+            },
+            "__EMPTY": {
+                "value": "MATEMÁTI. SUZANA                  SALA 43",
+                "columnIndex": 9947236440,
+                "id": "61952703-21e2-47bb-950d-f48f4fabb23e"
+            },
+            "__EMPTY_1": {
+                "value": "MATEMÁTI              ANA CRISTINA                                   SALA 33",
+                "columnIndex": 6724331834906,
+                "id": "b1ab96f2-0c3b-417d-8a98-f3084d9854e5"
+            },
+            "__EMPTY_2": {
+                "value": "LÍNG.PORT ROSA             SALA 34",
+                "columnIndex": 6724331834907,
+                "id": "580a3699-c2b4-48b1-9625-1e0238346cb1"
+            },
+            "__EMPTY_3": {
+                "value": "QUÍMICA              NILMA                      SALA 41",
+                "columnIndex": 6724331834908,
+                "id": "d20378f0-8426-4383-a6ee-830c7580a37d"
+            },
+            "__EMPTY_4": {
+                "value": "HISTÓRIA MARCELO  SALA 42",
+                "columnIndex": 6724331834909,
+                "id": "f5b496c3-6926-454a-84e6-fb57df499553"
+            },
+            "__EMPTY_5": {
+                "value": "FÍSICA              MC               LAB. 22",
+                "columnIndex": 6724331834910,
+                "id": "78d80e4e-2793-4893-9c59-5f0bb06ddac9"
+            },
+            "__EMPTY_6": {
+                "value": "L.P. ELETIVA 3 RENATA  BIBLIOTE.",
+                "columnIndex": 6724331834911,
+                "id": "53fdc4de-6b95-4424-99c1-5f07e0dd7cea"
+            },
+            "__EMPTY_7": {
+                "value": "L.P ELETIVA 3 ANDRÉ               SALA 24",
+                "columnIndex": 6724331834912,
+                "id": "e3c1e62b-dd1c-4542-b40b-c3ad41b81b22"
+            },
+            "__EMPTY_8": {
+                "value": "INGLÊS IZAURA              SALA 45",
+                "columnIndex": 6724331834913,
+                "id": "c968d028-c270-4a92-be93-fe17689abea4"
+            },
+            "__EMPTY_9": {
+                "value": "OFICINA     IGOR               ESP. MAKER",
+                "columnIndex": 6724331834914,
+                "id": "79f60719-2653-414e-90f4-d702d4c3a2f1"
+            },
+            "__EMPTY_10": {
+                "value": "ED FÍSICA MARCOS          ESPAÇO Z",
+                "columnIndex": 174832627707565,
+                "id": "7a5a88ed-8bea-4ac0-b290-0adc234b5a69"
+            },
+            "__EMPTY_11": {
+                "value": "MATEMÁT. MARCELO S. SALA 32",
+                "columnIndex": 174832627707566,
+                "id": "b7da7952-bc15-4f92-97ff-a594e75f8138"
+            }
+        },
+        {
+            "SEXTA - FEIRA": {
+                "value": "4° | 9:45 às 10:35",
+                "columnIndex": 1834998444938532400,
+                "id": "e5ee8716-4418-495f-9e2a-c394d44d645b"
+            },
+            "__EMPTY": {
+                "value": "MATEMÁTI. SUZANA                  SALA 43",
+                "columnIndex": 9947236440,
+                "id": "90cce3c2-0104-4e3b-a80e-0ef0788b4ea9"
+            },
+            "__EMPTY_1": {
+                "value": "MATEMÁTI              ANA CRISTINA                                   SALA 33",
+                "columnIndex": 6724331834906,
+                "id": "172faadc-81ba-49b7-bdf3-95c8416abaf3"
+            },
+            "__EMPTY_2": {
+                "value": "LÍNG.PORT ROSA             SALA 34",
+                "columnIndex": 6724331834907,
+                "id": "c3e8c838-8ce1-4242-9ed5-f06abfc15285"
+            },
+            "__EMPTY_3": {
+                "value": "QUÍMICA                          NILMA                    SALA 41",
+                "columnIndex": 6724331834908,
+                "id": "e147456d-6597-4aad-9a44-4d65da9eb801"
+            },
+            "__EMPTY_4": {
+                "value": "HISTÓRIA MARCELO  SALA 42",
+                "columnIndex": 6724331834909,
+                "id": "03bae82a-9c2f-42a2-a913-06d3921b2a9c"
+            },
+            "__EMPTY_5": {
+                "value": "FÍSICA              MC               LAB. 22",
+                "columnIndex": 6724331834910,
+                "id": "1102bab1-7716-4081-ba6c-dc66624910f6"
+            },
+            "__EMPTY_6": {
+                "value": "L.P. ELETIVA 3 RENATA BIBLIOTE.",
+                "columnIndex": 6724331834911,
+                "id": "a6d9bcaa-1942-4843-8cb2-c00f02f7cb17"
+            },
+            "__EMPTY_7": {
+                "value": "L.P ELETIVA 3 ANDRÉ               SALA 24",
+                "columnIndex": 6724331834912,
+                "id": "8c82896b-047a-4654-8e93-c5933006a4f4"
+            },
+            "__EMPTY_8": {
+                "value": "INGLÊS IZAURA              SALA 45",
+                "columnIndex": 6724331834913,
+                "id": "27b81919-cef2-40c1-abd0-c03d3f599677"
+            },
+            "__EMPTY_9": {
+                "value": "OFICINA     IGOR               ESP. MAKER",
+                "columnIndex": 6724331834914,
+                "id": "00ecd4e4-34a4-43e4-90bc-1cae3a1454bf"
+            },
+            "__EMPTY_10": {
+                "value": "ED FÍSICA MARCOS          ESPAÇO Z",
+                "columnIndex": 174832627707565,
+                "id": "445dda6c-a7d0-4761-84b0-556ee0ed36de"
+            },
+            "__EMPTY_11": {
+                "value": "MATEMÁT. MARCELO S. SALA 32",
+                "columnIndex": 174832627707566,
+                "id": "47fbb3c2-e0af-4b3a-a548-1a3660c4d8e7"
+            },
+            "__EMPTY_16": {
+                "value": " ",
+                "columnIndex": 174832627707571,
+                "id": "7089d848-6f4b-4c1c-a1fb-c9d47c1945ce"
+            }
+        },
+        {
+            "SEXTA - FEIRA": {
+                "value": "5° | 10:35 às 11:25",
+                "columnIndex": 1834998444938532400,
+                "id": "d9a0a11d-0fe0-4d00-83d0-2b06c1278305"
+            },
+            "__EMPTY": {
+                "value": "FILOSOFIA MARIANA                         SALA 44",
+                "columnIndex": 9947236440,
+                "id": "8250a02e-68b9-4d60-845f-1c3c5bf5bc63"
+            },
+            "__EMPTY_1": {
+                "value": "FILOSOFIA MARIANA                         SALA 44",
+                "columnIndex": 6724331834906,
+                "id": "4dd55fff-b7a0-47e3-a41c-6cb830748f4c"
+            },
+            "__EMPTY_2": {
+                "value": "LAB MATEMÁT. MARCELO SALA 33",
+                "columnIndex": 6724331834907,
+                "id": "39ec7259-deba-406a-97ce-43264dbcf204"
+            },
+            "__EMPTY_3": {
+                "value": "INGLÊS                           NOÊMIA                    SALA 34",
+                "columnIndex": 6724331834908,
+                "id": "aa77618a-ca89-4262-9eb5-4b979d3b8fbe"
+            },
+            "__EMPTY_4": {
+                "value": "QUÍMICA                               NILMA                         SALA 41",
+                "columnIndex": 6724331834909,
+                "id": "147e8cd3-c547-4225-a78c-530c1e7e1565"
+            },
+            "__EMPTY_5": {
+                "value": "HISTÓRIA MARCELO  SALA 42",
+                "columnIndex": 6724331834910,
+                "id": "7f821303-9f7f-4d61-a146-cd57c008d160"
+            },
+            "__EMPTY_6": {
+                "value": "TÉC.PROG.JOG.               IGOR               LAB. 36",
+                "columnIndex": 6724331834911,
+                "id": "328e9a95-e04b-4f57-b3d0-f30d02082903"
+            },
+            "__EMPTY_7": {
+                "value": "FÍSICA              MC               LAB. 22",
+                "columnIndex": 6724331834912,
+                "id": "da2a1161-7fdf-4c22-b5e7-a9ece2bc75a8"
+            },
+            "__EMPTY_8": {
+                "value": "ED FÍSICA MARCOS          BIBLIOTECA",
+                "columnIndex": 6724331834913,
+                "id": "47752c80-4d3e-4024-98bc-12d52064d817"
+            },
+            "__EMPTY_9": {
+                "value": "INGLÊS IZAURA              SALA 45",
+                "columnIndex": 6724331834914,
+                "id": "055841bc-9744-4bb8-bf21-6466e4ad5366"
+            },
+            "__EMPTY_10": {
+                "value": "LÍNG. PORT RENATA                         BIBLIOTECA",
+                "columnIndex": 174832627707565,
+                "id": "6d26a07a-1535-4304-b12c-99f48782a70f"
+            },
+            "__EMPTY_11": {
+                "value": "LÍNG. PORT ANDRÉ                     SALA 24",
+                "columnIndex": 174832627707566,
+                "id": "bec92e99-f7fa-4198-92fb-9752760731c3"
+            }
+        },
+        {
+            "SEXTA - FEIRA": {
+                "value": "6° | 11:25 às 12:15",
+                "columnIndex": 1834998444938532400,
+                "id": "ac2c7cc7-d1f2-49ef-bc84-2c8c393cfb0d"
+            },
+            "__EMPTY": {
+                "value": "FILOSOFIA MARIANA                         SALA 44",
+                "columnIndex": 9947236440,
+                "id": "0cc649c7-0676-46fc-ae0b-173c22d0159f"
+            },
+            "__EMPTY_1": {
+                "value": "FILOSOFIA MARIANA                         SALA 44",
+                "columnIndex": 6724331834906,
+                "id": "efbb2b56-e93b-4fc9-ac40-174842d7fcd4"
+            },
+            "__EMPTY_2": {
+                "value": "LAB MATEMÁT. MARCELO SALA 33",
+                "columnIndex": 6724331834907,
+                "id": "c989e1ab-2678-4280-b997-5e25de744706"
+            },
+            "__EMPTY_3": {
+                "value": "INGLÊS                           NOÊMIA                    SALA 34",
+                "columnIndex": 6724331834908,
+                "id": "42c02a0c-d927-43b8-b47a-424862b64c52"
+            },
+            "__EMPTY_4": {
+                "value": "QUÍMICA                       NILMA                         SALA 41",
+                "columnIndex": 6724331834909,
+                "id": "04b36787-88a2-4b68-a62d-63a6789169db"
+            },
+            "__EMPTY_5": {
+                "value": "HISTÓRIA MARCELO  SALA 42",
+                "columnIndex": 6724331834910,
+                "id": "9301407e-2da0-40bc-aa2c-49e536ef117a"
+            },
+            "__EMPTY_6": {
+                "value": "TÉC.PROG.JOG.               IGOR                   LAB. 36",
+                "columnIndex": 6724331834911,
+                "id": "b88107d2-2a82-4976-94a9-04dcf2cceda2"
+            },
+            "__EMPTY_7": {
+                "value": "FÍSICA              MC               LAB. 22",
+                "columnIndex": 6724331834912,
+                "id": "a73edd16-26e8-44c8-95f2-5d2bc76b9285"
+            },
+            "__EMPTY_8": {
+                "value": "ED FÍSICA MARCOS          BIBLIOTECA",
+                "columnIndex": 6724331834913,
+                "id": "6895a259-cc37-4970-8268-ddc6f88a3458"
+            },
+            "__EMPTY_9": {
+                "value": "INGLÊS IZAURA              SALA 45",
+                "columnIndex": 6724331834914,
+                "id": "bab77c71-1ba4-4651-99ac-929c3a4d8ec5"
+            },
+            "__EMPTY_10": {
+                "value": "LÍNG. PORT RENATA                         BIBLIOTECA",
+                "columnIndex": 174832627707565,
+                "id": "b54d706e-9ab6-4a1d-8772-8e10ff595bee"
+            },
+            "__EMPTY_11": {
+                "value": "LÍNG. PORT ANDRÉ                     SALA 24",
+                "columnIndex": 174832627707566,
+                "id": "7cf3336d-6413-4b14-84ab-67048396bca9"
+            }
+        },
+        {
+            "SEXTA - FEIRA": {
+                "value": "7° | 13:25 às 14:15",
+                "columnIndex": 1834998444938532400,
+                "id": "4f12642b-2db9-4834-8652-7a9ab539b3e4"
+            }
+        },
+        {
+            "SEXTA - FEIRA": {
+                "value": "8° | 14:15 às 15:05",
+                "columnIndex": 1834998444938532400,
+                "id": "1033e961-cdae-41e6-a996-f639e4b87d60"
+            }
+        },
+        {
+            "SEXTA - FEIRA": {
+                "value": "9° | 15:20 às 16:10",
+                "columnIndex": 1834998444938532400,
+                "id": "b7c774e5-ec3b-49b0-8b5e-0d6a5fe60e17"
+            }
+        },
+        {
+            "SEXTA - FEIRA": {
+                "value": "10° | 16:10 às 17:00",
+                "columnIndex": 1834998444938532400,
+                "id": "ab36127c-1026-47ba-abe8-ad3aff9c9a38"
+            }
+        }
+    ]
+]

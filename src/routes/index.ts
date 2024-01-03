@@ -28,4 +28,9 @@ indexRoutes.use("/admin", adminRoutes)
 indexRoutes.use("/aviso", AvisoRoute);
 indexRoutes.use("/horario", horarioRoute);
 indexRoutes.use('/note', NoteRoutes)
+indexRoutes.get("/unformatted", async (req: Request, res: Response) => {
+  const data = (await prisma.tempos.findFirst())?.value
+  if (!data) throw new AppError('S')
+  res.json(getAllFromSheet(JSON.parse(data)));
+});
 export { indexRoutes };
