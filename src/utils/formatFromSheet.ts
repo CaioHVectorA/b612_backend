@@ -69,16 +69,22 @@ export function getAllFromSheet(Result: any): getAllFromSheetResponse {
   d.forEach((item, index) => {
     arr.push(item.slice(1 + getIndex({ data: JSON.parse(Result) }), 15));
   });
+  console.log(turmas)
   const formated = arr.map((item, dayIndex) => {
     return item.map((tempos, index) => {
       return Object.values(tempos).map((tempo, __index) => {
-        const horario = TEMPOS_RANGE[index]
+        let tempoOffset = dayIndex !== 0 && index !== 0 ? 1 : 0
+        const horario = TEMPOS_RANGE_DUPLICATED[index + tempoOffset]
         const value = tempo.value
+        let offset = value.includes(":") && value.includes("-") ? 0 : 1
+        if (offset === 0) console.log(`tempo:`, value)
+        // Todo: Encontrar problemas nas turmas
         const turma = turmas[(turmas.findIndex(t => {
-        return t.columnIndex_two === tempo.columnIndex_two // || t.columnIndex === tempo.columnIndex
-        })) - 1]
+            return t.columnIndex_two === tempo.columnIndex_two // || t.columnIndex === tempo.columnIndex
+          })) - offset] || {value: "3004"}
         if (!turma) return // console.log('coiso', horario, value)
         let turmaNumber = turma.value
+        // if (turmaNumber !== "3004") console.log(turmaNumber)
         if (dayIndex > 0) {
           // console.log(turmaNumber)
           // if (turmaNumber[3] !== '1') turmaNumber = String(Number(turmaNumber) - 1)
@@ -118,6 +124,20 @@ export function formatFromJSON(Result: any, TURMA: string) {
         turmas = tempos;
       } else {
         const formated = tempos.forEach((tempo, index) => {
+          // Comentar esse early return para eliminar os tempos vazios, enviando apenas os com conteúdo de fato. 
+          if (tempo.value === 'Sem aula') return _temparr.push({
+            tempo: {
+              horario:  getTempo(tempo.value, tempos[0].value)?.horario,
+              sala: "Livre",
+              materia: 'Sem aula',
+              professor: "",
+              isBreak: false,
+            } as Tempo,
+            id: tempo.id,
+            turma: turmas.find(
+              (turma) => tempo.columnIndex === turma.columnIndex
+            )?.value,
+          })
           if (index !== 0) {
             const formated = getTempo(tempo.value, tempos[0].value);
             const final = {

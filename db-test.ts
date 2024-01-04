@@ -23,7 +23,9 @@ import { getTempo } from "./src/utils/formatHorarios";
         // CHECAR TEMPOS PRO TURMA, TA ENTRANDO ERRADO!
         writeFileSync(process.cwd()+'/output.json', JSON.stringify(day))
         day.forEach((row, day_index) => {
-            row.forEach(({ horario, value, day, turma}, index) => {
+            row.forEach((data, index) => {
+                if (!data) return   
+                const { horario, value, day, turma} = data
                 if (index === 0) return;
                 const formated = getTempo(value, horario)
                 if (!formated) return
